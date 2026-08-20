@@ -1,4 +1,22 @@
-// OddsLighthouse — shared behavior: age gate + dynamic article listing
+// OddsLighthouse — shared behavior: age gate + dynamic article listing + nav dropdown
+
+(function navDropdown() {
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".nav-dropdown .caret").forEach(function (caret) {
+      caret.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var dropdown = caret.closest(".nav-dropdown");
+        var wasOpen = dropdown.classList.contains("open");
+        document.querySelectorAll(".nav-dropdown.open").forEach(function (d) { d.classList.remove("open"); });
+        if (!wasOpen) dropdown.classList.add("open");
+      });
+    });
+    document.addEventListener("click", function () {
+      document.querySelectorAll(".nav-dropdown.open").forEach(function (d) { d.classList.remove("open"); });
+    });
+  });
+})();
 
 (function ageGate() {
   var KEY = "oddslighthouse_age_ok";
