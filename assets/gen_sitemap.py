@@ -21,6 +21,10 @@ STATIC_PAGES = [
     ("/articles/index.html", "daily", "0.7"),
     ("/odds-calculator.html", "monthly", "0.6"),
     ("/news.html", "daily", "0.9"),
+    ("/nfl.html", "daily", "0.85"),
+    ("/nba.html", "daily", "0.85"),
+    ("/nhl.html", "daily", "0.85"),
+    ("/college-football.html", "daily", "0.85"),
 ]
 
 NEWS_CATEGORIES = {"Sports Betting News", "Casino News"}

@@ -138,6 +138,84 @@ ICONS = {
     <line x1="-60" y1="70" x2="-60" y2="40" stroke="{NAVY}" stroke-width="8"/>
     <line x1="60" y1="70" x2="60" y2="40" stroke="{TEAL}" stroke-width="8"/>
   </g>''',
+
+    "nfl-betting-guide": f'''
+  <!-- american football -->
+  <g transform="translate({CX},{CY})">
+    <ellipse cx="0" cy="0" rx="150" ry="78" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-30" y1="-16" x2="-30" y2="16" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-10" y1="-16" x2="-10" y2="16" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="10" y1="-16" x2="10" y2="16" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="30" y1="-16" x2="30" y2="16" stroke="{TEAL}" stroke-width="6"/>
+  </g>''',
+
+    "nfl-player-props-explained": f'''
+  <!-- stat clipboard -->
+  <g transform="translate({CX-80},{CY-90})">
+    <rect x="0" y="24" width="170" height="212" rx="12" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="50" y="0" width="70" height="34" rx="7" fill="{TEAL}"/>
+    <line x1="25" y1="90" x2="145" y2="90" stroke="{NAVY}" stroke-width="7" opacity="0.5"/>
+    <line x1="25" y1="128" x2="145" y2="128" stroke="{NAVY}" stroke-width="7" opacity="0.5"/>
+    <line x1="25" y1="166" x2="110" y2="166" stroke="{TEAL}" stroke-width="7"/>
+    <circle cx="128" cy="166" r="11" fill="none" stroke="{TEAL}" stroke-width="5"/>
+  </g>''',
+
+    "nba-betting-guide": f'''
+  <!-- basketball -->
+  <g transform="translate({CX},{CY})">
+    <circle cx="0" cy="0" r="112" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-112" y1="0" x2="112" y2="0" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="0" y1="-112" x2="0" y2="112" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M-79 -79 A112 112 0 0 1 79 79" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M-79 79 A112 112 0 0 1 79 -79" fill="none" stroke="{TEAL}" stroke-width="6"/>
+  </g>''',
+
+    "nba-player-props-injuries-rest": f'''
+  <!-- pulse / vitals line -->
+  <g transform="translate({CX-150},{CY})">
+    <polyline points="0,0 55,0 85,-55 120,55 155,-28 185,0 300,0" fill="none" stroke="{TEAL}" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="300" cy="0" r="11" fill="{NAVY}"/>
+  </g>''',
+
+    "nhl-betting-guide": f'''
+  <!-- hockey stick and puck -->
+  <g transform="translate({CX-20},{CY+20})">
+    <ellipse cx="-60" cy="55" rx="55" ry="17" fill="{NAVY}"/>
+    <path d="M110 -100 L45 85 L5 85" fill="none" stroke="{TEAL}" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5 85 L-25 95" stroke="{TEAL}" stroke-width="11" stroke-linecap="round"/>
+  </g>''',
+
+    "nhl-goaltending-betting": f'''
+  <!-- goal net -->
+  <g transform="translate({CX},{CY-15})">
+    <rect x="-120" y="-70" width="240" height="140" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-80" y1="-70" x2="-80" y2="70" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="-40" y1="-70" x2="-40" y2="70" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="40" y1="-70" x2="40" y2="70" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="80" y1="-70" x2="80" y2="70" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="-120" y1="-35" x2="120" y2="-35" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="-120" y1="0" x2="120" y2="0" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <line x1="-120" y1="35" x2="120" y2="35" stroke="{TEAL}" stroke-width="3" opacity="0.55"/>
+    <circle cx="25" cy="12" r="15" fill="{NAVY}"/>
+  </g>''',
+
+    "college-football-vs-nfl-betting": f'''
+  <!-- pennant flag -->
+  <g transform="translate({CX-30},{CY})">
+    <line x1="0" y1="-115" x2="0" y2="115" stroke="{NAVY}" stroke-width="11" stroke-linecap="round"/>
+    <path d="M0 -105 L165 -60 L0 -15 Z" fill="{TEAL}"/>
+  </g>''',
+
+    "college-football-spreads-blowouts": f'''
+  <!-- scoreboard -->
+  <g transform="translate({CX},{CY-15})">
+    <rect x="-145" y="-62" width="290" height="124" rx="10" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <text x="-90" y="22" font-family="Arial" font-size="62" fill="{TEAL}" text-anchor="middle" font-weight="bold">42</text>
+    <text x="90" y="22" font-family="Arial" font-size="62" fill="{NAVY}" text-anchor="middle" font-weight="bold">10</text>
+    <line x1="0" y1="-62" x2="0" y2="62" stroke="{NAVY}" stroke-width="4" opacity="0.4"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

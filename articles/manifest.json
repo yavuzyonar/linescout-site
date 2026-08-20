@@ -80,6 +80,78 @@
       "date": "2026-08-20",
       "readTime": "4 min read",
       "type": "news"
+    },
+    {
+      "slug": "nfl-betting-guide",
+      "title": "NFL Betting Guide: Spreads, Totals, and Key Numbers Explained",
+      "excerpt": "How NFL point spreads, totals, and moneylines actually work, and why key numbers like 3 and 7 matter more in football than in any other sport.",
+      "category": "NFL",
+      "date": "2026-08-20",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nfl-player-props-explained",
+      "title": "NFL Player Props Explained: How They're Priced and What to Know Before Betting Them",
+      "excerpt": "How NFL player prop bets work, how sportsbooks price them, and what to understand before betting passing yards, receptions, or touchdown props.",
+      "category": "NFL",
+      "date": "2026-08-20",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nba-betting-guide",
+      "title": "NBA Betting Guide: Spreads, Totals, and Pace Explained",
+      "excerpt": "How NBA point spreads and totals work, why pace of play matters so much, and how a long 82-game season changes betting strategy versus the NFL.",
+      "category": "NBA",
+      "date": "2026-08-20",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nba-player-props-injuries-rest",
+      "title": "NBA Player Props: How Injuries and Rest Nights Move the Market",
+      "excerpt": "How NBA player prop bets are priced, and why injury reports, rest days, and back-to-backs move NBA lines more than in most other sports.",
+      "category": "NBA",
+      "date": "2026-08-20",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nhl-betting-guide",
+      "title": "NHL Betting Guide: Puck Lines, Totals, and Moneylines Explained",
+      "excerpt": "How NHL puck lines, totals, and moneylines work, and why moneyline betting is more common in hockey than in most other major US sports.",
+      "category": "NHL",
+      "date": "2026-08-20",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nhl-goaltending-betting",
+      "title": "NHL Betting and Goaltending: Why One Position Moves the Odds More Than Any Other Sport",
+      "excerpt": "Why the starting goaltender matters more to NHL betting lines than any single position in football, basketball, or baseball.",
+      "category": "NHL",
+      "date": "2026-08-20",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "college-football-vs-nfl-betting",
+      "title": "College Football Betting Guide: How It Differs From the NFL",
+      "excerpt": "How college football betting differs from the NFL: wider spreads, deeper schedules, ranking-driven markets, and inconsistent injury reporting.",
+      "category": "College Football",
+      "date": "2026-08-20",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "college-football-spreads-blowouts",
+      "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
+      "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
+      "category": "College Football",
+      "date": "2026-08-20",
+      "readTime": "7 min read",
+      "type": "evergreen"
     }
   ]
 }

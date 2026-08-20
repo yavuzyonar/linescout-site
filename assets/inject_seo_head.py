@@ -34,9 +34,19 @@ STATIC_PAGES = {
     "articles/index.html": [("Home", "/"), ("All Guides", None)],
     "odds-calculator.html": [("Home", "/"), ("Odds Calculator", None)],
     "news.html": [("Home", "/"), ("News", None)],
+    "nfl.html": [("Home", "/"), ("Sports Betting", "/betting.html"), ("NFL", None)],
+    "nba.html": [("Home", "/"), ("Sports Betting", "/betting.html"), ("NBA", None)],
+    "nhl.html": [("Home", "/"), ("Sports Betting", "/betting.html"), ("NHL", None)],
+    "college-football.html": [("Home", "/"), ("Sports Betting", "/betting.html"), ("College Football", None)],
 }
 
 NEWS_CATEGORIES = {"Sports Betting News", "Casino News"}
+SPORT_CATEGORIES = {
+    "NFL": "/nfl.html",
+    "NBA": "/nba.html",
+    "NHL": "/nhl.html",
+    "College Football": "/college-football.html",
+}
 
 def get_tag_content(html, tag_pattern):
     m = re.search(tag_pattern, html, re.S)
@@ -60,12 +70,15 @@ def compute_crumbs(rel_path, title):
         art = MANIFEST.get(slug, {})
         category = art.get("category")
         if category in NEWS_CATEGORIES:
-            parent = ("News", "/news.html")
+            crumbs = [("Home", "/"), ("News", "/news.html"), (art.get("title", title), None)]
         elif category == "Casino Guides":
-            parent = ("Casino", "/casino.html")
+            crumbs = [("Home", "/"), ("Casino", "/casino.html"), (art.get("title", title), None)]
+        elif category in SPORT_CATEGORIES:
+            crumbs = [("Home", "/"), ("Sports Betting", "/betting.html"),
+                      (category, SPORT_CATEGORIES[category]), (art.get("title", title), None)]
         else:
-            parent = ("Sports Betting", "/betting.html")
-        return [("Home", "/"), parent, (art.get("title", title), None)]
+            crumbs = [("Home", "/"), ("Sports Betting", "/betting.html"), (art.get("title", title), None)]
+        return crumbs
     return STATIC_PAGES.get(rel_path, [("Home", None)])
 
 def build_breadcrumb_jsonld(crumbs):
