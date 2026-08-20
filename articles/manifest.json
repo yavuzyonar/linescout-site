@@ -44,6 +44,24 @@
       "date": "2026-08-20",
       "readTime": "10 min read",
       "type": "evergreen"
+    },
+    {
+      "slug": "house-edge-explained",
+      "title": "House Edge Explained: Which Casino Games Give the Best Odds",
+      "excerpt": "What house edge means, how it varies by game, and which casino games give players the best mathematical odds.",
+      "category": "Casino Guides",
+      "date": "2026-08-20",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "blackjack-basic-strategy",
+      "title": "Blackjack Basic Strategy: A Plain-Language Starting Guide",
+      "excerpt": "What basic strategy actually is, why it works, and how it brings blackjack's house edge down to roughly 0.5%.",
+      "category": "Casino Guides",
+      "date": "2026-08-20",
+      "readTime": "8 min read",
+      "type": "evergreen"
     }
   ]
 }
