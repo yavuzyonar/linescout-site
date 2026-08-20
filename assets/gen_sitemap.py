@@ -19,6 +19,7 @@ STATIC_PAGES = [
     ("/disclosure.html", "yearly", "0.3"),
     ("/privacy.html", "yearly", "0.3"),
     ("/articles/index.html", "daily", "0.7"),
+    ("/odds-calculator.html", "monthly", "0.6"),
 ]
 
 def main():

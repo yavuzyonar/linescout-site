@@ -82,10 +82,28 @@ nav.main a:hover { color: #fff; }
   color: var(--teal); padding: 6px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 600;
 }
 
+/* ---- Breadcrumb ---- */
+.breadcrumb { background: var(--grey-light); border-bottom: 1px solid var(--border); }
+.breadcrumb .container { padding-top: 10px; padding-bottom: 10px; }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; margin: 0; padding: 0; font-size: 13px; color: var(--grey); }
+.breadcrumb li { display: flex; align-items: center; }
+.breadcrumb li + li::before { content: "/"; margin: 0 8px; color: #b7c0cf; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--teal); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
 /* ---- Sections ---- */
 main { padding: 48px 0 64px; }
-h2.section-title { font-size: 24px; color: var(--navy); margin: 0 0 6px; }
+h1.section-title, h2.section-title { font-size: 24px; color: var(--navy); margin: 0 0 6px; }
 p.section-sub { color: var(--grey); margin: 0 0 28px; }
+
+/* ---- Hub intro (betting.html / casino.html) ---- */
+.hub-intro { max-width: 760px; margin: 0 0 32px; }
+.hub-intro p { font-size: 16px; color: #3c4759; }
+.hub-start { background: var(--grey-light); border-radius: var(--radius); padding: 20px 22px; margin: 18px 0 0; }
+.hub-start h3 { margin: 0 0 10px; font-size: 15px; color: var(--navy); }
+.hub-start ol { margin: 0; padding-left: 20px; font-size: 14.5px; color: #3c4759; }
+.hub-start li { margin-bottom: 6px; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
 .card {
@@ -137,6 +155,45 @@ article.post ul, article.post ol { font-size: 16px; color: #262e3d; }
 .author-box .name { font-weight: 700; color: var(--ink); }
 .author-box .role { font-size: 13px; color: var(--grey); }
 .author-box p { font-size: 13.5px; color: var(--grey); margin: 6px 0 0; }
+
+/* ---- Table of contents ---- */
+.toc {
+  background: var(--grey-light); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 18px 22px; margin: 24px 0;
+}
+.toc p.toc-title { margin: 0 0 8px; font-weight: 700; font-size: 13.5px; color: var(--navy); text-transform: uppercase; letter-spacing: .03em; }
+.toc ol { margin: 0; padding-left: 20px; font-size: 14.5px; }
+.toc li { margin-bottom: 4px; }
+
+/* ---- Comparison table ---- */
+.compare-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14.5px; }
+.compare-table th, .compare-table td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; }
+.compare-table th { background: var(--grey-light); color: var(--navy); font-weight: 700; }
+.compare-table tr:nth-child(even) td { background: #fafbfc; }
+
+/* ---- FAQ ---- */
+.faq { margin-top: 40px; }
+.faq h2 { margin-bottom: 4px; }
+.faq-item { border-bottom: 1px solid var(--border); padding: 16px 0; }
+.faq-item:last-child { border-bottom: none; }
+.faq-q { font-size: 16px; color: var(--ink); margin: 0 0 8px; }
+.faq-a p { margin: 0; font-size: 15px; color: #3c4759; }
+
+/* ---- Calculator tool ---- */
+.calc-card {
+  background: var(--grey-light); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 26px; max-width: 520px;
+}
+.calc-row { margin-bottom: 16px; }
+.calc-row label { display: block; font-size: 13px; font-weight: 700; color: var(--navy); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .03em; }
+.calc-row input, .calc-row select {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px;
+  font-family: inherit; background: #fff;
+}
+.calc-results { margin-top: 20px; border-top: 1px solid var(--border); padding-top: 18px; }
+.calc-results .result-row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 15px; }
+.calc-results .result-row span:first-child { color: var(--grey); }
+.calc-results .result-row span:last-child { font-weight: 700; color: var(--navy); }
 
 /* ---- Footer ---- */
 footer.site { background: var(--navy); color: #b9c4d8; padding: 40px 0 24px; margin-top: 40px; }
