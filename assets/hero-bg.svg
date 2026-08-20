@@ -1,0 +1,43 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beam1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beam2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b8862b" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#b8862b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beam3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16233d" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#16233d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- lighthouse beams sweeping from top-right corner -->
+  <g>
+    <polygon points="1600,0 1600,140 560,500 380,500" fill="url(#beam1)"/>
+    <polygon points="1600,0 1600,260 900,500 760,500" fill="url(#beam2)"/>
+    <polygon points="1600,0 1600,40 260,500 140,500" fill="url(#beam3)"/>
+  </g>
+
+  <!-- faint concentric arcs, like a lighthouse light source, anchored top-right -->
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1560" cy="-40" r="180"/>
+    <circle cx="1560" cy="-40" r="320"/>
+    <circle cx="1560" cy="-40" r="460"/>
+    <circle cx="1560" cy="-40" r="600"/>
+  </g>
+
+  <!-- scattered dots, subtle "night sky" texture -->
+  <g fill="#16233d" fill-opacity="0.10">
+    <circle cx="1180" cy="60" r="2.5"/>
+    <circle cx="1300" cy="130" r="2"/>
+    <circle cx="1420" cy="70" r="3"/>
+    <circle cx="1250" cy="220" r="2"/>
+    <circle cx="1100" cy="160" r="2.5"/>
+    <circle cx="1480" cy="180" r="2"/>
+    <circle cx="1360" cy="30" r="2"/>
+    <circle cx="1050" cy="90" r="2"/>
+  </g>
+</svg>
