@@ -79,6 +79,7 @@
     </div>
 
     <div class="grid" id="news-articles"></div>
+    <div class="view-all-link"><a href="articles/index.html">View all guides &amp; news &rarr;</a></div>
   </div>
 </main>
 
@@ -120,7 +121,7 @@
 <script src="assets/main.js"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
-  renderArticleList("news-articles", "", { categories: ["Sports Betting News", "Casino News"] });
+  renderArticleList("news-articles", "", { categories: ["Sports Betting News", "Casino News"], limit: 20 });
 </script>
 </body>
 </html>

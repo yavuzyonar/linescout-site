@@ -89,6 +89,7 @@
     </div>
 
     <div class="grid" id="betting-articles"></div>
+    <div class="view-all-link"><a href="articles/index.html">View all guides &rarr;</a></div>
   </div>
 </main>
 
@@ -130,7 +131,7 @@
 <script src="assets/main.js"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
-  renderArticleList("betting-articles", "", { excludeCategories: ["Casino Guides", "Sports Betting News", "Casino News"] });
+  renderArticleList("betting-articles", "", { excludeCategories: ["Casino Guides", "Sports Betting News", "Casino News"], limit: 12 });
 </script>
 </body>
 </html>
