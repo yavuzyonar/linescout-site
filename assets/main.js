@@ -1,7 +1,7 @@
-// LineScout — shared behavior: age gate + dynamic article listing
+// OddsLighthouse — shared behavior: age gate + dynamic article listing
 
 (function ageGate() {
-  var KEY = "linescout_age_ok";
+  var KEY = "oddslighthouse_age_ok";
   document.addEventListener("DOMContentLoaded", function () {
     var gate = document.getElementById("age-gate");
     if (!gate) return;

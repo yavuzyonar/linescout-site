@@ -1,6 +1,6 @@
-# LineScout
+# OddsLighthouse
 
-A static site for LineScout, an independent US sports betting / online casino content site. Hosted free on GitHub Pages.
+A static site for OddsLighthouse, an independent US sports betting / online casino content site. Hosted free on GitHub Pages.
 
 ## Structure
 
