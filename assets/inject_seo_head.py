@@ -33,7 +33,10 @@ STATIC_PAGES = {
     "privacy.html": [("Home", "/"), ("Privacy Policy", None)],
     "articles/index.html": [("Home", "/"), ("All Guides", None)],
     "odds-calculator.html": [("Home", "/"), ("Odds Calculator", None)],
+    "news.html": [("Home", "/"), ("News", None)],
 }
+
+NEWS_CATEGORIES = {"Sports Betting News", "Casino News"}
 
 def get_tag_content(html, tag_pattern):
     m = re.search(tag_pattern, html, re.S)
@@ -55,10 +58,14 @@ def compute_crumbs(rel_path, title):
     if is_article:
         slug = rel_path.split("/")[-1].replace(".html", "")
         art = MANIFEST.get(slug, {})
-        is_casino = art.get("category") == "Casino Guides"
-        return [("Home", "/"),
-                ("Casino" if is_casino else "Sports Betting", "/casino.html" if is_casino else "/betting.html"),
-                (art.get("title", title), None)]
+        category = art.get("category")
+        if category in NEWS_CATEGORIES:
+            parent = ("News", "/news.html")
+        elif category == "Casino Guides":
+            parent = ("Casino", "/casino.html")
+        else:
+            parent = ("Sports Betting", "/betting.html")
+        return [("Home", "/"), parent, (art.get("title", title), None)]
     return STATIC_PAGES.get(rel_path, [("Home", None)])
 
 def build_breadcrumb_jsonld(crumbs):
@@ -102,9 +109,10 @@ def build_head_block(rel_path, html, crumbs):
         art = MANIFEST.get(slug, {})
         og_image = f"/assets/og/{slug}.png"
         og_type = "article"
+        is_news = art.get("type") == "news" or art.get("category") in NEWS_CATEGORIES
         ld_blocks.append({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "NewsArticle" if is_news else "Article",
             "headline": art.get("title", title),
             "description": art.get("excerpt", description),
             "image": BASE_URL + og_image,

@@ -118,6 +118,26 @@ ICONS = {
       <path d="M-40 -18 l24 24 m0 -24 l-24 24" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
     </g>
   </g>''',
+    "fanatics-nfl-sportsbook-deal": f'''
+  <!-- megaphone / announcement -->
+  <g transform="translate({CX-30},{CY})">
+    <path d="M-100 -20 L20 -70 L20 70 L-100 20 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="-130" y="-25" width="32" height="50" rx="6" fill="{TEAL}"/>
+    <path d="M20 -70 L110 -95 L110 95 L20 70" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M-70 25 L-55 80 A20 20 0 0 0 -15 80 L-30 20" fill="none" stroke="{NAVY}" stroke-width="7" stroke-linejoin="round"/>
+  </g>''',
+
+    "florida-sweepstakes-casino-lawsuit": f'''
+  <!-- gavel / regulatory action -->
+  <g transform="translate({CX},{CY+10})">
+    <g transform="rotate(-35)">
+      <rect x="-90" y="-22" width="90" height="44" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+      <rect x="-20" y="-34" width="30" height="68" rx="6" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    </g>
+    <rect x="-90" y="70" width="180" height="16" rx="4" fill="{NAVY}"/>
+    <line x1="-60" y1="70" x2="-60" y2="40" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="60" y1="70" x2="60" y2="40" stroke="{TEAL}" stroke-width="8"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

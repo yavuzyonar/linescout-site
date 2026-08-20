@@ -144,6 +144,19 @@ article.post ul, article.post ol { font-size: 16px; color: #262e3d; }
   border: 1px dashed var(--border); border-radius: 8px; padding: 14px 16px; font-size: 13px; color: var(--grey);
   margin: 28px 0;
 }
+
+/* ---- News ---- */
+.news-badge {
+  display: inline-block; background: var(--amber); color: #fff; font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .04em; padding: 3px 9px; border-radius: 999px; margin-left: 10px;
+  vertical-align: middle;
+}
+.sources-box {
+  border-top: 1px solid var(--border); margin-top: 30px; padding-top: 16px; font-size: 13.5px; color: var(--grey);
+}
+.sources-box p.sources-title { font-weight: 700; color: var(--navy); margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
+.sources-box ul { margin: 0; padding-left: 18px; }
+.sources-box li { margin-bottom: 4px; }
 .author-box {
   display: flex; gap: 14px; align-items: flex-start; background: var(--grey-light);
   border-radius: var(--radius); padding: 18px; margin-top: 40px;

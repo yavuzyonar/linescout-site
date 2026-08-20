@@ -20,7 +20,10 @@ STATIC_PAGES = [
     ("/privacy.html", "yearly", "0.3"),
     ("/articles/index.html", "daily", "0.7"),
     ("/odds-calculator.html", "monthly", "0.6"),
+    ("/news.html", "daily", "0.9"),
 ]
+
+NEWS_CATEGORIES = {"Sports Betting News", "Casino News"}
 
 def main():
     today = date.today().isoformat()
@@ -32,7 +35,9 @@ def main():
     for path, freq, pri in STATIC_PAGES:
         urls.append((BASE_URL + path, today, freq, pri))
     for a in articles:
-        urls.append((f"{BASE_URL}/articles/{a['slug']}.html", a.get("date", today), "monthly", "0.8"))
+        is_news = a.get("type") == "news" or a.get("category") in NEWS_CATEGORIES
+        freq, pri = ("daily", "0.7") if is_news else ("monthly", "0.8")
+        urls.append((f"{BASE_URL}/articles/{a['slug']}.html", a.get("date", today), freq, pri))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
