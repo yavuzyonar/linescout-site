@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OddsLighthouse — Sports Betting & Casino Guides, Reviews, and Odds Explainers</title>
-<meta name="description" content="Independent, plain-language guides to sports betting and online casinos in the US: odds explainers, bankroll strategy, operator reviews, and responsible gambling resources.">
+<title>Online Casino Guides — OddsLighthouse</title>
+<meta name="description" content="Plain-language online casino guides: house edge, game rules, RTP, and strategy for blackjack, slots, roulette, and more.">
 <link rel="stylesheet" href="assets/style.css">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TR1KNBL4QW"></script>
@@ -44,23 +44,11 @@
   </div>
 </header>
 
-<section class="hero">
-  <div class="container">
-    <h1>Straight answers on sports betting and online casinos — no hype, no jargon.</h1>
-    <p class="lead">OddsLighthouse is an independent guide to legal US sports betting and online casinos: how odds work, how to manage a bankroll, honest operator information, and where to get help if gambling stops being fun.</p>
-    <div class="badges">
-      <span class="badge">Updated regularly</span>
-      <span class="badge">Independent &amp; ad-supported</span>
-      <span class="badge">Responsible gambling resources on every page</span>
-    </div>
-  </div>
-</section>
-
 <main>
   <div class="container">
-    <h2 class="section-title">Start here</h2>
-    <p class="section-sub">The fundamentals every bettor should know before placing a wager.</p>
-    <div class="grid" id="latest-articles"></div>
+    <h2 class="section-title">Online Casino Guides</h2>
+    <p class="section-sub">House edge, game rules, and strategy for slots, blackjack, roulette, and more — newest first.</p>
+    <div class="grid" id="casino-articles"></div>
   </div>
 </main>
 
@@ -86,14 +74,8 @@
         <a href="https://www.gamblersanonymous.org/" target="_blank" rel="noopener">Gamblers Anonymous</a>
       </div>
     </div>
-    <div class="rg-logos">
-      <span>21+</span>
-      <span>Gambling Problem? 1-800-GAMBLER</span>
-      <span>Play Responsibly</span>
-    </div>
     <div class="footer-legal">
-      <p>OddsLighthouse is an independent media publisher. We may earn a commission when you sign up with a sportsbook or casino through links on this site, at no extra cost to you — see our <a href="disclosure.html">advertising disclosure</a> for details. This is not a gambling operator; we do not accept wagers.</p>
-      <p>Content on this site is for informational purposes only and is not legal, financial, or gambling advice. Sports betting and online casino legality varies by state — confirm the rules where you live before wagering. You must be 21 or older (18+ in some jurisdictions) and physically located in a state where online betting is legal to participate.</p>
+      <p>OddsLighthouse is an independent media publisher. We may earn a commission when you sign up with a sportsbook or casino through links on this site, at no extra cost to you — see our <a href="disclosure.html">advertising disclosure</a> for details.</p>
       <p>&copy; <span id="year"></span> OddsLighthouse. All rights reserved.</p>
     </div>
   </div>
@@ -102,7 +84,7 @@
 <script src="assets/main.js"></script>
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
-  renderArticleList("latest-articles", "", { limit: 6 });
+  renderArticleList("casino-articles", "", { categories: ["Casino Guides"] });
 </script>
 </body>
 </html>

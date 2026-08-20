@@ -33,7 +33,13 @@ function renderArticleList(containerId, base, opts) {
         return new Date(b.date) - new Date(a.date);
       });
       if (opts.category) items = items.filter(function (a) { return a.category === opts.category; });
+      if (opts.categories) items = items.filter(function (a) { return opts.categories.indexOf(a.category) !== -1; });
+      if (opts.excludeCategories) items = items.filter(function (a) { return opts.excludeCategories.indexOf(a.category) === -1; });
       if (opts.limit) items = items.slice(0, opts.limit);
+      if (items.length === 0) {
+        el.innerHTML = '<p style="color:#94a0b2;">No guides in this section yet — check back soon.</p>';
+        return;
+      }
       el.innerHTML = items.map(function (a) {
         return (
           '<div class="card">' +
