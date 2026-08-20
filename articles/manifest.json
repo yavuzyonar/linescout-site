@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "slug": "how-betting-odds-work",
+      "title": "How Sports Betting Odds Work: American, Decimal, and Fractional Explained",
+      "excerpt": "A plain-language walkthrough of the three odds formats you'll see at US sportsbooks, how to convert between them, and how to spot implied probability.",
+      "category": "Betting Basics",
+      "date": "2026-08-20",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "bankroll-management-basics",
+      "title": "Bankroll Management: How Much Should You Actually Bet?",
+      "excerpt": "Unit sizing, staking plans, and the money-management habits that separate sustainable bettors from everyone else.",
+      "category": "Betting Basics",
+      "date": "2026-08-20",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "bet-types-explained",
+      "title": "Moneylines, Spreads, Parlays, and Props: Every Common Bet Type Explained",
+      "excerpt": "A field guide to the bet types you'll see on any US sportsbook app, with real examples of how each one pays out.",
+      "category": "Betting Basics",
+      "date": "2026-08-20",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "responsible-gambling-guide",
+      "title": "Responsible Gambling: Warning Signs, Limits, and Where to Get Help",
+      "excerpt": "How to set deposit and time limits, recognize the warning signs of problem gambling, and find free, confidential support.",
+      "category": "Responsible Gambling",
+      "date": "2026-08-20",
+      "readTime": "6 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "sports-betting-glossary",
+      "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
+      "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
+      "category": "Betting Basics",
+      "date": "2026-08-20",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    }
+  ]
+}

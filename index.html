@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LineScout — Sports Betting & Casino Guides, Reviews, and Odds Explainers</title>
+<meta name="description" content="Independent, plain-language guides to sports betting and online casinos in the US: odds explainers, bankroll strategy, operator reviews, and responsible gambling resources.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div id="age-gate">
+  <div class="age-card">
+    <h2>Are you 21 or older?</h2>
+    <p>This site contains information about sports betting and online casino gambling, intended for adults of legal gambling age in their jurisdiction.</p>
+    <div class="age-actions">
+      <button id="age-no">No, exit</button>
+      <button id="age-yes">Yes, I'm 21+</button>
+    </div>
+    <div class="age-fine">Gambling problem? Call or text 1-800-GAMBLER.</div>
+  </div>
+</div>
+
+<div class="rg-strip">Gambling problem? Call/text <a href="tel:18004264653">1-800-GAMBLER</a>. 21+ and present in a state where online betting is legal. <a href="responsible-gambling.html">Get help &amp; resources</a>.</div>
+
+<header class="site">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="dot"></span> LineScout</a>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="articles/index.html">Guides</a>
+      <a href="responsible-gambling.html">Responsible Gambling</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Straight answers on sports betting and online casinos — no hype, no jargon.</h1>
+    <p class="lead">LineScout is an independent guide to legal US sports betting and online casinos: how odds work, how to manage a bankroll, honest operator information, and where to get help if gambling stops being fun.</p>
+    <div class="badges">
+      <span class="badge">Updated regularly</span>
+      <span class="badge">Independent &amp; ad-supported</span>
+      <span class="badge">Responsible gambling resources on every page</span>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="container">
+    <div class="pending-note">
+      <strong>New site notice:</strong> LineScout just launched. Operator reviews and state-specific offer pages are being added as our affiliate partnerships with licensed sportsbooks are finalized — for now, start with our foundational guides below.
+    </div>
+
+    <h2 class="section-title">Start here</h2>
+    <p class="section-sub">The fundamentals every bettor should know before placing a wager.</p>
+    <div class="grid" id="latest-articles"></div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h4>LineScout</h4>
+        <a href="about.html">About us</a>
+        <a href="disclosure.html">Advertising disclosure</a>
+        <a href="privacy.html">Privacy policy</a>
+      </div>
+      <div>
+        <h4>Guides</h4>
+        <a href="articles/index.html">All guides</a>
+        <a href="responsible-gambling.html">Responsible gambling</a>
+      </div>
+      <div>
+        <h4>Get help</h4>
+        <a href="tel:18004264653">Call/text 1-800-GAMBLER</a>
+        <a href="https://www.ncpgambling.org/" target="_blank" rel="noopener">National Council on Problem Gambling</a>
+        <a href="https://www.gamblersanonymous.org/" target="_blank" rel="noopener">Gamblers Anonymous</a>
+      </div>
+    </div>
+    <div class="rg-logos">
+      <span>21+</span>
+      <span>Gambling Problem? 1-800-GAMBLER</span>
+      <span>Play Responsibly</span>
+    </div>
+    <div class="footer-legal">
+      <p>LineScout is an independent media publisher. We may earn a commission when you sign up with a sportsbook or casino through links on this site, at no extra cost to you — see our <a href="disclosure.html">advertising disclosure</a> for details. This is not a gambling operator; we do not accept wagers.</p>
+      <p>Content on this site is for informational purposes only and is not legal, financial, or gambling advice. Sports betting and online casino legality varies by state — confirm the rules where you live before wagering. You must be 21 or older (18+ in some jurisdictions) and physically located in a state where online betting is legal to participate.</p>
+      <p>&copy; <span id="year"></span> LineScout. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  renderArticleList("latest-articles", "", { limit: 6 });
+</script>
+</body>
+</html>

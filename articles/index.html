@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Guides — LineScout</title>
+<meta name="description" content="Every LineScout guide: betting basics, odds explainers, bankroll strategy, and responsible gambling resources.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<div id="age-gate">
+  <div class="age-card">
+    <h2>Are you 21 or older?</h2>
+    <p>This site contains information about sports betting and online casino gambling, intended for adults of legal gambling age in their jurisdiction.</p>
+    <div class="age-actions">
+      <button id="age-no">No, exit</button>
+      <button id="age-yes">Yes, I'm 21+</button>
+    </div>
+    <div class="age-fine">Gambling problem? Call or text 1-800-GAMBLER.</div>
+  </div>
+</div>
+
+<div class="rg-strip">Gambling problem? Call/text <a href="tel:18004264653">1-800-GAMBLER</a>. 21+ and present in a state where online betting is legal. <a href="../responsible-gambling.html">Get help &amp; resources</a>.</div>
+
+<header class="site">
+  <div class="container">
+    <a class="brand" href="../index.html"><span class="dot"></span> LineScout</a>
+    <nav class="main">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Guides</a>
+      <a href="../responsible-gambling.html">Responsible Gambling</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h2 class="section-title">All guides</h2>
+    <p class="section-sub">Everything we've published, newest first.</p>
+    <div class="grid" id="all-articles"></div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h4>LineScout</h4>
+        <a href="../about.html">About us</a>
+        <a href="../disclosure.html">Advertising disclosure</a>
+        <a href="../privacy.html">Privacy policy</a>
+      </div>
+      <div>
+        <h4>Guides</h4>
+        <a href="index.html">All guides</a>
+        <a href="../responsible-gambling.html">Responsible gambling</a>
+      </div>
+      <div>
+        <h4>Get help</h4>
+        <a href="tel:18004264653">Call/text 1-800-GAMBLER</a>
+        <a href="https://www.ncpgambling.org/" target="_blank" rel="noopener">National Council on Problem Gambling</a>
+        <a href="https://www.gamblersanonymous.org/" target="_blank" rel="noopener">Gamblers Anonymous</a>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>LineScout is an independent media publisher. We may earn a commission when you sign up with a sportsbook or casino through links on this site, at no extra cost to you — see our <a href="../disclosure.html">advertising disclosure</a> for details.</p>
+      <p>&copy; <span id="year"></span> LineScout. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/main.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  renderArticleList("all-articles", "../");
+</script>
+</body>
+</html>
