@@ -28,6 +28,10 @@ News lives in a separate category from evergreen guides and has stricter rules, 
 4. If there's no genuinely verifiable, on-topic story for a given category on a given day, skip it rather than inventing or padding — `news.html` says as much to readers, so this is expected behavior, not a failure.
 5. Same SEO pipeline as evergreen articles, run once after all of a day's articles (evergreen + news) are in place.
 
+## No disclosure-box (as of Aug 20, 2026)
+
+Articles previously had a per-article `.disclosure-box` div ("we may be paid a commission by operators linked on this page..."). This was removed sitewide on Aug 20, 2026, because no article currently has a real, live, monetized affiliate link — the claim was inaccurate everywhere, not just on the one article a reader flagged. `disclosure.html` (the standalone advertising-disclosure policy page) is unaffected and keeps its own "contact us" callout. Do not reintroduce a per-article disclosure-box until a real affiliate program actually launches, at which point it should come back with accurate wording; the daily automation's prompt has a matching note telling it not to add one.
+
 ## Sport-specific hub pages
 
 `nfl.html`, `nba.html`, `nhl.html`, and `college-football.html` (added Aug 20, 2026, timed for the 2026 NFL season) are dedicated hub pages, each showing only articles with an exact matching category (`"NFL"`, `"NBA"`, `"NHL"`, `"College Football"`). `betting.html`'s general grid excludes all four of these categories so sport-specific guides live only on their own page, with a "Betting by sport" cross-link row in `betting.html`'s intro linking out to all four. Sport-specific articles get 4-level breadcrumbs (Home > Sports Betting > \<Sport\> > Article) automatically via `inject_seo_head.py`'s `SPORT_CATEGORIES` map — no manual wiring needed, just use the exact category string.
