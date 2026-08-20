@@ -72,7 +72,7 @@ nav.main .nav-dropdown { position: relative; display: inline-block; margin-left:
 nav.main .nav-dropdown > a { margin-left: 0; }
 nav.main .nav-dropdown .caret { font-size: 10px; margin-left: 3px; opacity: .75; }
 nav.main .nav-dropdown-menu {
-  display: none; position: absolute; top: 100%; left: 0; margin-top: 8px;
+  display: none; position: absolute; top: 100%; left: 0; margin-top: 0;
   background: var(--navy-2); border-radius: 8px; padding: 6px 0; min-width: 175px;
   box-shadow: 0 10px 24px rgba(0,0,0,.28); z-index: 30;
 }
