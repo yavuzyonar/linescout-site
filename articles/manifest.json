@@ -39,7 +39,7 @@
     {
       "slug": "sports-betting-glossary",
       "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-      "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
+      "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
       "category": "Betting Basics",
       "date": "2026-08-20",
       "readTime": "10 min read",
@@ -65,7 +65,7 @@
     },
     {
       "slug": "fanatics-nfl-sportsbook-deal",
-      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
+      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
       "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
       "category": "Sports Betting News",
       "date": "2026-08-20",
@@ -146,7 +146,7 @@
     },
     {
       "slug": "college-football-spreads-blowouts",
-      "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
+      "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
       "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
       "category": "College Football",
       "date": "2026-08-20",
@@ -186,6 +186,42 @@
       "excerpt": "New Jersey's online casino market set an all-time monthly revenue record in July 2026, with FanDuel widening its lead over DraftKings.",
       "category": "Casino News",
       "date": "2026-08-21",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "nfl-teasers-crossing-3-and-7",
+      "title": "NFL Teasers: Why Crossing 3 and 7 Is the Classic Play",
+      "excerpt": "How 6-point NFL teasers work, why moving a spread across 3 and 7 is the standard play, and the math behind when a teaser actually beats two straight bets.",
+      "category": "NFL",
+      "date": "2026-08-22",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "video-poker-pay-tables-explained",
+      "title": "Video Poker Pay Tables: How One Payout Changes Your Odds",
+      "excerpt": "Why the payout for a single hand on a video poker pay table can swing the house edge by a full percentage point, using Jacks or Better as a worked example.",
+      "category": "Casino Guides",
+      "date": "2026-08-22",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "cftc-prediction-market-manipulation-hearing",
+      "title": "CFTC's First Innovation Panel Zeroes In on Prediction Market Manipulation",
+      "excerpt": "At the CFTC's first Innovation Advisory Committee meeting, executives warned about prediction market manipulation risks, citing real cases involving insiders.",
+      "category": "Sports Betting News",
+      "date": "2026-08-22",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "betmgm-awager-live-streamed-slots-nj",
+      "title": "BetMGM Brings Live-Streamed Slot Machines to New Jersey",
+      "excerpt": "Aristocrat's Awager unit has partnered with BetMGM to stream real, physical slot machines to online players in New Jersey.",
+      "category": "Casino News",
+      "date": "2026-08-22",
       "readTime": "4 min read",
       "type": "news"
     }
