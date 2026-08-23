@@ -216,6 +216,55 @@ ICONS = {
     <text x="90" y="22" font-family="Arial" font-size="62" fill="{NAVY}" text-anchor="middle" font-weight="bold">10</text>
     <line x1="0" y1="-62" x2="0" y2="62" stroke="{NAVY}" stroke-width="4" opacity="0.4"/>
   </g>''',
+
+    "nfl-totals-weather-dome-vs-outdoor": f'''
+  <!-- stadium roof half-open with a snowflake / wind lines -->
+  <g transform="translate({CX},{CY})">
+    <path d="M-160 40 A160 120 0 0 1 0 -80" fill="none" stroke="{NAVY}" stroke-width="9" stroke-linecap="round"/>
+    <path d="M0 -80 A160 120 0 0 1 160 40" fill="none" stroke="{TEAL}" stroke-width="9" stroke-linecap="round" stroke-dasharray="4 14"/>
+    <line x1="-160" y1="40" x2="160" y2="40" stroke="{NAVY}" stroke-width="9" stroke-linecap="round"/>
+    <g transform="translate(80,-10)" stroke="{TEAL}" stroke-width="6" stroke-linecap="round">
+      <line x1="0" y1="-26" x2="0" y2="26"/>
+      <line x1="-22" y1="-13" x2="22" y2="13"/>
+      <line x1="-22" y1="13" x2="22" y2="-13"/>
+    </g>
+    <path d="M-110 -20 q10 -16 20 0 t20 0" fill="none" stroke="{NAVY}" stroke-width="6" opacity="0.55" stroke-linecap="round"/>
+    <path d="M-115 5 q10 -16 20 0 t20 0" fill="none" stroke="{NAVY}" stroke-width="6" opacity="0.4" stroke-linecap="round"/>
+  </g>''',
+
+    "slot-volatility-explained": f'''
+  <!-- volatility waveform: calm line vs spiky line -->
+  <g transform="translate({CX-155},{CY-40})">
+    <polyline points="0,0 40,0 80,0 120,0 160,0 200,0 240,0 280,0 310,0" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate({CX-155},{CY+70})">
+    <polyline points="0,0 30,0 55,-70 85,50 115,-90 145,60 175,-40 205,20 240,0 310,0" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>''',
+
+    "ryan-gold-cardinals-second-gambling-investigation": f'''
+  <!-- magnifying glass over a document -->
+  <g transform="translate({CX-10},{CY})">
+    <rect x="-120" y="-110" width="150" height="200" rx="10" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-95" y1="-70" x2="-5" y2="-70" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-95" y1="-35" x2="-5" y2="-35" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-95" y1="0" x2="-30" y2="0" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <circle cx="70" cy="60" r="60" fill="none" stroke="{TEAL}" stroke-width="10"/>
+    <line x1="113" y1="103" x2="160" y2="150" stroke="{TEAL}" stroke-width="12" stroke-linecap="round"/>
+  </g>''',
+
+    "venetian-nevada-aml-fine-bowyer": f'''
+  <!-- gavel over stacked currency -->
+  <g transform="translate({CX+10},{CY-25})">
+    <g transform="rotate(-35)">
+      <rect x="-90" y="-22" width="90" height="44" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+      <rect x="-20" y="-34" width="30" height="68" rx="6" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    </g>
+  </g>
+  <g transform="translate({CX-140},{CY+95})">
+    <rect x="0" y="-14" width="150" height="28" rx="6" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <rect x="12" y="-32" width="150" height="28" rx="6" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <text x="87" y="-11" font-family="Arial" font-size="24" fill="{TEAL}" text-anchor="middle">$</text>
+  </g>''',
 }
 
 if __name__ == "__main__":

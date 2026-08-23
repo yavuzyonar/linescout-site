@@ -39,7 +39,7 @@
     {
       "slug": "sports-betting-glossary",
       "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-      "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
+      "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
       "category": "Betting Basics",
       "date": "2026-08-20",
       "readTime": "10 min read",
@@ -65,7 +65,7 @@
     },
     {
       "slug": "fanatics-nfl-sportsbook-deal",
-      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
+      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
       "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
       "category": "Sports Betting News",
       "date": "2026-08-20",
@@ -146,7 +146,7 @@
     },
     {
       "slug": "college-football-spreads-blowouts",
-      "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
+      "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
       "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
       "category": "College Football",
       "date": "2026-08-20",
@@ -222,6 +222,42 @@
       "excerpt": "Aristocrat's Awager unit has partnered with BetMGM to stream real, physical slot machines to online players in New Jersey.",
       "category": "Casino News",
       "date": "2026-08-22",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "nfl-totals-weather-dome-vs-outdoor",
+      "title": "How Weather and Dome vs. Outdoor Venues Move NFL Totals",
+      "excerpt": "Why wind matters more than cold, how retractable roofs add pricing uncertainty, and when weather forecasts actually start moving NFL totals.",
+      "category": "NFL",
+      "date": "2026-08-23",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "slot-volatility-explained",
+      "title": "Slot Volatility Explained: Low vs. High Variance Games",
+      "excerpt": "What slot volatility actually measures, how it differs from RTP, and how to match low- or high-variance games to your bankroll and play style.",
+      "category": "Casino Guides",
+      "date": "2026-08-23",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "ryan-gold-cardinals-second-gambling-investigation",
+      "title": "Second State Now Investigating Ex-Cardinals Exec Ryan Gold",
+      "excerpt": "Massachusetts regulators have opened a second state investigation into betting patterns tied to Ryan Gold, the Cardinals scouting exec the NFL suspended.",
+      "category": "Sports Betting News",
+      "date": "2026-08-23",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "venetian-nevada-aml-fine-bowyer",
+      "title": "Venetian to Pay $7.2M Fine Over Illegal Bookmaker Ties",
+      "excerpt": "Nevada regulators approved a $7.2 million fine against the Venetian for anti-money-laundering failures tied to illegal bookmaker Mathew Bowyer.",
+      "category": "Casino News",
+      "date": "2026-08-23",
       "readTime": "4 min read",
       "type": "news"
     }
