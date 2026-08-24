@@ -260,6 +260,42 @@
       "date": "2026-08-23",
       "readTime": "4 min read",
       "type": "news"
+    },
+    {
+      "slug": "closing-line-value-clv-explained",
+      "title": "What Is Closing Line Value (CLV) and Why Sharp Bettors Track It",
+      "excerpt": "What closing line value measures, how to calculate it with a worked example, and why sharp bettors treat it as a better long-run signal than win rate.",
+      "category": "Betting Basics",
+      "date": "2026-08-24",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "craps-basics-pass-line-odds-bets",
+      "title": "Craps Basics: Pass Line Bets, Odds Bets, and What to Avoid",
+      "excerpt": "How the pass line bet works, why the odds bet carries no house edge, and which craps table bets beginners should skip.",
+      "category": "Casino Guides",
+      "date": "2026-08-24",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "polymarket-kalshi-parlays-launch",
+      "title": "Polymarket and Kalshi Both Roll Out Parlay Features in the Same Week",
+      "excerpt": "Polymarket US fully launched parlays to regular users while Kalshi added parlay maker fees the same week, as prediction markets race toward the NFL season.",
+      "category": "Sports Betting News",
+      "date": "2026-08-24",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "revo-casino-manchester-expansion-approved",
+      "title": "Manchester Planning Board Approves Revo Casino's Major Expansion",
+      "excerpt": "Manchester's Planning Board approved a major expansion of Revo Casino, consolidating five parcels into a 73,000-square-foot gaming and entertainment site.",
+      "category": "Casino News",
+      "date": "2026-08-24",
+      "readTime": "3 min read",
+      "type": "news"
     }
   ]
 }
