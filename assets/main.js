@@ -73,3 +73,42 @@ function renderArticleList(containerId, base, opts) {
       el.innerHTML = '<p style="color:#94a0b2;">Articles are loading — refresh in a moment.</p>';
     });
 }
+
+// Renders bigger, image-led "featured" cards (e.g. a hub page's "Must Reads" section)
+// into a container from articles/manifest.json. Same opts/base convention as renderArticleList.
+function renderFeaturedList(containerId, base, opts) {
+  opts = opts || {};
+  var el = document.getElementById(containerId);
+  if (!el) return;
+  fetch(base + "articles/manifest.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var items = data.articles.slice().sort(function (a, b) {
+        return new Date(b.date) - new Date(a.date);
+      });
+      if (opts.category) items = items.filter(function (a) { return a.category === opts.category; });
+      if (opts.categories) items = items.filter(function (a) { return opts.categories.indexOf(a.category) !== -1; });
+      if (opts.excludeCategories) items = items.filter(function (a) { return opts.excludeCategories.indexOf(a.category) === -1; });
+      if (opts.limit) items = items.slice(0, opts.limit);
+      if (items.length === 0) {
+        el.innerHTML = "";
+        return;
+      }
+      el.innerHTML = items.map(function (a) {
+        return (
+          '<a class="featured-card" href="' + base + 'articles/' + a.slug + '.html">' +
+            '<img src="' + base + 'assets/article-images/' + a.slug + '.svg" alt="" loading="lazy">' +
+            '<div class="featured-card-body">' +
+              '<div class="kicker">' + a.category + '</div>' +
+              '<h3>' + a.title + '</h3>' +
+              '<p>' + a.excerpt + '</p>' +
+              '<div class="meta">' + a.date + ' &middot; ' + a.readTime + '</div>' +
+            '</div>' +
+          '</a>'
+        );
+      }).join("");
+    })
+    .catch(function () {
+      el.innerHTML = "";
+    });
+}

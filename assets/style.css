@@ -254,3 +254,45 @@ footer.site a:hover { color: #fff; }
   nav.main .nav-dropdown { margin-left: 0; }
   nav.main .nav-dropdown-menu { left: auto; right: 0; }
 }
+
+/* ---- Section blocks (hub pages: Must Reads, Tools & Resources, etc.) ---- */
+.section-block { margin-top: 44px; }
+.section-block h2 { font-size: 22px; color: var(--navy); margin: 0 0 6px; }
+.section-block-sub { color: var(--grey); font-size: 14.5px; margin: 0 0 20px; }
+
+/* ---- Featured cards (image-led, e.g. "Must Reads") ---- */
+.featured-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.featured-card {
+  display: block; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;
+  background: #fff; transition: box-shadow .15s ease, transform .15s ease; color: inherit;
+}
+.featured-card:hover { box-shadow: 0 8px 24px rgba(22,35,61,.08); transform: translateY(-2px); text-decoration: none; }
+.featured-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: var(--grey-light); }
+.featured-card-body { padding: 18px; }
+.featured-card .kicker { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--teal); font-weight: 700; }
+.featured-card h3 { font-size: 17px; margin: 8px 0 8px; color: var(--ink); line-height: 1.35; }
+.featured-card p { color: var(--grey); font-size: 14px; margin: 0 0 10px; }
+.featured-card .meta { font-size: 12.5px; color: #94a0b2; }
+
+/* ---- Tool cards (icon-led, e.g. "Tools & Resources") ---- */
+.tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.tool-card {
+  display: flex; align-items: flex-start; gap: 14px; border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 18px; background: #fff; transition: box-shadow .15s ease, transform .15s ease; color: inherit;
+}
+.tool-card:hover { box-shadow: 0 8px 24px rgba(22,35,61,.08); transform: translateY(-2px); text-decoration: none; }
+.tool-card .tool-icon {
+  flex: none; width: 40px; height: 40px; border-radius: 8px; background: var(--teal-light);
+  display: flex; align-items: center; justify-content: center; color: var(--teal);
+}
+.tool-card .tool-icon svg { width: 22px; height: 22px; }
+.tool-card h3 { font-size: 15px; margin: 0 0 4px; color: var(--ink); }
+.tool-card p { color: var(--grey); font-size: 13px; margin: 0; }
+
+@media (max-width: 900px) {
+  .featured-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .featured-grid { grid-template-columns: 1fr; }
+  .tools-grid { grid-template-columns: 1fr; }
+}
