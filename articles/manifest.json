@@ -296,6 +296,42 @@
       "date": "2026-08-24",
       "readTime": "3 min read",
       "type": "news"
+    },
+    {
+      "slug": "nfl-futures-odds-pricing",
+      "title": "How NFL Futures Odds Are Priced and Why They Move All Season",
+      "excerpt": "How sportsbooks build NFL win-total and Super Bowl futures, why the vig runs higher than game lines, and how those numbers shift as a season unfolds.",
+      "category": "NFL",
+      "date": "2026-08-25",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "progressive-jackpot-slots-explained",
+      "title": "Progressive Jackpot Slots: How They Work and What \"Must-Hit-By\" Means",
+      "excerpt": "How progressive slot jackpots are funded and grow, the difference between standalone, local, and wide-area progressives, and what a \"must-hit-by\" cap means.",
+      "category": "Casino Guides",
+      "date": "2026-08-25",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nebraska-sports-betting-ballot-measure",
+      "title": "Nebraska Voters Will Decide on Online Sports Betting This November",
+      "excerpt": "Nebraska's Secretary of State certified petitions putting online sports betting on the November 2026 ballot, backed by FanDuel, DraftKings, and BetMGM.",
+      "category": "Sports Betting News",
+      "date": "2026-08-25",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "evolution-candle-lake-takeover-rejected",
+      "title": "Evolution Rejects Kenneth Dart's $13.8B Takeover Bid",
+      "excerpt": "Evolution AB's board urged shareholders to reject a $13.8 billion mandatory takeover offer from billionaire Kenneth Dart's investment vehicle, Candle Lake.",
+      "category": "Casino News",
+      "date": "2026-08-25",
+      "readTime": "4 min read",
+      "type": "news"
     }
   ]
 }
