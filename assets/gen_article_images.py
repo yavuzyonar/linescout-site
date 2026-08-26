@@ -265,6 +265,56 @@ ICONS = {
     <rect x="12" y="-32" width="150" height="28" rx="6" fill="none" stroke="{TEAL}" stroke-width="6"/>
     <text x="87" y="-11" font-family="Arial" font-size="24" fill="{TEAL}" text-anchor="middle">$</text>
   </g>''',
+
+    "college-football-buy-games-early-season-spreads": f'''
+  <!-- small pennant vs large pennant across a wide spread number -->
+  <g transform="translate({CX-160},{CY+40})">
+    <line x1="0" y1="-40" x2="0" y2="40" stroke="{TEAL}" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 -34 L55 -18 L0 -2 Z" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+140},{CY-10})">
+    <line x1="0" y1="-90" x2="0" y2="90" stroke="{NAVY}" stroke-width="11" stroke-linecap="round"/>
+    <path d="M0 -80 L120 -45 L0 -10 Z" fill="{NAVY}"/>
+  </g>
+  <line x1="{CX-90}" y1="{CY+95}" x2="{CX+30}" y2="{CY+95}" stroke="{NAVY}" stroke-width="4" opacity="0.35" stroke-dasharray="2 10"/>''',
+
+    "baccarat-basics-banker-player-tie": f'''
+  <!-- two facing cards with a small crown -->
+  <g transform="translate({CX},{CY+15})">
+    <g transform="translate(-90,0) rotate(-8)">
+      <rect x="-55" y="-90" width="110" height="160" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="6"/>
+      <text x="-30" y="-48" font-family="Georgia, serif" font-size="30" fill="{NAVY}">9</text>
+    </g>
+    <g transform="translate(90,0) rotate(8)">
+      <rect x="-55" y="-90" width="110" height="160" rx="12" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+      <text x="-30" y="-48" font-family="Georgia, serif" font-size="30" fill="{TEAL}">8</text>
+    </g>
+    <path d="M-24 -140 L-14 -118 L0 -134 L14 -118 L24 -140 L18 -108 L-18 -108 Z" fill="#b8862b"/>
+  </g>''',
+
+    "kalshi-red-sox-massachusetts-prediction-market-fight": f'''
+  <!-- stadium pennant beside a small gavel -->
+  <g transform="translate({CX-110},{CY+10})">
+    <line x1="0" y1="-95" x2="0" y2="95" stroke="{NAVY}" stroke-width="10" stroke-linecap="round"/>
+    <path d="M0 -85 L140 -50 L0 -15 Z" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+130},{CY-10})">
+    <g transform="rotate(-35)">
+      <rect x="-70" y="-18" width="70" height="36" rx="7" fill="none" stroke="{NAVY}" stroke-width="7"/>
+      <rect x="-16" y="-27" width="24" height="54" rx="5" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    </g>
+    <rect x="-70" y="55" width="140" height="13" rx="4" fill="{NAVY}"/>
+  </g>''',
+
+    "caesars-olympus-1-5-million-loyalty-tier": f'''
+  <!-- laurel wreath around a loyalty card -->
+  <g transform="translate({CX},{CY+10})">
+    <rect x="-100" y="-60" width="200" height="120" rx="14" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="0" y="9" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle">$</text>
+    <path d="M-100 -100 C-140 -70 -150 -20 -120 20" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+    <path d="M100 -100 C140 -70 150 -20 120 20" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
