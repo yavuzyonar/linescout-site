@@ -440,6 +440,42 @@
       "date": "2026-08-28",
       "readTime": "4 min read",
       "type": "news"
+    },
+    {
+      "slug": "nba-futures-championship-mvp-odds",
+      "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
+      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
+      "category": "NBA",
+      "date": "2026-08-29",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "roulette-basics-american-european-wheels",
+      "title": "Roulette Basics: American vs. European Wheels and Bet Types",
+      "excerpt": "Why a single extra pocket on an American wheel nearly doubles roulette's house edge, plus the inside and outside bets worth knowing before you sit down.",
+      "category": "Casino Guides",
+      "date": "2026-08-29",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "caesars-sportsbook-nj-responsible-gaming-fine",
+      "title": "Caesars Sportsbook Fined $251K in New Jersey Over Self-Exclusion Failures",
+      "excerpt": "New Jersey's gaming regulator hit Caesars Sportsbook with a combined $296,715 in penalties for failing to block self-excluded bettors and related advertising violations.",
+      "category": "Sports Betting News",
+      "date": "2026-08-29",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "northstar-gaming-agco-aml-fine-ontario",
+      "title": "Ontario Fines NorthStar Gaming CA$100K Over Anti-Money-Laundering Failures",
+      "excerpt": "Ontario's AGCO fined online casino operator NorthStar Gaming for missing anti-money-laundering red flags on a high-risk player over a 15-month span.",
+      "category": "Casino News",
+      "date": "2026-08-29",
+      "readTime": "4 min read",
+      "type": "news"
     }
   ]
 }
