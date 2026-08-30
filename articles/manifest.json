@@ -39,7 +39,7 @@
     {
       "slug": "sports-betting-glossary",
       "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-      "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
+      "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
       "category": "Betting Basics",
       "date": "2026-08-20",
       "readTime": "10 min read",
@@ -65,7 +65,7 @@
     },
     {
       "slug": "fanatics-nfl-sportsbook-deal",
-      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
+      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
       "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
       "category": "Sports Betting News",
       "date": "2026-08-20",
@@ -146,7 +146,7 @@
     },
     {
       "slug": "college-football-spreads-blowouts",
-      "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
+      "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
       "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
       "category": "College Football",
       "date": "2026-08-20",
@@ -381,7 +381,7 @@
     {
       "slug": "casino-game-myths-debunked",
       "title": "Common Casino Game Myths, Debunked",
-      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained — what's actually going on with the math behind each one.",
+      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained \u2014 what's actually going on with the math behind each one.",
       "category": "Casino Guides",
       "date": "2026-08-27",
       "readTime": "7 min read",
@@ -444,7 +444,7 @@
     {
       "slug": "nba-futures-championship-mvp-odds",
       "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
-      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
+      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events \u2014 trades, injuries, streaks \u2014 that move them.",
       "category": "NBA",
       "date": "2026-08-29",
       "readTime": "9 min read",
@@ -474,6 +474,42 @@
       "excerpt": "Ontario's AGCO fined online casino operator NorthStar Gaming for missing anti-money-laundering red flags on a high-risk player over a 15-month span.",
       "category": "Casino News",
       "date": "2026-08-29",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "nfl-week-1-odds-no-current-season-data",
+      "title": "How NFL Week 1 Odds Get Set With No Current-Season Data",
+      "excerpt": "With the 2026 season about to open, here is how books price Week 1 games using preseason snaps, roster changes, and prior-year data instead of live results.",
+      "category": "NFL",
+      "date": "2026-08-30",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "casino-vs-sports-betting-bankroll-management",
+      "title": "Casino Bankroll Management vs. Sports Betting: What Changes",
+      "excerpt": "Why sizing your bets for slots, blackjack, or roulette calls for a different approach than sizing a sports bet, and how to build a bankroll plan for each.",
+      "category": "Casino Guides",
+      "date": "2026-08-30",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "connecticut-sues-kalshi-illegal-sports-betting",
+      "title": "Connecticut Sues Kalshi, Calls Its Sports Contracts Illegal Betting",
+      "excerpt": "Connecticut's attorney general sued Kalshi, arguing its sports event contracts are unlicensed sports betting that skips the state's consumer protections.",
+      "category": "Sports Betting News",
+      "date": "2026-08-30",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "betrivers-gateway-casinos-alberta-partnership",
+      "title": "BetRivers and Gateway Casinos Link Up in Alberta's New iGaming Market",
+      "excerpt": "BetRivers is partnering with Gateway Casinos' two Edmonton properties, bridging online and land-based play weeks after Alberta opened its iGaming market.",
+      "category": "Casino News",
+      "date": "2026-08-30",
       "readTime": "4 min read",
       "type": "news"
     }
