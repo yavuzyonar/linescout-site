@@ -512,6 +512,42 @@
       "date": "2026-08-30",
       "readTime": "4 min read",
       "type": "news"
+    },
+    {
+      "slug": "nhl-futures-stanley-cup-division-odds",
+      "title": "NHL Futures: How Stanley Cup and Division Odds Move Across a Season",
+      "excerpt": "How sportsbooks build Stanley Cup and division-winner odds before puck drop, and what actually moves those numbers between October and June.",
+      "category": "NHL",
+      "date": "2026-08-31",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "casino-bonus-wagering-requirements-explained",
+      "title": "Casino Bonus Wagering Requirements Explained",
+      "excerpt": "What a wagering requirement actually means, how playthrough is calculated, and why the fine print matters more than the headline bonus number.",
+      "category": "Casino Guides",
+      "date": "2026-08-31",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "bet365-west-virginia-launch",
+      "title": "bet365 Launches Sportsbook and Casino in West Virginia",
+      "excerpt": "bet365 is now live with online sports betting and iGaming in West Virginia, its 18th US state, timed to the college football and NFL season openers.",
+      "category": "Sports Betting News",
+      "date": "2026-08-31",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
+      "slug": "caesars-fertitta-buyout-shareholder-vote",
+      "title": "Caesars Sets September 22 Shareholder Vote on $17.6B Fertitta Buyout",
+      "excerpt": "Caesars Entertainment shareholders will vote September 22 on Tilman Fertitta's $17.6 billion, $31-a-share deal to take the casino giant private.",
+      "category": "Casino News",
+      "date": "2026-08-31",
+      "readTime": "3 min read",
+      "type": "news"
     }
   ]
 }
