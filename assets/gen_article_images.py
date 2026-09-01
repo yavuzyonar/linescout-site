@@ -315,6 +315,56 @@ ICONS = {
     <path d="M-100 -100 C-140 -70 -150 -20 -120 20" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
     <path d="M100 -100 C140 -70 150 -20 120 20" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
   </g>''',
+
+    "nfl-alternate-spreads-totals-pricing": f'''
+  <!-- ladder of alternate-line rungs, one highlighted as the main line -->
+  <g transform="translate({CX-150},{CY-90})">
+    <line x1="0" y1="0" x2="300" y2="0" stroke="{NAVY}" stroke-width="2" opacity="0.35"/>
+    <line x1="40" y1="40" x2="260" y2="40" stroke="{NAVY}" stroke-width="2" opacity="0.35"/>
+    <line x1="10" y1="80" x2="290" y2="80" stroke="{TEAL}" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="150" cy="80" r="10" fill="#b8862b"/>
+    <line x1="55" y1="120" x2="245" y2="120" stroke="{NAVY}" stroke-width="2" opacity="0.35"/>
+    <line x1="20" y1="160" x2="280" y2="160" stroke="{NAVY}" stroke-width="2" opacity="0.35"/>
+    <path d="M150 -30 L150 210" stroke="{NAVY}" stroke-width="4" stroke-dasharray="2 10" opacity="0.4"/>
+  </g>''',
+
+    "blackjack-side-bets-house-edge": f'''
+  <!-- main card plus a smaller fanned side card with a percent mark -->
+  <g transform="translate({CX-40},{CY+10})">
+    <rect x="-70" y="-100" width="130" height="185" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="7"/>
+    <text x="-46" y="-58" font-family="Georgia, serif" font-size="32" fill="{NAVY}">Q</text>
+  </g>
+  <g transform="translate({CX+110},{CY+55}) rotate(18)">
+    <rect x="-46" y="-72" width="92" height="130" rx="10" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+    <circle cx="-16" cy="-30" r="9" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <circle cx="16" cy="12" r="9" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="-20" y1="18" x2="20" y2="-36" stroke="{TEAL}" stroke-width="5"/>
+  </g>''',
+
+    "ninth-circuit-kalshi-nevada-scotus": f'''
+  <!-- scale of justice with a forked path beneath, representing a circuit split -->
+  <g transform="translate({CX},{CY-30})">
+    <line x1="0" y1="-30" x2="0" y2="90" stroke="{NAVY}" stroke-width="10"/>
+    <line x1="-110" y1="-30" x2="110" y2="-30" stroke="{NAVY}" stroke-width="7"/>
+    <circle cx="0" cy="-30" r="9" fill="{NAVY}"/>
+    <path d="M-110 -30 L-145 30 A40 26 0 0 0 -75 30 Z" fill="none" stroke="{TEAL}" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M110 -30 L75 30 A40 26 0 0 0 145 30 Z" fill="none" stroke="#b8862b" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate({CX},{CY+110})" stroke="{NAVY}" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M0 -20 L0 0"/>
+    <path d="M0 0 L-55 40"/>
+    <path d="M0 0 L55 40"/>
+  </g>''',
+
+    "ontario-igaming-record-july-2026": f'''
+  <!-- ascending bar chart topped with a small maple-leaf accent mark -->
+  <g transform="translate({CX-140},{CY+70})">
+    <rect x="0" y="-50" width="42" height="50" rx="6" fill="{TEAL}" opacity="0.55"/>
+    <rect x="64" y="-85" width="42" height="85" rx="6" fill="{TEAL}" opacity="0.75"/>
+    <rect x="128" y="-125" width="42" height="125" rx="6" fill="{NAVY}"/>
+    <rect x="192" y="-170" width="42" height="170" rx="6" fill="{TEAL}"/>
+    <path d="M213 -215 l7 14 l15 2 l-11 11 l3 15 l-14 -8 l-14 8 l3 -15 l-11 -11 l15 -2 Z" fill="#b8862b"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

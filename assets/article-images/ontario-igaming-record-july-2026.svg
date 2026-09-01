@@ -1,0 +1,29 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4f3"/>
+      <stop offset="100%" stop-color="#f6faf9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,110 780,400 640,400" fill="url(#beam)"/>
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1160" cy="-30" r="140"/>
+    <circle cx="1160" cy="-30" r="240"/>
+    <circle cx="1160" cy="-30" r="340"/>
+  </g>
+  <circle cx="70" cy="60" r="7" fill="#b8862b"/>
+
+  <!-- ascending bar chart topped with a small maple-leaf accent mark -->
+  <g transform="translate(460,280)">
+    <rect x="0" y="-50" width="42" height="50" rx="6" fill="#0e7c86" opacity="0.55"/>
+    <rect x="64" y="-85" width="42" height="85" rx="6" fill="#0e7c86" opacity="0.75"/>
+    <rect x="128" y="-125" width="42" height="125" rx="6" fill="#16233d"/>
+    <rect x="192" y="-170" width="42" height="170" rx="6" fill="#0e7c86"/>
+    <path d="M213 -215 l7 14 l15 2 l-11 11 l3 15 l-14 -8 l-14 8 l3 -15 l-11 -11 l15 -2 Z" fill="#b8862b"/>
+  </g>
+</svg>
