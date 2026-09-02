@@ -1,0 +1,44 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4f3"/>
+      <stop offset="100%" stop-color="#f6faf9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,110 780,400 640,400" fill="url(#beam)"/>
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1160" cy="-30" r="140"/>
+    <circle cx="1160" cy="-30" r="240"/>
+    <circle cx="1160" cy="-30" r="340"/>
+  </g>
+  <circle cx="70" cy="60" r="7" fill="#b8862b"/>
+
+  <!-- calendar grid with one week row highlighted, plus a small football icon over that row -->
+  <g transform="translate(600,210)">
+    <rect x="-170" y="-130" width="340" height="260" rx="16" fill="#fff" stroke="#16233d" stroke-width="8"/>
+    <line x1="-170" y1="-70" x2="170" y2="-70" stroke="#16233d" stroke-width="8"/>
+    <line x1="-110" y1="-160" x2="-110" y2="-100" stroke="#16233d" stroke-width="10" stroke-linecap="round"/>
+    <line x1="110" y1="-160" x2="110" y2="-100" stroke="#16233d" stroke-width="10" stroke-linecap="round"/>
+    <!-- grid rows -->
+    <g stroke="#16233d" stroke-opacity="0.25" stroke-width="4">
+      <line x1="-170" y1="-10" x2="170" y2="-10"/>
+      <line x1="-170" y1="55" x2="170" y2="55"/>
+    </g>
+    <g stroke="#16233d" stroke-opacity="0.18" stroke-width="4">
+      <line x1="-56" y1="-70" x2="-56" y2="130"/>
+      <line x1="56" y1="-70" x2="56" y2="130"/>
+    </g>
+    <!-- highlighted bye-week cell -->
+    <rect x="-56" y="-10" width="112" height="65" fill="#0e7c86" opacity="0.85" rx="4"/>
+    <!-- small football in the highlighted cell -->
+    <g transform="translate(0,22)">
+      <ellipse cx="0" cy="0" rx="26" ry="15" fill="#f6faf9" stroke="#16233d" stroke-width="3" transform="rotate(-20)"/>
+      <line x1="-12" y1="6" x2="10" y2="-8" stroke="#16233d" stroke-width="2" transform="rotate(-20)"/>
+    </g>
+  </g>
+</svg>

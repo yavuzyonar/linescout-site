@@ -1,589 +1,625 @@
 {
-  "articles": [
-    {
-      "slug": "how-betting-odds-work",
-      "title": "How Sports Betting Odds Work: American, Decimal, and Fractional Explained",
-      "excerpt": "A plain-language walkthrough of the three odds formats you'll see at US sportsbooks, how to convert between them, and how to spot implied probability.",
-      "category": "Betting Basics",
-      "date": "2026-08-20",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "bankroll-management-basics",
-      "title": "Bankroll Management: How Much Should You Actually Bet?",
-      "excerpt": "Unit sizing, staking plans, and the money-management habits that separate sustainable bettors from everyone else.",
-      "category": "Betting Basics",
-      "date": "2026-08-20",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "bet-types-explained",
-      "title": "Moneylines, Spreads, Parlays, and Props: Every Common Bet Type Explained",
-      "excerpt": "A field guide to the bet types you'll see on any US sportsbook app, with real examples of how each one pays out.",
-      "category": "Betting Basics",
-      "date": "2026-08-20",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "responsible-gambling-guide",
-      "title": "Responsible Gambling: Warning Signs, Limits, and Where to Get Help",
-      "excerpt": "How to set deposit and time limits, recognize the warning signs of problem gambling, and find free, confidential support.",
-      "category": "Responsible Gambling",
-      "date": "2026-08-20",
-      "readTime": "6 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "sports-betting-glossary",
-      "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-      "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
-      "category": "Betting Basics",
-      "date": "2026-08-20",
-      "readTime": "10 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "house-edge-explained",
-      "title": "House Edge Explained: Which Casino Games Give the Best Odds",
-      "excerpt": "What house edge means, how it varies by game, and which casino games give players the best mathematical odds.",
-      "category": "Casino Guides",
-      "date": "2026-08-20",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "blackjack-basic-strategy",
-      "title": "Blackjack Basic Strategy: A Plain-Language Starting Guide",
-      "excerpt": "What basic strategy actually is, why it works, and how it brings blackjack's house edge down to roughly 0.5%.",
-      "category": "Casino Guides",
-      "date": "2026-08-20",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "fanatics-nfl-sportsbook-deal",
-      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
-      "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
-      "category": "Sports Betting News",
-      "date": "2026-08-20",
-      "readTime": "3 min read",
-      "type": "news"
-    },
-    {
-      "slug": "florida-sweepstakes-casino-lawsuit",
-      "title": "Florida Sues Sweepstakes Casino Giants VGW and Stake Over \"Illegal Gambling\" Claims",
-      "excerpt": "Florida's attorney general is suing VGW, Stake, and four payment processors, arguing their dual-currency sweepstakes model is illegal gambling under existing state law.",
-      "category": "Casino News",
-      "date": "2026-08-20",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-betting-guide",
-      "title": "NFL Betting Guide: Spreads, Totals, and Key Numbers Explained",
-      "excerpt": "How NFL point spreads, totals, and moneylines actually work, and why key numbers like 3 and 7 matter more in football than in any other sport.",
-      "category": "NFL",
-      "date": "2026-08-20",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nfl-player-props-explained",
-      "title": "NFL Player Props Explained: How They're Priced and What to Know Before Betting Them",
-      "excerpt": "How NFL player prop bets work, how sportsbooks price them, and what to understand before betting passing yards, receptions, or touchdown props.",
-      "category": "NFL",
-      "date": "2026-08-20",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nba-betting-guide",
-      "title": "NBA Betting Guide: Spreads, Totals, and Pace Explained",
-      "excerpt": "How NBA point spreads and totals work, why pace of play matters so much, and how a long 82-game season changes betting strategy versus the NFL.",
-      "category": "NBA",
-      "date": "2026-08-20",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nba-player-props-injuries-rest",
-      "title": "NBA Player Props: How Injuries and Rest Nights Move the Market",
-      "excerpt": "How NBA player prop bets are priced, and why injury reports, rest days, and back-to-backs move NBA lines more than in most other sports.",
-      "category": "NBA",
-      "date": "2026-08-20",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nhl-betting-guide",
-      "title": "NHL Betting Guide: Puck Lines, Totals, and Moneylines Explained",
-      "excerpt": "How NHL puck lines, totals, and moneylines work, and why moneyline betting is more common in hockey than in most other major US sports.",
-      "category": "NHL",
-      "date": "2026-08-20",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nhl-goaltending-betting",
-      "title": "NHL Betting and Goaltending: Why One Position Moves the Odds More Than Any Other Sport",
-      "excerpt": "Why the starting goaltender matters more to NHL betting lines than any single position in football, basketball, or baseball.",
-      "category": "NHL",
-      "date": "2026-08-20",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "college-football-vs-nfl-betting",
-      "title": "College Football Betting Guide: How It Differs From the NFL",
-      "excerpt": "How college football betting differs from the NFL: wider spreads, deeper schedules, ranking-driven markets, and inconsistent injury reporting.",
-      "category": "College Football",
-      "date": "2026-08-20",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "college-football-spreads-blowouts",
-      "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
-      "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
-      "category": "College Football",
-      "date": "2026-08-20",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nfl-preseason-vs-regular-season-betting",
-      "title": "Preseason vs. Regular-Season NFL Betting: What Actually Changes",
-      "excerpt": "Why NFL preseason lines behave nothing like regular-season lines, from who actually plays to how sportsbooks price games with backup quarterbacks.",
-      "category": "NFL",
-      "date": "2026-08-21",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "understanding-rtp-online-slots",
-      "title": "Understanding RTP in Online Slots: What the Percentage Really Means",
-      "excerpt": "What return to player (RTP) actually measures in online slots, how it differs from volatility and hit frequency, and how to find a game's real number.",
-      "category": "Casino Guides",
-      "date": "2026-08-21",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "kalshi-washington-state-restriction",
-      "title": "Kalshi Cuts Off Sports Event Contracts in Washington State After Court Order",
-      "excerpt": "Following a court order, Kalshi has blocked Washington residents from sports, election, and entertainment prediction contracts. Here's what happened and why it matters.",
-      "category": "Sports Betting News",
-      "date": "2026-08-21",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nj-online-casino-record-july-2026",
-      "title": "New Jersey Online Casinos Post a Record $276.9 Million in July",
-      "excerpt": "New Jersey's online casino market set an all-time monthly revenue record in July 2026, with FanDuel widening its lead over DraftKings.",
-      "category": "Casino News",
-      "date": "2026-08-21",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-teasers-crossing-3-and-7",
-      "title": "NFL Teasers: Why Crossing 3 and 7 Is the Classic Play",
-      "excerpt": "How 6-point NFL teasers work, why moving a spread across 3 and 7 is the standard play, and the math behind when a teaser actually beats two straight bets.",
-      "category": "NFL",
-      "date": "2026-08-22",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "video-poker-pay-tables-explained",
-      "title": "Video Poker Pay Tables: How One Payout Changes Your Odds",
-      "excerpt": "Why the payout for a single hand on a video poker pay table can swing the house edge by a full percentage point, using Jacks or Better as a worked example.",
-      "category": "Casino Guides",
-      "date": "2026-08-22",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "cftc-prediction-market-manipulation-hearing",
-      "title": "CFTC's First Innovation Panel Zeroes In on Prediction Market Manipulation",
-      "excerpt": "At the CFTC's first Innovation Advisory Committee meeting, executives warned about prediction market manipulation risks, citing real cases involving insiders.",
-      "category": "Sports Betting News",
-      "date": "2026-08-22",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "betmgm-awager-live-streamed-slots-nj",
-      "title": "BetMGM Brings Live-Streamed Slot Machines to New Jersey",
-      "excerpt": "Aristocrat's Awager unit has partnered with BetMGM to stream real, physical slot machines to online players in New Jersey.",
-      "category": "Casino News",
-      "date": "2026-08-22",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-totals-weather-dome-vs-outdoor",
-      "title": "How Weather and Dome vs. Outdoor Venues Move NFL Totals",
-      "excerpt": "Why wind matters more than cold, how retractable roofs add pricing uncertainty, and when weather forecasts actually start moving NFL totals.",
-      "category": "NFL",
-      "date": "2026-08-23",
-      "readTime": "10 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "slot-volatility-explained",
-      "title": "Slot Volatility Explained: Low vs. High Variance Games",
-      "excerpt": "What slot volatility actually measures, how it differs from RTP, and how to match low- or high-variance games to your bankroll and play style.",
-      "category": "Casino Guides",
-      "date": "2026-08-23",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "ryan-gold-cardinals-second-gambling-investigation",
-      "title": "Second State Now Investigating Ex-Cardinals Exec Ryan Gold",
-      "excerpt": "Massachusetts regulators have opened a second state investigation into betting patterns tied to Ryan Gold, the Cardinals scouting exec the NFL suspended.",
-      "category": "Sports Betting News",
-      "date": "2026-08-23",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "venetian-nevada-aml-fine-bowyer",
-      "title": "Venetian to Pay $7.2M Fine Over Illegal Bookmaker Ties",
-      "excerpt": "Nevada regulators approved a $7.2 million fine against the Venetian for anti-money-laundering failures tied to illegal bookmaker Mathew Bowyer.",
-      "category": "Casino News",
-      "date": "2026-08-23",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "closing-line-value-clv-explained",
-      "title": "What Is Closing Line Value (CLV) and Why Sharp Bettors Track It",
-      "excerpt": "What closing line value measures, how to calculate it with a worked example, and why sharp bettors treat it as a better long-run signal than win rate.",
-      "category": "Betting Basics",
-      "date": "2026-08-24",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "craps-basics-pass-line-odds-bets",
-      "title": "Craps Basics: Pass Line Bets, Odds Bets, and What to Avoid",
-      "excerpt": "How the pass line bet works, why the odds bet carries no house edge, and which craps table bets beginners should skip.",
-      "category": "Casino Guides",
-      "date": "2026-08-24",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "polymarket-kalshi-parlays-launch",
-      "title": "Polymarket and Kalshi Both Roll Out Parlay Features in the Same Week",
-      "excerpt": "Polymarket US fully launched parlays to regular users while Kalshi added parlay maker fees the same week, as prediction markets race toward the NFL season.",
-      "category": "Sports Betting News",
-      "date": "2026-08-24",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "revo-casino-manchester-expansion-approved",
-      "title": "Manchester Planning Board Approves Revo Casino's Major Expansion",
-      "excerpt": "Manchester's Planning Board approved a major expansion of Revo Casino, consolidating five parcels into a 73,000-square-foot gaming and entertainment site.",
-      "category": "Casino News",
-      "date": "2026-08-24",
-      "readTime": "3 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-futures-odds-pricing",
-      "title": "How NFL Futures Odds Are Priced and Why They Move All Season",
-      "excerpt": "How sportsbooks build NFL win-total and Super Bowl futures, why the vig runs higher than game lines, and how those numbers shift as a season unfolds.",
-      "category": "NFL",
-      "date": "2026-08-25",
-      "readTime": "10 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "progressive-jackpot-slots-explained",
-      "title": "Progressive Jackpot Slots: How They Work and What \"Must-Hit-By\" Means",
-      "excerpt": "How progressive slot jackpots are funded and grow, the difference between standalone, local, and wide-area progressives, and what a \"must-hit-by\" cap means.",
-      "category": "Casino Guides",
-      "date": "2026-08-25",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "nebraska-sports-betting-ballot-measure",
-      "title": "Nebraska Voters Will Decide on Online Sports Betting This November",
-      "excerpt": "Nebraska's Secretary of State certified petitions putting online sports betting on the November 2026 ballot, backed by FanDuel, DraftKings, and BetMGM.",
-      "category": "Sports Betting News",
-      "date": "2026-08-25",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "evolution-candle-lake-takeover-rejected",
-      "title": "Evolution Rejects Kenneth Dart's $13.8B Takeover Bid",
-      "excerpt": "Evolution AB's board urged shareholders to reject a $13.8 billion mandatory takeover offer from billionaire Kenneth Dart's investment vehicle, Candle Lake.",
-      "category": "Casino News",
-      "date": "2026-08-25",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "college-football-buy-games-early-season-spreads",
-      "title": "Buy Games: How Early Non-Conference Matchups Set the Tone for CFB Spreads",
-      "excerpt": "Why college football's early-season 'buy games' against overmatched opponents exist, how sportsbooks price them, and how the results shape spreads later in the year.",
-      "category": "College Football",
-      "date": "2026-08-26",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "baccarat-basics-banker-player-tie",
-      "title": "Baccarat Basics: Banker, Player, Tie, and Why the Banker Bet Is the Play",
-      "excerpt": "How baccarat's banker, player, and tie bets work, why the banker bet has the lowest house edge, and the drawing rules that decide close hands.",
-      "category": "Casino Guides",
-      "date": "2026-08-26",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "kalshi-red-sox-massachusetts-prediction-market-fight",
-      "title": "Kalshi's Red Sox Marketing Deal Collides With Its Own Massachusetts Legal Fight",
-      "excerpt": "Kalshi signed marketing deals with five MLB teams, including the Red Sox, even as it fights a Massachusetts injunction against its sports-event contracts.",
-      "category": "Sports Betting News",
-      "date": "2026-08-26",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "caesars-olympus-1-5-million-loyalty-tier",
-      "title": "Caesars Unveils \"Olympus,\" a New $1.5 Million Loyalty Tier",
-      "excerpt": "Caesars is launching an invitation-only loyalty tier requiring roughly $1.5 million in spending to unlock, the priciest publicly disclosed tier in US casino loyalty.",
-      "category": "Casino News",
-      "date": "2026-08-26",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-divisional-primetime-betting-markets",
-      "title": "NFL Divisional and Primetime Games: How Betting Markets Treat Them Differently",
-      "excerpt": "Why divisional familiarity tends to narrow NFL spreads and why national primetime audiences pull lines and totals in a predictable direction.",
-      "category": "NFL",
-      "date": "2026-08-27",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "casino-game-myths-debunked",
-      "title": "Common Casino Game Myths, Debunked",
-      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained \u2014 what's actually going on with the math behind each one.",
-      "category": "Casino Guides",
-      "date": "2026-08-27",
-      "readTime": "7 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "draftkings-predictions-ads-non-betting-states",
-      "title": "DraftKings Targets Non-Betting States With a Prediction-Markets Ad Blitz",
-      "excerpt": "DraftKings launched state-specific ads for its CFTC-registered predictions platform in California, Texas, Georgia, and Florida ahead of NFL kickoff.",
-      "category": "Sports Betting News",
-      "date": "2026-08-27",
-      "readTime": "3 min read",
-      "type": "news"
-    },
-    {
-      "slug": "silverado-casino-hotel-las-vegas-strip-proposal",
-      "title": "New \"Silverado\" Casino-Hotel Proposed Five Miles South of the Las Vegas Strip",
-      "excerpt": "A Nevada developer with no prior casino experience has proposed a 450-room casino-hotel near the Strip, headed for a September 2 zoning vote.",
-      "category": "Casino News",
-      "date": "2026-08-27",
-      "readTime": "3 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-quarterback-injury-line-movement",
-      "title": "How an NFL Spread Moves When the Starting QB Is Ruled Out",
-      "excerpt": "Why a quarterback change can swing an NFL spread several points, how the injury-report clock shapes when books actually move, and why not every backup gets priced the same.",
-      "category": "NFL",
-      "date": "2026-08-28",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "live-dealer-casino-games-explained",
-      "title": "Live Dealer Casino Games: How They Actually Work",
-      "excerpt": "How live dealer blackjack, roulette, and baccarat get from a real studio table to your screen, and what actually differs from RNG versions of the same games.",
-      "category": "Casino Guides",
-      "date": "2026-08-28",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "draftkings-fanduel-return-nfl-sportsbook-partners",
-      "title": "DraftKings, FanDuel Return as Official NFL Sportsbook Partners",
-      "excerpt": "The NFL has signed new multi-year sports betting deals with DraftKings and FanDuel alongside Fanatics, restoring both operators' league marks and event access.",
-      "category": "Sports Betting News",
-      "date": "2026-08-28",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "atlantic-city-casino-labor-deals-nyc-competition",
-      "title": "Atlantic City Casinos Wrap Up New Labor Deals as NYC Looms",
-      "excerpt": "All nine Atlantic City casinos have completed new one-year labor deals with UNITE HERE Local 54, as Resorts World NYC's revenue pace raises competitive pressure.",
-      "category": "Casino News",
-      "date": "2026-08-28",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nba-futures-championship-mvp-odds",
-      "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
-      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events \u2014 trades, injuries, streaks \u2014 that move them.",
-      "category": "NBA",
-      "date": "2026-08-29",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "roulette-basics-american-european-wheels",
-      "title": "Roulette Basics: American vs. European Wheels and Bet Types",
-      "excerpt": "Why a single extra pocket on an American wheel nearly doubles roulette's house edge, plus the inside and outside bets worth knowing before you sit down.",
-      "category": "Casino Guides",
-      "date": "2026-08-29",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "caesars-sportsbook-nj-responsible-gaming-fine",
-      "title": "Caesars Sportsbook Fined $251K in New Jersey Over Self-Exclusion Failures",
-      "excerpt": "New Jersey's gaming regulator hit Caesars Sportsbook with a combined $296,715 in penalties for failing to block self-excluded bettors and related advertising violations.",
-      "category": "Sports Betting News",
-      "date": "2026-08-29",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "northstar-gaming-agco-aml-fine-ontario",
-      "title": "Ontario Fines NorthStar Gaming CA$100K Over Anti-Money-Laundering Failures",
-      "excerpt": "Ontario's AGCO fined online casino operator NorthStar Gaming for missing anti-money-laundering red flags on a high-risk player over a 15-month span.",
-      "category": "Casino News",
-      "date": "2026-08-29",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-week-1-odds-no-current-season-data",
-      "title": "How NFL Week 1 Odds Get Set With No Current-Season Data",
-      "excerpt": "With the 2026 season about to open, here is how books price Week 1 games using preseason snaps, roster changes, and prior-year data instead of live results.",
-      "category": "NFL",
-      "date": "2026-08-30",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "casino-vs-sports-betting-bankroll-management",
-      "title": "Casino Bankroll Management vs. Sports Betting: What Changes",
-      "excerpt": "Why sizing your bets for slots, blackjack, or roulette calls for a different approach than sizing a sports bet, and how to build a bankroll plan for each.",
-      "category": "Casino Guides",
-      "date": "2026-08-30",
-      "readTime": "10 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "connecticut-sues-kalshi-illegal-sports-betting",
-      "title": "Connecticut Sues Kalshi, Calls Its Sports Contracts Illegal Betting",
-      "excerpt": "Connecticut's attorney general sued Kalshi, arguing its sports event contracts are unlicensed sports betting that skips the state's consumer protections.",
-      "category": "Sports Betting News",
-      "date": "2026-08-30",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "betrivers-gateway-casinos-alberta-partnership",
-      "title": "BetRivers and Gateway Casinos Link Up in Alberta's New iGaming Market",
-      "excerpt": "BetRivers is partnering with Gateway Casinos' two Edmonton properties, bridging online and land-based play weeks after Alberta opened its iGaming market.",
-      "category": "Casino News",
-      "date": "2026-08-30",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nhl-futures-stanley-cup-division-odds",
-      "title": "NHL Futures: How Stanley Cup and Division Odds Move Across a Season",
-      "excerpt": "How sportsbooks build Stanley Cup and division-winner odds before puck drop, and what actually moves those numbers between October and June.",
-      "category": "NHL",
-      "date": "2026-08-31",
-      "readTime": "9 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "casino-bonus-wagering-requirements-explained",
-      "title": "Casino Bonus Wagering Requirements Explained",
-      "excerpt": "What a wagering requirement actually means, how playthrough is calculated, and why the fine print matters more than the headline bonus number.",
-      "category": "Casino Guides",
-      "date": "2026-08-31",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "bet365-west-virginia-launch",
-      "title": "bet365 Launches Sportsbook and Casino in West Virginia",
-      "excerpt": "bet365 is now live with online sports betting and iGaming in West Virginia, its 18th US state, timed to the college football and NFL season openers.",
-      "category": "Sports Betting News",
-      "date": "2026-08-31",
-      "readTime": "3 min read",
-      "type": "news"
-    },
-    {
-      "slug": "caesars-fertitta-buyout-shareholder-vote",
-      "title": "Caesars Sets September 22 Shareholder Vote on $17.6B Fertitta Buyout",
-      "excerpt": "Caesars Entertainment shareholders will vote September 22 on Tilman Fertitta's $17.6 billion, $31-a-share deal to take the casino giant private.",
-      "category": "Casino News",
-      "date": "2026-08-31",
-      "readTime": "3 min read",
-      "type": "news"
-    },
-    {
-      "slug": "nfl-alternate-spreads-totals-pricing",
-      "title": "NFL Alternate Spreads and Totals: How Sportsbooks Price Them Off the Main Line",
-      "excerpt": "How NFL alternate spreads and totals are priced off the main line, why moving across a key number costs more than other points, and when buying one pays off.",
-      "category": "NFL",
-      "date": "2026-09-01",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "blackjack-side-bets-house-edge",
-      "title": "Blackjack Side Bets Explained: Why Perfect Pairs and 21+3 Carry a Much Higher House Edge",
-      "excerpt": "How blackjack side bets like Perfect Pairs and 21+3 work, why their house edge runs several times higher than the main hand's, and when one is ever worth it.",
-      "category": "Casino Guides",
-      "date": "2026-09-01",
-      "readTime": "8 min read",
-      "type": "evergreen"
-    },
-    {
-      "slug": "ninth-circuit-kalshi-nevada-scotus",
-      "title": "Ninth Circuit Rules Against Kalshi in Nevada, Setting Up Likely Supreme Court Fight",
-      "excerpt": "A Ninth Circuit panel ruled Nevada can regulate Kalshi's sports event contracts as gambling, splitting with a Third Circuit ruling and teeing up a Supreme Court fight.",
-      "category": "Sports Betting News",
-      "date": "2026-09-01",
-      "readTime": "4 min read",
-      "type": "news"
-    },
-    {
-      "slug": "ontario-igaming-record-july-2026",
-      "title": "Ontario's Online Gambling Market Hits a Record CA$9.9 Billion in Wagers for July",
-      "excerpt": "Ontario's regulated iGaming market posted a record CA$9.88 billion in wagers and CA$413.6 million in revenue for July 2026, led by online casino growth.",
-      "category": "Casino News",
-      "date": "2026-09-01",
-      "readTime": "4 min read",
-      "type": "news"
-    }
-  ]
+    "articles": [
+        {
+            "slug": "how-betting-odds-work",
+            "title": "How Sports Betting Odds Work: American, Decimal, and Fractional Explained",
+            "excerpt": "A plain-language walkthrough of the three odds formats you'll see at US sportsbooks, how to convert between them, and how to spot implied probability.",
+            "category": "Betting Basics",
+            "date": "2026-08-20",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "bankroll-management-basics",
+            "title": "Bankroll Management: How Much Should You Actually Bet?",
+            "excerpt": "Unit sizing, staking plans, and the money-management habits that separate sustainable bettors from everyone else.",
+            "category": "Betting Basics",
+            "date": "2026-08-20",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "bet-types-explained",
+            "title": "Moneylines, Spreads, Parlays, and Props: Every Common Bet Type Explained",
+            "excerpt": "A field guide to the bet types you'll see on any US sportsbook app, with real examples of how each one pays out.",
+            "category": "Betting Basics",
+            "date": "2026-08-20",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "responsible-gambling-guide",
+            "title": "Responsible Gambling: Warning Signs, Limits, and Where to Get Help",
+            "excerpt": "How to set deposit and time limits, recognize the warning signs of problem gambling, and find free, confidential support.",
+            "category": "Responsible Gambling",
+            "date": "2026-08-20",
+            "readTime": "6 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "sports-betting-glossary",
+            "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
+            "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
+            "category": "Betting Basics",
+            "date": "2026-08-20",
+            "readTime": "10 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "house-edge-explained",
+            "title": "House Edge Explained: Which Casino Games Give the Best Odds",
+            "excerpt": "What house edge means, how it varies by game, and which casino games give players the best mathematical odds.",
+            "category": "Casino Guides",
+            "date": "2026-08-20",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "blackjack-basic-strategy",
+            "title": "Blackjack Basic Strategy: A Plain-Language Starting Guide",
+            "excerpt": "What basic strategy actually is, why it works, and how it brings blackjack's house edge down to roughly 0.5%.",
+            "category": "Casino Guides",
+            "date": "2026-08-20",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "fanatics-nfl-sportsbook-deal",
+            "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
+            "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
+            "category": "Sports Betting News",
+            "date": "2026-08-20",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "florida-sweepstakes-casino-lawsuit",
+            "title": "Florida Sues Sweepstakes Casino Giants VGW and Stake Over \"Illegal Gambling\" Claims",
+            "excerpt": "Florida's attorney general is suing VGW, Stake, and four payment processors, arguing their dual-currency sweepstakes model is illegal gambling under existing state law.",
+            "category": "Casino News",
+            "date": "2026-08-20",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-betting-guide",
+            "title": "NFL Betting Guide: Spreads, Totals, and Key Numbers Explained",
+            "excerpt": "How NFL point spreads, totals, and moneylines actually work, and why key numbers like 3 and 7 matter more in football than in any other sport.",
+            "category": "NFL",
+            "date": "2026-08-20",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nfl-player-props-explained",
+            "title": "NFL Player Props Explained: How They're Priced and What to Know Before Betting Them",
+            "excerpt": "How NFL player prop bets work, how sportsbooks price them, and what to understand before betting passing yards, receptions, or touchdown props.",
+            "category": "NFL",
+            "date": "2026-08-20",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nba-betting-guide",
+            "title": "NBA Betting Guide: Spreads, Totals, and Pace Explained",
+            "excerpt": "How NBA point spreads and totals work, why pace of play matters so much, and how a long 82-game season changes betting strategy versus the NFL.",
+            "category": "NBA",
+            "date": "2026-08-20",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nba-player-props-injuries-rest",
+            "title": "NBA Player Props: How Injuries and Rest Nights Move the Market",
+            "excerpt": "How NBA player prop bets are priced, and why injury reports, rest days, and back-to-backs move NBA lines more than in most other sports.",
+            "category": "NBA",
+            "date": "2026-08-20",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nhl-betting-guide",
+            "title": "NHL Betting Guide: Puck Lines, Totals, and Moneylines Explained",
+            "excerpt": "How NHL puck lines, totals, and moneylines work, and why moneyline betting is more common in hockey than in most other major US sports.",
+            "category": "NHL",
+            "date": "2026-08-20",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nhl-goaltending-betting",
+            "title": "NHL Betting and Goaltending: Why One Position Moves the Odds More Than Any Other Sport",
+            "excerpt": "Why the starting goaltender matters more to NHL betting lines than any single position in football, basketball, or baseball.",
+            "category": "NHL",
+            "date": "2026-08-20",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "college-football-vs-nfl-betting",
+            "title": "College Football Betting Guide: How It Differs From the NFL",
+            "excerpt": "How college football betting differs from the NFL: wider spreads, deeper schedules, ranking-driven markets, and inconsistent injury reporting.",
+            "category": "College Football",
+            "date": "2026-08-20",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "college-football-spreads-blowouts",
+            "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
+            "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
+            "category": "College Football",
+            "date": "2026-08-20",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nfl-preseason-vs-regular-season-betting",
+            "title": "Preseason vs. Regular-Season NFL Betting: What Actually Changes",
+            "excerpt": "Why NFL preseason lines behave nothing like regular-season lines, from who actually plays to how sportsbooks price games with backup quarterbacks.",
+            "category": "NFL",
+            "date": "2026-08-21",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "understanding-rtp-online-slots",
+            "title": "Understanding RTP in Online Slots: What the Percentage Really Means",
+            "excerpt": "What return to player (RTP) actually measures in online slots, how it differs from volatility and hit frequency, and how to find a game's real number.",
+            "category": "Casino Guides",
+            "date": "2026-08-21",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "kalshi-washington-state-restriction",
+            "title": "Kalshi Cuts Off Sports Event Contracts in Washington State After Court Order",
+            "excerpt": "Following a court order, Kalshi has blocked Washington residents from sports, election, and entertainment prediction contracts. Here's what happened and why it matters.",
+            "category": "Sports Betting News",
+            "date": "2026-08-21",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nj-online-casino-record-july-2026",
+            "title": "New Jersey Online Casinos Post a Record $276.9 Million in July",
+            "excerpt": "New Jersey's online casino market set an all-time monthly revenue record in July 2026, with FanDuel widening its lead over DraftKings.",
+            "category": "Casino News",
+            "date": "2026-08-21",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-teasers-crossing-3-and-7",
+            "title": "NFL Teasers: Why Crossing 3 and 7 Is the Classic Play",
+            "excerpt": "How 6-point NFL teasers work, why moving a spread across 3 and 7 is the standard play, and the math behind when a teaser actually beats two straight bets.",
+            "category": "NFL",
+            "date": "2026-08-22",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "video-poker-pay-tables-explained",
+            "title": "Video Poker Pay Tables: How One Payout Changes Your Odds",
+            "excerpt": "Why the payout for a single hand on a video poker pay table can swing the house edge by a full percentage point, using Jacks or Better as a worked example.",
+            "category": "Casino Guides",
+            "date": "2026-08-22",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "cftc-prediction-market-manipulation-hearing",
+            "title": "CFTC's First Innovation Panel Zeroes In on Prediction Market Manipulation",
+            "excerpt": "At the CFTC's first Innovation Advisory Committee meeting, executives warned about prediction market manipulation risks, citing real cases involving insiders.",
+            "category": "Sports Betting News",
+            "date": "2026-08-22",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "betmgm-awager-live-streamed-slots-nj",
+            "title": "BetMGM Brings Live-Streamed Slot Machines to New Jersey",
+            "excerpt": "Aristocrat's Awager unit has partnered with BetMGM to stream real, physical slot machines to online players in New Jersey.",
+            "category": "Casino News",
+            "date": "2026-08-22",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-totals-weather-dome-vs-outdoor",
+            "title": "How Weather and Dome vs. Outdoor Venues Move NFL Totals",
+            "excerpt": "Why wind matters more than cold, how retractable roofs add pricing uncertainty, and when weather forecasts actually start moving NFL totals.",
+            "category": "NFL",
+            "date": "2026-08-23",
+            "readTime": "10 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "slot-volatility-explained",
+            "title": "Slot Volatility Explained: Low vs. High Variance Games",
+            "excerpt": "What slot volatility actually measures, how it differs from RTP, and how to match low- or high-variance games to your bankroll and play style.",
+            "category": "Casino Guides",
+            "date": "2026-08-23",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "ryan-gold-cardinals-second-gambling-investigation",
+            "title": "Second State Now Investigating Ex-Cardinals Exec Ryan Gold",
+            "excerpt": "Massachusetts regulators have opened a second state investigation into betting patterns tied to Ryan Gold, the Cardinals scouting exec the NFL suspended.",
+            "category": "Sports Betting News",
+            "date": "2026-08-23",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "venetian-nevada-aml-fine-bowyer",
+            "title": "Venetian to Pay $7.2M Fine Over Illegal Bookmaker Ties",
+            "excerpt": "Nevada regulators approved a $7.2 million fine against the Venetian for anti-money-laundering failures tied to illegal bookmaker Mathew Bowyer.",
+            "category": "Casino News",
+            "date": "2026-08-23",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "closing-line-value-clv-explained",
+            "title": "What Is Closing Line Value (CLV) and Why Sharp Bettors Track It",
+            "excerpt": "What closing line value measures, how to calculate it with a worked example, and why sharp bettors treat it as a better long-run signal than win rate.",
+            "category": "Betting Basics",
+            "date": "2026-08-24",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "craps-basics-pass-line-odds-bets",
+            "title": "Craps Basics: Pass Line Bets, Odds Bets, and What to Avoid",
+            "excerpt": "How the pass line bet works, why the odds bet carries no house edge, and which craps table bets beginners should skip.",
+            "category": "Casino Guides",
+            "date": "2026-08-24",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "polymarket-kalshi-parlays-launch",
+            "title": "Polymarket and Kalshi Both Roll Out Parlay Features in the Same Week",
+            "excerpt": "Polymarket US fully launched parlays to regular users while Kalshi added parlay maker fees the same week, as prediction markets race toward the NFL season.",
+            "category": "Sports Betting News",
+            "date": "2026-08-24",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "revo-casino-manchester-expansion-approved",
+            "title": "Manchester Planning Board Approves Revo Casino's Major Expansion",
+            "excerpt": "Manchester's Planning Board approved a major expansion of Revo Casino, consolidating five parcels into a 73,000-square-foot gaming and entertainment site.",
+            "category": "Casino News",
+            "date": "2026-08-24",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-futures-odds-pricing",
+            "title": "How NFL Futures Odds Are Priced and Why They Move All Season",
+            "excerpt": "How sportsbooks build NFL win-total and Super Bowl futures, why the vig runs higher than game lines, and how those numbers shift as a season unfolds.",
+            "category": "NFL",
+            "date": "2026-08-25",
+            "readTime": "10 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "progressive-jackpot-slots-explained",
+            "title": "Progressive Jackpot Slots: How They Work and What \"Must-Hit-By\" Means",
+            "excerpt": "How progressive slot jackpots are funded and grow, the difference between standalone, local, and wide-area progressives, and what a \"must-hit-by\" cap means.",
+            "category": "Casino Guides",
+            "date": "2026-08-25",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nebraska-sports-betting-ballot-measure",
+            "title": "Nebraska Voters Will Decide on Online Sports Betting This November",
+            "excerpt": "Nebraska's Secretary of State certified petitions putting online sports betting on the November 2026 ballot, backed by FanDuel, DraftKings, and BetMGM.",
+            "category": "Sports Betting News",
+            "date": "2026-08-25",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "evolution-candle-lake-takeover-rejected",
+            "title": "Evolution Rejects Kenneth Dart's $13.8B Takeover Bid",
+            "excerpt": "Evolution AB's board urged shareholders to reject a $13.8 billion mandatory takeover offer from billionaire Kenneth Dart's investment vehicle, Candle Lake.",
+            "category": "Casino News",
+            "date": "2026-08-25",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "college-football-buy-games-early-season-spreads",
+            "title": "Buy Games: How Early Non-Conference Matchups Set the Tone for CFB Spreads",
+            "excerpt": "Why college football's early-season 'buy games' against overmatched opponents exist, how sportsbooks price them, and how the results shape spreads later in the year.",
+            "category": "College Football",
+            "date": "2026-08-26",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "baccarat-basics-banker-player-tie",
+            "title": "Baccarat Basics: Banker, Player, Tie, and Why the Banker Bet Is the Play",
+            "excerpt": "How baccarat's banker, player, and tie bets work, why the banker bet has the lowest house edge, and the drawing rules that decide close hands.",
+            "category": "Casino Guides",
+            "date": "2026-08-26",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "kalshi-red-sox-massachusetts-prediction-market-fight",
+            "title": "Kalshi's Red Sox Marketing Deal Collides With Its Own Massachusetts Legal Fight",
+            "excerpt": "Kalshi signed marketing deals with five MLB teams, including the Red Sox, even as it fights a Massachusetts injunction against its sports-event contracts.",
+            "category": "Sports Betting News",
+            "date": "2026-08-26",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "caesars-olympus-1-5-million-loyalty-tier",
+            "title": "Caesars Unveils \"Olympus,\" a New $1.5 Million Loyalty Tier",
+            "excerpt": "Caesars is launching an invitation-only loyalty tier requiring roughly $1.5 million in spending to unlock, the priciest publicly disclosed tier in US casino loyalty.",
+            "category": "Casino News",
+            "date": "2026-08-26",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-divisional-primetime-betting-markets",
+            "title": "NFL Divisional and Primetime Games: How Betting Markets Treat Them Differently",
+            "excerpt": "Why divisional familiarity tends to narrow NFL spreads and why national primetime audiences pull lines and totals in a predictable direction.",
+            "category": "NFL",
+            "date": "2026-08-27",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "casino-game-myths-debunked",
+            "title": "Common Casino Game Myths, Debunked",
+            "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained — what's actually going on with the math behind each one.",
+            "category": "Casino Guides",
+            "date": "2026-08-27",
+            "readTime": "7 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "draftkings-predictions-ads-non-betting-states",
+            "title": "DraftKings Targets Non-Betting States With a Prediction-Markets Ad Blitz",
+            "excerpt": "DraftKings launched state-specific ads for its CFTC-registered predictions platform in California, Texas, Georgia, and Florida ahead of NFL kickoff.",
+            "category": "Sports Betting News",
+            "date": "2026-08-27",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "silverado-casino-hotel-las-vegas-strip-proposal",
+            "title": "New \"Silverado\" Casino-Hotel Proposed Five Miles South of the Las Vegas Strip",
+            "excerpt": "A Nevada developer with no prior casino experience has proposed a 450-room casino-hotel near the Strip, headed for a September 2 zoning vote.",
+            "category": "Casino News",
+            "date": "2026-08-27",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-quarterback-injury-line-movement",
+            "title": "How an NFL Spread Moves When the Starting QB Is Ruled Out",
+            "excerpt": "Why a quarterback change can swing an NFL spread several points, how the injury-report clock shapes when books actually move, and why not every backup gets priced the same.",
+            "category": "NFL",
+            "date": "2026-08-28",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "live-dealer-casino-games-explained",
+            "title": "Live Dealer Casino Games: How They Actually Work",
+            "excerpt": "How live dealer blackjack, roulette, and baccarat get from a real studio table to your screen, and what actually differs from RNG versions of the same games.",
+            "category": "Casino Guides",
+            "date": "2026-08-28",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "draftkings-fanduel-return-nfl-sportsbook-partners",
+            "title": "DraftKings, FanDuel Return as Official NFL Sportsbook Partners",
+            "excerpt": "The NFL has signed new multi-year sports betting deals with DraftKings and FanDuel alongside Fanatics, restoring both operators' league marks and event access.",
+            "category": "Sports Betting News",
+            "date": "2026-08-28",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "atlantic-city-casino-labor-deals-nyc-competition",
+            "title": "Atlantic City Casinos Wrap Up New Labor Deals as NYC Looms",
+            "excerpt": "All nine Atlantic City casinos have completed new one-year labor deals with UNITE HERE Local 54, as Resorts World NYC's revenue pace raises competitive pressure.",
+            "category": "Casino News",
+            "date": "2026-08-28",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nba-futures-championship-mvp-odds",
+            "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
+            "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
+            "category": "NBA",
+            "date": "2026-08-29",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "roulette-basics-american-european-wheels",
+            "title": "Roulette Basics: American vs. European Wheels and Bet Types",
+            "excerpt": "Why a single extra pocket on an American wheel nearly doubles roulette's house edge, plus the inside and outside bets worth knowing before you sit down.",
+            "category": "Casino Guides",
+            "date": "2026-08-29",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "caesars-sportsbook-nj-responsible-gaming-fine",
+            "title": "Caesars Sportsbook Fined $251K in New Jersey Over Self-Exclusion Failures",
+            "excerpt": "New Jersey's gaming regulator hit Caesars Sportsbook with a combined $296,715 in penalties for failing to block self-excluded bettors and related advertising violations.",
+            "category": "Sports Betting News",
+            "date": "2026-08-29",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "northstar-gaming-agco-aml-fine-ontario",
+            "title": "Ontario Fines NorthStar Gaming CA$100K Over Anti-Money-Laundering Failures",
+            "excerpt": "Ontario's AGCO fined online casino operator NorthStar Gaming for missing anti-money-laundering red flags on a high-risk player over a 15-month span.",
+            "category": "Casino News",
+            "date": "2026-08-29",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-week-1-odds-no-current-season-data",
+            "title": "How NFL Week 1 Odds Get Set With No Current-Season Data",
+            "excerpt": "With the 2026 season about to open, here is how books price Week 1 games using preseason snaps, roster changes, and prior-year data instead of live results.",
+            "category": "NFL",
+            "date": "2026-08-30",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "casino-vs-sports-betting-bankroll-management",
+            "title": "Casino Bankroll Management vs. Sports Betting: What Changes",
+            "excerpt": "Why sizing your bets for slots, blackjack, or roulette calls for a different approach than sizing a sports bet, and how to build a bankroll plan for each.",
+            "category": "Casino Guides",
+            "date": "2026-08-30",
+            "readTime": "10 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "connecticut-sues-kalshi-illegal-sports-betting",
+            "title": "Connecticut Sues Kalshi, Calls Its Sports Contracts Illegal Betting",
+            "excerpt": "Connecticut's attorney general sued Kalshi, arguing its sports event contracts are unlicensed sports betting that skips the state's consumer protections.",
+            "category": "Sports Betting News",
+            "date": "2026-08-30",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "betrivers-gateway-casinos-alberta-partnership",
+            "title": "BetRivers and Gateway Casinos Link Up in Alberta's New iGaming Market",
+            "excerpt": "BetRivers is partnering with Gateway Casinos' two Edmonton properties, bridging online and land-based play weeks after Alberta opened its iGaming market.",
+            "category": "Casino News",
+            "date": "2026-08-30",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nhl-futures-stanley-cup-division-odds",
+            "title": "NHL Futures: How Stanley Cup and Division Odds Move Across a Season",
+            "excerpt": "How sportsbooks build Stanley Cup and division-winner odds before puck drop, and what actually moves those numbers between October and June.",
+            "category": "NHL",
+            "date": "2026-08-31",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "casino-bonus-wagering-requirements-explained",
+            "title": "Casino Bonus Wagering Requirements Explained",
+            "excerpt": "What a wagering requirement actually means, how playthrough is calculated, and why the fine print matters more than the headline bonus number.",
+            "category": "Casino Guides",
+            "date": "2026-08-31",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "bet365-west-virginia-launch",
+            "title": "bet365 Launches Sportsbook and Casino in West Virginia",
+            "excerpt": "bet365 is now live with online sports betting and iGaming in West Virginia, its 18th US state, timed to the college football and NFL season openers.",
+            "category": "Sports Betting News",
+            "date": "2026-08-31",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "caesars-fertitta-buyout-shareholder-vote",
+            "title": "Caesars Sets September 22 Shareholder Vote on $17.6B Fertitta Buyout",
+            "excerpt": "Caesars Entertainment shareholders will vote September 22 on Tilman Fertitta's $17.6 billion, $31-a-share deal to take the casino giant private.",
+            "category": "Casino News",
+            "date": "2026-08-31",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-alternate-spreads-totals-pricing",
+            "title": "NFL Alternate Spreads and Totals: How Sportsbooks Price Them Off the Main Line",
+            "excerpt": "How NFL alternate spreads and totals are priced off the main line, why moving across a key number costs more than other points, and when buying one pays off.",
+            "category": "NFL",
+            "date": "2026-09-01",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "blackjack-side-bets-house-edge",
+            "title": "Blackjack Side Bets Explained: Why Perfect Pairs and 21+3 Carry a Much Higher House Edge",
+            "excerpt": "How blackjack side bets like Perfect Pairs and 21+3 work, why their house edge runs several times higher than the main hand's, and when one is ever worth it.",
+            "category": "Casino Guides",
+            "date": "2026-09-01",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "ninth-circuit-kalshi-nevada-scotus",
+            "title": "Ninth Circuit Rules Against Kalshi in Nevada, Setting Up Likely Supreme Court Fight",
+            "excerpt": "A Ninth Circuit panel ruled Nevada can regulate Kalshi's sports event contracts as gambling, splitting with a Third Circuit ruling and teeing up a Supreme Court fight.",
+            "category": "Sports Betting News",
+            "date": "2026-09-01",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "ontario-igaming-record-july-2026",
+            "title": "Ontario's Online Gambling Market Hits a Record CA$9.9 Billion in Wagers for July",
+            "excerpt": "Ontario's regulated iGaming market posted a record CA$9.88 billion in wagers and CA$413.6 million in revenue for July 2026, led by online casino growth.",
+            "category": "Casino News",
+            "date": "2026-09-01",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "nfl-bye-week-betting-impact",
+            "title": "How Bye Weeks Affect NFL Betting Lines Before and After",
+            "excerpt": "Why the week before and after an NFL bye moves differently than a normal week, how the market has adjusted to the old rest narrative, and where a real edge might still hide.",
+            "category": "NFL",
+            "date": "2026-09-02",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "blackjack-table-rules-house-edge-impact",
+            "title": "Blackjack Table Rules That Quietly Change the House Edge",
+            "excerpt": "How dealer soft-17 rules, deck count, doubling restrictions, and surrender each shift blackjack's house edge, with approximate figures for each variation.",
+            "category": "Casino Guides",
+            "date": "2026-09-02",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "draftkings-gameday-nfl-season-campaign",
+            "title": "DraftKings Launches Nationwide \"Gameday\" Push Ahead of NFL Kickoff",
+            "excerpt": "DraftKings kicked off the NFL season with a nationwide Gameday promotion spanning sportsbook, predictions, and casino, plus a notable download stat versus FanDuel.",
+            "category": "Sports Betting News",
+            "date": "2026-09-02",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "choctaw-pga-championship-casino-partner",
+            "title": "Choctaw Casinos Named PGA Championship's First-Ever Official Casino",
+            "excerpt": "Choctaw Casinos & Resorts becomes the PGA Championship's first Official Casino Resort partner in the tournament's 111-year history, ahead of the 2027 event in Texas.",
+            "category": "Casino News",
+            "date": "2026-09-02",
+            "readTime": "3 min read",
+            "type": "news"
+        }
+    ]
 }
