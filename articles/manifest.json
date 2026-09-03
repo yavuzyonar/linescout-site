@@ -1,6 +1,33 @@
 {
     "articles": [
         {
+            "slug": "nfl-short-week-thursday-spread",
+            "title": "Short-Week NFL Games: How Thursday Kickoffs Move the Spread",
+            "excerpt": "Why playing on four days' rest instead of six creates a real prep gap, and how sportsbooks price a short week differently than a standard bye.",
+            "category": "NFL",
+            "date": "2026-09-03",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "slot-autoplay-spin-speed-losses-per-hour",
+            "title": "How Spin Speed Changes Your Losses Per Hour in Slots",
+            "excerpt": "RTP sets the payback rate, but spin speed decides how many bets you place per hour. Why autoplay and quick-spin settings change your real losses.",
+            "category": "Casino Guides",
+            "date": "2026-09-03",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "kalshi-ceo-cftc-rule-nba-deal",
+            "title": "Kalshi CEO: New CFTC Rule, Major League Deal Coming",
+            "excerpt": "Kalshi's CEO says a CFTC rule on sports-event contracts and a deal with the NBA or NFL are both coming soon, as the company faces a Ninth Circuit setback in Nevada.",
+            "category": "Sports Betting News",
+            "date": "2026-09-03",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "how-betting-odds-work",
             "title": "How Sports Betting Odds Work: American, Decimal, and Fractional Explained",
             "excerpt": "A plain-language walkthrough of the three odds formats you'll see at US sportsbooks, how to convert between them, and how to spot implied probability.",
@@ -39,7 +66,7 @@
         {
             "slug": "sports-betting-glossary",
             "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-            "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
+            "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
             "category": "Betting Basics",
             "date": "2026-08-20",
             "readTime": "10 min read",
@@ -65,7 +92,7 @@
         },
         {
             "slug": "fanatics-nfl-sportsbook-deal",
-            "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
+            "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
             "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
             "category": "Sports Betting News",
             "date": "2026-08-20",
@@ -146,7 +173,7 @@
         },
         {
             "slug": "college-football-spreads-blowouts",
-            "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
+            "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
             "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
             "category": "College Football",
             "date": "2026-08-20",
@@ -381,7 +408,7 @@
         {
             "slug": "casino-game-myths-debunked",
             "title": "Common Casino Game Myths, Debunked",
-            "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained — what's actually going on with the math behind each one.",
+            "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained \u2014 what's actually going on with the math behind each one.",
             "category": "Casino Guides",
             "date": "2026-08-27",
             "readTime": "7 min read",
@@ -444,7 +471,7 @@
         {
             "slug": "nba-futures-championship-mvp-odds",
             "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
-            "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
+            "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events \u2014 trades, injuries, streaks \u2014 that move them.",
             "category": "NBA",
             "date": "2026-08-29",
             "readTime": "9 min read",
