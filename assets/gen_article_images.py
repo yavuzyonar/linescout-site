@@ -365,6 +365,65 @@ ICONS = {
     <rect x="192" y="-170" width="42" height="170" rx="6" fill="{TEAL}"/>
     <path d="M213 -215 l7 14 l15 2 l-11 11 l3 15 l-14 -8 l-14 8 l3 -15 l-11 -11 l15 -2 Z" fill="#b8862b"/>
   </g>''',
+    "nba-home-road-back-to-back-scheduling": f'''
+  <!-- basketball beside a travel/calendar rest icon -->
+  <g transform="translate({CX-90},{CY})">
+    <circle cx="0" cy="0" r="95" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-95" y1="0" x2="95" y2="0" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="0" y1="-95" x2="0" y2="95" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M-67 -67 A95 95 0 0 1 67 67" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M-67 67 A95 95 0 0 1 67 -67" fill="none" stroke="{TEAL}" stroke-width="5"/>
+  </g>
+  <g transform="translate({CX+130},{CY-30})">
+    <rect x="-55" y="-40" width="110" height="100" rx="10" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-55" y1="-14" x2="55" y2="-14" stroke="{NAVY}" stroke-width="6"/>
+    <line x1="-28" y1="-52" x2="-28" y2="-28" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
+    <line x1="28" y1="-52" x2="28" y2="-28" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-16" cy="16" r="7" fill="{TEAL}"/>
+    <circle cx="16" cy="16" r="7" fill="{TEAL}" opacity="0.4"/>
+    <circle cx="-16" cy="40" r="7" fill="{TEAL}" opacity="0.4"/>
+  </g>''',
+
+    "slot-hit-frequency-vs-rtp": f'''
+  <!-- slot reel beside a percentage gauge -->
+  <g transform="translate({CX-100},{CY})">
+    <rect x="-70" y="-90" width="140" height="180" rx="14" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-23" y1="-90" x2="-23" y2="90" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+    <line x1="23" y1="-90" x2="23" y2="90" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+    <circle cx="-46" cy="-30" r="14" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M-9 -45 L9 -15 M9 -45 L-9 -15" stroke="{TEAL}" stroke-width="5" stroke-linecap="round"/>
+    <path d="M35 -45 L58 15" stroke="{TEAL}" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="35" cy="-45" r="7" fill="{TEAL}"/>
+    <circle cx="58" cy="15" r="7" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+130},{CY+15})">
+    <path d="M -70 15 A 70 70 0 0 1 70 15" fill="none" stroke="{NAVY}" stroke-width="12" stroke-linecap="round"/>
+    <path d="M -70 15 A 70 70 0 0 1 -5 -69" fill="none" stroke="#b8862b" stroke-width="12" stroke-linecap="round"/>
+  </g>''',
+
+    "fanduel-vip-program-congressional-inquiry": f'''
+  <!-- document with magnifying glass, congressional inquiry -->
+  <g transform="translate({CX-20},{CY})">
+    <rect x="-120" y="-110" width="150" height="200" rx="10" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-95" y1="-70" x2="-5" y2="-70" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-95" y1="-35" x2="-5" y2="-35" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-95" y1="0" x2="-30" y2="0" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <circle cx="70" cy="60" r="60" fill="none" stroke="{TEAL}" stroke-width="10"/>
+    <line x1="113" y1="103" x2="160" y2="150" stroke="{TEAL}" stroke-width="12" stroke-linecap="round"/>
+  </g>''',
+
+    "maverick-gaming-tukwila-casino-closures": f'''
+  <!-- building outline with a closed sign -->
+  <g transform="translate({CX},{CY+10})">
+    <path d="M-110 90 L-110 -20 L0 -95 L110 -20 L110 90 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-110" y1="90" x2="110" y2="90" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-40" y="10" width="80" height="80" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-40" y1="50" x2="40" y2="50" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
+    <g transform="translate(55,-55) rotate(-18)">
+      <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#b8862b"/>
+      <line x1="-45" y1="0" x2="45" y2="0" stroke="{NAVY}" stroke-width="3" opacity="0.5"/>
+    </g>
+  </g>''',
 }
 
 if __name__ == "__main__":

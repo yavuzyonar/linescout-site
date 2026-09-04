@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "nba-home-road-back-to-back-scheduling",
+            "title": "How Back-to-Backs and Home/Road Splits Move NBA Lines",
+            "excerpt": "Why home-court advantage isn't a flat number, and how back-to-backs, long road trips, and altitude change it from game to game.",
+            "category": "NBA",
+            "date": "2026-09-04",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "slot-hit-frequency-vs-rtp",
+            "title": "Hit Frequency vs. RTP: Why Same-Payback Slots Feel Different",
+            "excerpt": "RTP sets the long-run payback rate. Hit frequency decides how often a spin pays anything at all — and why two 96% slots can feel opposite.",
+            "category": "Casino Guides",
+            "date": "2026-09-04",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "fanduel-vip-program-congressional-inquiry",
+            "title": "Congress Presses FanDuel Again Over VIP Program",
+            "excerpt": "Three Democratic lawmakers sent FanDuel a follow-up letter demanding more detail on its VIP program, calling its earlier response inadequate.",
+            "category": "Sports Betting News",
+            "date": "2026-09-04",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "maverick-gaming-tukwila-casino-closures",
+            "title": "Maverick Gaming to Close Two More Washington Casinos",
+            "excerpt": "Riverside and Great American casinos in Tukwila will shut November 1, cutting 238 jobs as Maverick Gaming's Chapter 11 restructuring continues.",
+            "category": "Casino News",
+            "date": "2026-09-04",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "nfl-short-week-thursday-spread",
             "title": "Short-Week NFL Games: How Thursday Kickoffs Move the Spread",
             "excerpt": "Why playing on four days' rest instead of six creates a real prep gap, and how sportsbooks price a short week differently than a standard bye.",
