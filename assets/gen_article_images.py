@@ -424,6 +424,52 @@ ICONS = {
       <line x1="-45" y1="0" x2="45" y2="0" stroke="{NAVY}" stroke-width="3" opacity="0.5"/>
     </g>
   </g>''',
+
+    "arbitrage-betting-explained": f'''
+  <!-- two overlapping circles (two sportsbooks) with a dollar sign in the shared middle -->
+  <g transform="translate({CX},{CY})">
+    <circle cx="-75" cy="0" r="115" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <circle cx="75" cy="0" r="115" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="0" y="9" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle">$</text>
+  </g>''',
+
+    "continuous-shuffling-machines-blackjack": f'''
+  <!-- shuffling machine: a card slot box with cards cycling through via circular arrows -->
+  <g transform="translate({CX},{CY})">
+    <rect x="-95" y="-70" width="190" height="140" rx="16" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-46" y="-98" width="92" height="46" rx="8" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M-60 40 A60 60 0 1 1 40 78" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+    <path d="M30 65 L40 78 L52 62" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>''',
+
+    "new-jersey-supreme-court-kalshi-petition": f'''
+  <!-- courthouse columns beneath a scale, with an upward arrow toward a higher court -->
+  <g transform="translate({CX},{CY+25})">
+    <line x1="-120" y1="60" x2="120" y2="60" stroke="{NAVY}" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-130 20 L0 -55 L130 20 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-85" y1="20" x2="-85" y2="60" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="-28" y1="20" x2="-28" y2="60" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="28" y1="20" x2="28" y2="60" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="85" y1="20" x2="85" y2="60" stroke="{TEAL}" stroke-width="8"/>
+  </g>
+  <g transform="translate({CX+140},{CY-70})" stroke="#b8862b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="35" x2="0" y2="-35"/>
+    <path d="M-18 -15 L0 -35 L18 -15"/>
+  </g>''',
+
+    "encore-boston-harbor-casino-strike": f'''
+  <!-- casino building outline with a raised picket sign -->
+  <g transform="translate({CX-35},{CY+10})">
+    <path d="M-100 85 L-100 -15 L0 -85 L100 -15 L100 85 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-100" y1="85" x2="100" y2="85" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-38" y="5" width="76" height="80" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-38" y1="45" x2="38" y2="45" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+130},{CY-30})" stroke="{NAVY}" stroke-width="7" stroke-linecap="round">
+    <line x1="0" y1="60" x2="0" y2="-60"/>
+    <rect x="-45" y="-95" width="90" height="42" rx="6" fill="#b8862b" stroke="none"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "arbitrage-betting-explained",
+            "title": "Arbitrage Betting Explained: How It Works and Its Limits",
+            "excerpt": "How sports betting arbitrage works, a full worked example with real stake math, and the practical limits that keep it from being free money.",
+            "category": "Betting Basics",
+            "date": "2026-09-05",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "continuous-shuffling-machines-blackjack",
+            "title": "How Continuous Shuffling Machines Change Blackjack's Edge",
+            "excerpt": "How continuous shuffling machines work, why they speed up blackjack's pace, and why they quietly shut down card counting without changing basic strategy.",
+            "category": "Casino Guides",
+            "date": "2026-09-05",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "new-jersey-supreme-court-kalshi-petition",
+            "title": "New Jersey Asks Supreme Court to Settle the Kalshi Fight",
+            "excerpt": "New Jersey has petitioned the U.S. Supreme Court to resolve a circuit split over whether Kalshi's sports event contracts are federally regulated swaps or state-regulated betting.",
+            "category": "Sports Betting News",
+            "date": "2026-09-05",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "encore-boston-harbor-casino-strike",
+            "title": "1,300+ Workers Strike at Encore Boston Harbor Casino",
+            "excerpt": "Teamsters and UNITE HERE members walked out at Encore Boston Harbor after contract talks collapsed over starting wages, raises, and benefits.",
+            "category": "Casino News",
+            "date": "2026-09-05",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "nba-home-road-back-to-back-scheduling",
             "title": "How Back-to-Backs and Home/Road Splits Move NBA Lines",
             "excerpt": "Why home-court advantage isn't a flat number, and how back-to-backs, long road trips, and altitude change it from game to game.",
