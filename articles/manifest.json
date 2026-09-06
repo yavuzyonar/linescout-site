@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "college-football-home-field-rivalry-advantage",
+            "title": "College Football Home-Field Edge: Why Rivalry Games Differ",
+            "excerpt": "Why home-field advantage isn't one flat number in college football, and how rivalry-week crowds, travel, and public money change the way books price it.",
+            "category": "College Football",
+            "date": "2026-09-06",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "online-slot-rng-testing-certification",
+            "title": "How Online Slot RNGs Are Tested for Fairness",
+            "excerpt": "How independent labs test and certify the random number generators behind online slots, what state regulators require, and how to check a game yourself.",
+            "category": "Casino Guides",
+            "date": "2026-09-06",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "aga-nfl-wagering-flat-prediction-markets",
+            "title": "AGA: NFL Betting Handle Flat as Prediction Markets Grow",
+            "excerpt": "AGA projects $29.5B in legal NFL wagering for 2026, essentially flat, and blames prediction markets like Kalshi and Polymarket for stalling the market's growth.",
+            "category": "Sports Betting News",
+            "date": "2026-09-06",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "springfield-sues-mgm-casino-sale-dispute",
+            "title": "Springfield Sues MGM Resorts Over Blocked Casino Sale",
+            "excerpt": "Springfield, MA sued MGM Resorts over alleged Host Community Agreement violations, as MGM accuses the city of blocking a sale of MGM Springfield.",
+            "category": "Casino News",
+            "date": "2026-09-06",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "arbitrage-betting-explained",
             "title": "Arbitrage Betting Explained: How It Works and Its Limits",
             "excerpt": "How sports betting arbitrage works, a full worked example with real stake math, and the practical limits that keep it from being free money.",
