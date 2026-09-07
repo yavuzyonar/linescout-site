@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "nhl-power-play-penalty-kill-totals",
+            "title": "How Power Plays and Penalty Kills Move NHL Totals",
+            "excerpt": "Special teams touch a small share of game time but a large share of scoring. Here's how power-play and penalty-kill efficiency actually feed into NHL totals.",
+            "category": "NHL",
+            "date": "2026-09-07",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "casino-theoretical-loss-comps-explained",
+            "title": "How Casinos Calculate Theoretical Loss to Set Comps",
+            "excerpt": "Comps aren't a guess or a gut call. Here's the actual theoretical-loss formula casinos use — average bet, speed of play, time, and house edge — to price them.",
+            "category": "Casino Guides",
+            "date": "2026-09-07",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "michigan-kalshi-sports-contracts-injunction",
+            "title": "Michigan Court Orders Kalshi to Keep Blocking Sports Bets",
+            "excerpt": "A Michigan circuit court granted a preliminary injunction forcing Kalshi to keep geofencing sports event contracts out of the state, with a $500K daily fine.",
+            "category": "Sports Betting News",
+            "date": "2026-09-07",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "biloxi-black-marlin-casino-approved",
+            "title": "Biloxi Planning Commission Approves Black Marlin Casino",
+            "excerpt": "Biloxi's Planning Commission approved rezoning for the Black Marlin Casino, a 1,100-slot, 300-room resort that would become the city's 13th casino.",
+            "category": "Casino News",
+            "date": "2026-09-07",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "college-football-home-field-rivalry-advantage",
             "title": "College Football Home-Field Edge: Why Rivalry Games Differ",
             "excerpt": "Why home-field advantage isn't one flat number in college football, and how rivalry-week crowds, travel, and public money change the way books price it.",
