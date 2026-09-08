@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "nfl-look-ahead-lines-next-week-pricing",
+            "title": "Look-Ahead NFL Lines: Pricing Next Week Before This Week Ends",
+            "excerpt": "Sportsbooks sometimes post next week's NFL line before this week's games are final. Here's how look-ahead numbers get built and why they swing so hard.",
+            "category": "NFL",
+            "date": "2026-09-08",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "casino-bonus-wagering-contribution-rates",
+            "title": "Why Slots and Table Games Don't Count the Same Toward a Bonus",
+            "excerpt": "A bonus advertises one wagering multiplier, but games rarely count toward it equally. Here's how contribution rates work and the math behind them.",
+            "category": "Casino Guides",
+            "date": "2026-09-08",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "nfl-prediction-markets-objectionable-bets-letter",
+            "title": "NFL Demands Prediction Markets Drop 'Objectionable' Bets",
+            "excerpt": "The NFL sent a letter demanding federally regulated exchanges pull sports contracts it flagged as manipulation-prone, from kicker props to injury markets.",
+            "category": "Sports Betting News",
+            "date": "2026-09-08",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "red-rock-casino-supreme-court-union-bargaining",
+            "title": "Supreme Court Denies Red Rock Casino's Bid to Block Union Order",
+            "excerpt": "Chief Justice Roberts denied Red Rock Casino's emergency request to pause a ruling ordering it to recognize and bargain with the Culinary Union.",
+            "category": "Casino News",
+            "date": "2026-09-08",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "nhl-power-play-penalty-kill-totals",
             "title": "How Power Plays and Penalty Kills Move NHL Totals",
             "excerpt": "Special teams touch a small share of game time but a large share of scoring. Here's how power-play and penalty-kill efficiency actually feed into NHL totals.",
