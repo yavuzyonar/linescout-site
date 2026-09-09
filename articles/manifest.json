@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "nba-playoff-series-betting-vs-regular-season",
+            "title": "NBA Playoff Betting: How a 7-Game Series Changes the Market",
+            "excerpt": "Playoff basketball is priced game-by-game like the regular season, but a best-of-seven format changes adjustments, series markets, and how fast news moves lines.",
+            "category": "NBA",
+            "date": "2026-09-09",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "slot-rtp-variants-across-casinos",
+            "title": "Why the Same Slot Game Can Pay Out Differently at Two Online Casinos",
+            "excerpt": "Many slot titles ship in several RTP configurations. Here's how studios build them, how operators choose one, and how to find out which version you're playing.",
+            "category": "Casino Guides",
+            "date": "2026-09-09",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "bet365-washington-dc-launch",
+            "title": "bet365 Launches Sportsbook in Washington, D.C., Just in Time for NFL Kickoff",
+            "excerpt": "bet365 has gone live in Washington, D.C. through a partnership with Monumental Sports & Entertainment, its 19th U.S. jurisdiction, timed to the NFL season opener.",
+            "category": "Sports Betting News",
+            "date": "2026-09-09",
+            "readTime": "3 min read",
+            "type": "news"
+        },
+        {
+            "slug": "clairvest-mgm-springfield-sale-report",
+            "title": "Report: Clairvest Emerges as Buyer for MGM Springfield Amid City's Lawsuit",
+            "excerpt": "Local reports name Toronto-based Clairvest Group as the likely buyer of MGM Springfield's operating rights, surfacing the same week the city sued MGM over unmet host agreement terms.",
+            "category": "Casino News",
+            "date": "2026-09-09",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "nfl-look-ahead-lines-next-week-pricing",
             "title": "Look-Ahead NFL Lines: Pricing Next Week Before This Week Ends",
             "excerpt": "Sportsbooks sometimes post next week's NFL line before this week's games are final. Here's how look-ahead numbers get built and why they swing so hard.",

@@ -470,6 +470,59 @@ ICONS = {
     <line x1="0" y1="60" x2="0" y2="-60"/>
     <rect x="-45" y="-95" width="90" height="42" rx="6" fill="#b8862b" stroke="none"/>
   </g>''',
+
+    "nba-playoff-series-betting-vs-regular-season": f'''
+  <!-- basketball with a row of 7 series-game dots beneath, four filled -->
+  <g transform="translate({CX-30},{CY-40})">
+    <circle cx="0" cy="0" r="88" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-88" y1="0" x2="88" y2="0" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="0" y1="-88" x2="0" y2="88" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M-62 -62 A88 88 0 0 1 62 62" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M-62 62 A88 88 0 0 1 62 -62" fill="none" stroke="{TEAL}" stroke-width="5"/>
+  </g>
+  <g transform="translate({CX-121},{CY+110})">
+    <circle cx="0" cy="0" r="12" fill="{NAVY}"/>
+    <circle cx="35" cy="0" r="12" fill="{NAVY}"/>
+    <circle cx="70" cy="0" r="12" fill="{NAVY}"/>
+    <circle cx="105" cy="0" r="12" fill="{NAVY}"/>
+    <circle cx="140" cy="0" r="12" fill="none" stroke="{NAVY}" stroke-width="4" opacity="0.4"/>
+    <circle cx="175" cy="0" r="12" fill="none" stroke="{NAVY}" stroke-width="4" opacity="0.4"/>
+    <circle cx="210" cy="0" r="12" fill="none" stroke="{NAVY}" stroke-width="4" opacity="0.4"/>
+  </g>''',
+
+    "slot-rtp-variants-across-casinos": f'''
+  <!-- single slot reel splitting into two diverging paths tagged with different percentages -->
+  <g transform="translate({CX-150},{CY-10})">
+    <rect x="-55" y="-75" width="110" height="150" rx="14" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-18" y1="-75" x2="-18" y2="75" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+    <line x1="18" y1="-75" x2="18" y2="75" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+  </g>
+  <path d="M{CX-90} {CY-10} C {CX-10} {CY-10} {CX-10} {CY-80} {CX+90} {CY-80}" fill="none" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
+  <path d="M{CX-90} {CY-10} C {CX-10} {CY-10} {CX-10} {CY+70} {CX+90} {CY+70}" fill="none" stroke="#b8862b" stroke-width="6" stroke-linecap="round"/>
+  <text x="{CX+95}" y="{CY-73}" font-family="Arial" font-size="30" fill="{TEAL}" font-weight="bold">97%</text>
+  <text x="{CX+95}" y="{CY+77}" font-family="Arial" font-size="30" fill="#b8862b" font-weight="bold">94%</text>''',
+
+    "bet365-washington-dc-launch": f'''
+  <!-- map pin marking a new-market launch, with a small betting-ticket check -->
+  <g transform="translate({CX-20},{CY-30})">
+    <path d="M0 -110 C60 -110 100 -68 100 -18 C100 55 0 130 0 130 C0 130 -100 55 -100 -18 C-100 -68 -60 -110 0 -110 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="0" cy="-15" r="42" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <path d="M-20 -15 L-5 0 L25 -35" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="{CX+140}" cy="{CY-90}" r="9" fill="#b8862b"/>''',
+
+    "clairvest-mgm-springfield-sale-report": f'''
+  <!-- building outline with a curved ownership-transfer arrow overhead -->
+  <g transform="translate({CX},{CY+15})">
+    <path d="M-100 80 L-100 -25 L0 -95 L100 -25 L100 80 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-100" y1="80" x2="100" y2="80" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-38" y="0" width="76" height="80" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-38" y1="40" x2="38" y2="40" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX},{CY-90})" fill="none" stroke="#b8862b" stroke-width="7" stroke-linecap="round">
+    <path d="M-95 10 A95 45 0 0 1 95 10"/>
+    <path d="M78 -8 L95 10 L74 22"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
