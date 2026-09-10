@@ -523,6 +523,60 @@ ICONS = {
     <path d="M-95 10 A95 45 0 0 1 95 10"/>
     <path d="M78 -8 L95 10 L74 22"/>
   </g>''',
+
+    "nfl-international-games-london-berlin-pricing": f'''
+  <!-- football above a globe with a flight-path arc -->
+  <g transform="translate({CX},{CY+30})">
+    <circle cx="0" cy="0" r="95" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <ellipse cx="0" cy="0" rx="95" ry="38" fill="none" stroke="{TEAL}" stroke-width="4" opacity="0.55"/>
+    <line x1="-95" y1="0" x2="95" y2="0" stroke="{TEAL}" stroke-width="4" opacity="0.55"/>
+    <path d="M-70 -55 A95 95 0 0 1 70 -55" fill="none" stroke="{TEAL}" stroke-width="4" opacity="0.4"/>
+  </g>
+  <g transform="translate({CX+15},{CY-90}) rotate(-18)">
+    <ellipse cx="0" cy="0" rx="72" ry="38" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke="{NAVY}" stroke-width="5"/>
+  </g>
+  <path d="M{CX-170} {CY+40} Q {CX-40} {CY-120} {CX+40} {CY-70}" fill="none" stroke="#b8862b" stroke-width="5" stroke-dasharray="3 10" stroke-linecap="round"/>''',
+
+    "blackjack-insurance-bet-explained": f'''
+  <!-- ace card with a small shield-percent accent -->
+  <g transform="translate({CX-30},{CY+10})">
+    <rect x="-65" y="-100" width="130" height="185" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="7"/>
+    <text x="-40" y="-58" font-family="Georgia, serif" font-size="34" fill="{NAVY}">A</text>
+    <path d="M-40 -25 l6 12 l12 2 l-9 8 l2 12 l-11 -6 l-11 6 l2 -12 l-9 -8 l12 -2 Z" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+120},{CY+65})">
+    <path d="M0 -45 L40 -32 L40 5 C40 30 22 45 0 55 C-22 45 -40 30 -40 5 L-40 -32 Z" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linejoin="round"/>
+    <text x="0" y="14" font-family="Arial" font-size="22" fill="{TEAL}" text-anchor="middle" font-weight="bold">%</text>
+  </g>''',
+
+    "illinois-gaming-board-marketing-exclusion-list": f'''
+  <!-- megaphone with a slash through it beside a small shield -->
+  <g transform="translate({CX-70},{CY})">
+    <path d="M-100 -20 L20 -70 L20 70 L-100 20 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="-130" y="-25" width="32" height="50" rx="6" fill="{TEAL}" opacity="0.5"/>
+    <path d="M20 -70 L100 -95 L100 95 L20 70" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linejoin="round" opacity="0.5"/>
+    <line x1="-140" y1="-85" x2="60" y2="85" stroke="#b8862b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate({CX+150},{CY-10})">
+    <path d="M0 -55 L48 -40 L48 3 C48 28 26 44 0 55 C-26 44 -48 28 -48 3 L-48 -40 Z" fill="none" stroke="{NAVY}" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M-22 -3 L-6 14 L26 -22" fill="none" stroke="{TEAL}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>''',
+
+    "vgw-new-york-attorney-general-settlement": f'''
+  <!-- gavel above stacked coins -->
+  <g transform="translate({CX+15},{CY-55})">
+    <g transform="rotate(-35)">
+      <rect x="-90" y="-22" width="90" height="44" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+      <rect x="-20" y="-34" width="30" height="68" rx="6" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    </g>
+  </g>
+  <g transform="translate({CX-130},{CY+95})">
+    <ellipse cx="0" cy="0" rx="60" ry="16" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <ellipse cx="20" cy="-20" rx="60" ry="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <ellipse cx="40" cy="-40" rx="60" ry="16" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="40" y="-35" font-family="Arial" font-size="18" fill="#b8862b" text-anchor="middle">$</text>
+  </g>''',
 }
 
 if __name__ == "__main__":

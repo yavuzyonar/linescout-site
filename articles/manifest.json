@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "nfl-international-games-london-berlin-pricing",
+            "title": "How Sportsbooks Price NFL's London and Berlin Games",
+            "excerpt": "International games strip out home-field advantage, add transatlantic travel, and usually come with a bye week attached. Here's how sportsbooks rebuild the line around it.",
+            "category": "NFL",
+            "date": "2026-09-10",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "blackjack-insurance-bet-explained",
+            "title": "Blackjack Insurance: Why the Math Says No",
+            "excerpt": "Insurance feels like protecting a good hand, but the odds rarely back it up. Here's the actual math behind blackjack's most tempting side bet.",
+            "category": "Casino Guides",
+            "date": "2026-09-10",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "illinois-gaming-board-marketing-exclusion-list",
+            "title": "Illinois Bars Betting Ads to Former Self-Excluded Players",
+            "excerpt": "Illinois has built the first U.S. marketing exclusion list, blocking gambling operators from directly advertising to people who recently exited self-exclusion.",
+            "category": "Sports Betting News",
+            "date": "2026-09-10",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "vgw-new-york-attorney-general-settlement",
+            "title": "VGW Pays New York $8M Over Chumba, Global Poker, Luckyland",
+            "excerpt": "New York AG Letitia James secured an $8 million settlement with VGW over its Chumba Casino, Global Poker, and Luckyland Slots sweepstakes platforms.",
+            "category": "Casino News",
+            "date": "2026-09-10",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "nba-playoff-series-betting-vs-regular-season",
             "title": "NBA Playoff Betting: How a 7-Game Series Changes the Market",
             "excerpt": "Playoff basketball is priced game-by-game like the regular season, but a best-of-seven format changes adjustments, series markets, and how fast news moves lines.",
