@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "college-football-playoff-implications-betting-lines",
+            "title": "How Playoff Stakes Move College Football Betting Lines",
+            "excerpt": "A game between two 9-3 teams isn't priced the same in October as it would be if it decided a playoff spot. Here's how CFB markets weigh what's on the line.",
+            "category": "College Football",
+            "date": "2026-09-11",
+            "readTime": "9 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "three-card-poker-basics",
+            "title": "Three Card Poker Basics: Ante, Pair Plus, and the House Edge",
+            "excerpt": "Three Card Poker looks simple, but its two independent bets carry very different house edges. Here's how Ante/Play and Pair Plus actually work.",
+            "category": "Casino Guides",
+            "date": "2026-09-11",
+            "readTime": "8 min read",
+            "type": "evergreen"
+        },
+        {
+            "slug": "robinhood-michigan-sports-contracts-pause",
+            "title": "Robinhood Pauses Sports Event Contracts in Michigan",
+            "excerpt": "Robinhood agreed to stop offering Michigan customers new sports-related prediction market contracts after the state's AG cited its Kalshi injunction.",
+            "category": "Sports Betting News",
+            "date": "2026-09-11",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
+            "slug": "penn-hollywood-casino-council-bluffs-groundbreaking",
+            "title": "PENN Breaks Ground on $200M Iowa Hollywood Casino",
+            "excerpt": "PENN Entertainment is replacing its Council Bluffs riverboat with a $180-200 million land-based Hollywood Casino Hotel, breaking ground September 14.",
+            "category": "Casino News",
+            "date": "2026-09-11",
+            "readTime": "4 min read",
+            "type": "news"
+        },
+        {
             "slug": "nfl-international-games-london-berlin-pricing",
             "title": "How Sportsbooks Price NFL's London and Berlin Games",
             "excerpt": "International games strip out home-field advantage, add transatlantic travel, and usually come with a bye week attached. Here's how sportsbooks rebuild the line around it.",
