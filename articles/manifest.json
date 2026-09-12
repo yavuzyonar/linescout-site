@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "how-vig-juice-works-break-even-win-rate",
+            "title": "How Vig (Juice) Actually Works, and How to Calculate Your Break-Even Win Rate",
+            "excerpt": "Standard -110 pricing isn't a coin flip. Here is the exact math behind sportsbook vig and the win rate you need to clear to break even.",
+            "category": "Betting Basics",
+            "type": "evergreen",
+            "date": "2026-09-12",
+            "readTime": "9 min read"
+        },
+        {
+            "slug": "sic-bo-single-number-bets-house-edge",
+            "title": "Sic Bo's Single-Number Bets: Why They Carry Some of the Worst Odds in the Casino",
+            "excerpt": "One Sic Bo table can span a 2.8% house edge on Small/Big to over 30% on a specific triple. Here is how the bets actually compare.",
+            "category": "Casino Guides",
+            "type": "evergreen",
+            "date": "2026-09-12",
+            "readTime": "8 min read"
+        },
+        {
+            "slug": "underdog-fantasy-five-state-prediction-market-lawsuits",
+            "title": "Underdog Fantasy Sues Five States Over Prediction Market Rules",
+            "excerpt": "Underdog filed suits against Massachusetts, New Mexico, Ohio, Wisconsin, and Washington, arguing its sports contracts fall under federal, not state, jurisdiction.",
+            "category": "Sports Betting News",
+            "type": "news",
+            "date": "2026-09-12",
+            "readTime": "4 min read"
+        },
+        {
+            "slug": "playtech-evolution-spectrum-report-unsealed",
+            "title": "Playtech Says Newly Unsealed Report Corroborates Its Claims Against Evolution",
+            "excerpt": "A Spectrum Gaming report Evolution commissioned to rebut Playtech-backed allegations was unsealed in New Jersey litigation — and Playtech says it backs its case.",
+            "category": "Casino News",
+            "type": "news",
+            "date": "2026-09-12",
+            "readTime": "4 min read"
+        },
+        {
             "slug": "college-football-playoff-implications-betting-lines",
             "title": "How Playoff Stakes Move College Football Betting Lines",
             "excerpt": "A game between two 9-3 teams isn't priced the same in October as it would be if it decided a playoff spot. Here's how CFB markets weigh what's on the line.",
@@ -354,7 +390,7 @@
         {
             "slug": "sports-betting-glossary",
             "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-            "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
+            "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
             "category": "Betting Basics",
             "date": "2026-08-20",
             "readTime": "10 min read",
@@ -380,7 +416,7 @@
         },
         {
             "slug": "fanatics-nfl-sportsbook-deal",
-            "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
+            "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
             "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
             "category": "Sports Betting News",
             "date": "2026-08-20",
@@ -461,7 +497,7 @@
         },
         {
             "slug": "college-football-spreads-blowouts",
-            "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
+            "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
             "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
             "category": "College Football",
             "date": "2026-08-20",
@@ -696,7 +732,7 @@
         {
             "slug": "casino-game-myths-debunked",
             "title": "Common Casino Game Myths, Debunked",
-            "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained \u2014 what's actually going on with the math behind each one.",
+            "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained — what's actually going on with the math behind each one.",
             "category": "Casino Guides",
             "date": "2026-08-27",
             "readTime": "7 min read",
@@ -759,7 +795,7 @@
         {
             "slug": "nba-futures-championship-mvp-odds",
             "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
-            "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events \u2014 trades, injuries, streaks \u2014 that move them.",
+            "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
             "category": "NBA",
             "date": "2026-08-29",
             "readTime": "9 min read",
