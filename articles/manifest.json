@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "same-game-parlays-correlation-risk-payout-math",
+            "title": "Same-Game Parlays Explained: Correlation, Risk, and the Real Payout Math",
+            "excerpt": "SGP odds aren't just multiplied prices. Here's how correlation between legs in one game changes true probability and how books price around it.",
+            "category": "Betting Basics",
+            "type": "evergreen",
+            "date": "2026-09-13",
+            "readTime": "9 min read"
+        },
+        {
+            "slug": "megaways-cluster-pay-slots-math",
+            "title": "Megaways and Cluster-Pay Slots: How These Mechanics Change the Math",
+            "excerpt": "Variable reels and cascading clusters change how slot wins are delivered, but not necessarily how much a game pays back. Here's the actual math.",
+            "category": "Casino Guides",
+            "type": "evergreen",
+            "date": "2026-09-13",
+            "readTime": "9 min read"
+        },
+        {
+            "slug": "connecticut-prediction-markets-cease-and-desist-orders",
+            "title": "Connecticut Orders Nine Prediction Market Platforms to Stop Sports Wagers",
+            "excerpt": "Polymarket, Robinhood, Coinbase, and six other platforms received cease-and-desist orders as Connecticut escalates its fight against unlicensed sports contracts.",
+            "category": "Sports Betting News",
+            "type": "news",
+            "date": "2026-09-13",
+            "readTime": "4 min read"
+        },
+        {
+            "slug": "pennsylvania-skill-games-removal-deadline",
+            "title": "Pennsylvania State Police Warn Businesses: Remove Skill Games by October 13",
+            "excerpt": "State police say roughly 70,000 unlicensed skill game machines must be physically removed, not just unplugged, before an October 13 enforcement deadline.",
+            "category": "Casino News",
+            "type": "news",
+            "date": "2026-09-13",
+            "readTime": "4 min read"
+        },
+        {
             "slug": "how-vig-juice-works-break-even-win-rate",
             "title": "How Vig (Juice) Actually Works, and How to Calculate Your Break-Even Win Rate",
             "excerpt": "Standard -110 pricing isn't a coin flip. Here is the exact math behind sportsbook vig and the win rate you need to clear to break even.",
