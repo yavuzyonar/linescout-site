@@ -1,6 +1,42 @@
 {
     "articles": [
         {
+            "slug": "nhl-playoff-best-of-seven-betting",
+            "title": "Playoff Hockey Betting: How a Best-of-Seven Series Changes NHL Markets",
+            "excerpt": "NHL playoff odds price an entire best-of-seven series, not just one game — and that changes how home ice, goaltending, and elimination pressure show up in the numbers.",
+            "category": "NHL",
+            "type": "evergreen",
+            "date": "2026-09-14",
+            "readTime": "8 min read"
+        },
+        {
+            "slug": "ultimate-texas-holdem-basics",
+            "title": "Ultimate Texas Hold'em Basics: The Blind, the Play Bet, and When to Raise",
+            "excerpt": "Three decision points, one shrinking bet size each time you wait — how Ultimate Texas Hold'em's structure works and where basic strategy says to raise.",
+            "category": "Casino Guides",
+            "type": "evergreen",
+            "date": "2026-09-14",
+            "readTime": "8 min read"
+        },
+        {
+            "slug": "draftkings-dkex-nfl-prediction-market-fees",
+            "title": "DraftKings' Prediction Market Could Generate $57M in Fees This NFL Season",
+            "excerpt": "A Jefferies analysis of DKeX's opening NFL weekend trading volume projects roughly $57 million in exchange fees for DraftKings' prediction market this season.",
+            "category": "Sports Betting News",
+            "type": "news",
+            "date": "2026-09-14",
+            "readTime": "4 min read"
+        },
+        {
+            "slug": "ballys-chicago-host-fee-vgt-dispute",
+            "title": "Bally's Chicago Pays $4M Host Fee as Video Gaming Terminal Dispute Continues",
+            "excerpt": "Bally's paid Chicago's required $4 million host community payment on schedule, even as its dispute over video gaming terminals near the $1.7 billion casino project continues.",
+            "category": "Casino News",
+            "type": "news",
+            "date": "2026-09-14",
+            "readTime": "4 min read"
+        },
+        {
             "slug": "same-game-parlays-correlation-risk-payout-math",
             "title": "Same-Game Parlays Explained: Correlation, Risk, and the Real Payout Math",
             "excerpt": "SGP odds aren't just multiplied prices. Here's how correlation between legs in one game changes true probability and how books price around it.",
