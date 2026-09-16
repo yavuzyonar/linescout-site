@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "middling-explained-chasing-both-sides-line",
+      "title": "Middling Explained: Chasing Both Sides of a Moving Line",
+      "excerpt": "How middling works, a full worked example with real spread numbers, and why it's a calculated risk rather than a guaranteed profit like arbitrage.",
+      "category": "Betting Basics",
+      "type": "evergreen",
+      "date": "2026-09-16",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "slot-bonus-buy-features-explained",
+      "title": "Slot Bonus Buy Features: How the Math Really Works",
+      "excerpt": "How slot bonus buy features price the shortcut to a bonus round, why they swing volatility so hard, and why several regulators restrict or ban them.",
+      "category": "Casino Guides",
+      "type": "evergreen",
+      "date": "2026-09-16",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "pro-leagues-players-harassment-betting-bans",
+      "title": "Five Pro Leagues Push States to Ban Abusive Bettors",
+      "excerpt": "The NFL, NBA, MLB, NHL, and MLS and their players' unions asked state regulators for lifetime betting bans and cross-state exclusion lists for bettors who harass athletes.",
+      "category": "Sports Betting News",
+      "type": "news",
+      "date": "2026-09-16",
+      "readTime": "4 min read"
+    },
+    {
+      "slug": "florida-illegal-gambling-operation-final-spin",
+      "title": "Florida Seizes 163 Illegal Slot Machines in Raid",
+      "excerpt": "Florida's Gaming Control Commission seized 163 illegal slot machines and roughly $247,000 in cash from two St. Petersburg businesses in 'Operation Final Spin.'",
+      "category": "Casino News",
+      "type": "news",
+      "date": "2026-09-16",
+      "readTime": "4 min read"
+    },
+    {
       "slug": "nfl-bet-percentage-money-percentage-steam-moves",
       "title": "Bet Percentage vs. Money Percentage: What NFL \"Steam Moves\" Actually Reveal",
       "excerpt": "Why ticket percentage and money percentage diverge on NFL games, what a synchronized steam move really means, and how to read both signals correctly.",

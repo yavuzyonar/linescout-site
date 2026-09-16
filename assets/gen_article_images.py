@@ -577,6 +577,71 @@ ICONS = {
     <ellipse cx="40" cy="-40" rx="60" ry="16" fill="none" stroke="#b8862b" stroke-width="6"/>
     <text x="40" y="-35" font-family="Arial" font-size="18" fill="#b8862b" text-anchor="middle">$</text>
   </g>''',
+    "middling-explained-chasing-both-sides-line": f'''
+  <!-- two point-spread marker lines with a highlighted overlapping middle zone and a checkmark -->
+  <g transform="translate({CX-140},{CY-60})">
+    <line x1="0" y1="0" x2="0" y2="220" stroke="{NAVY}" stroke-width="8" stroke-linecap="round"/>
+    <text x="-14" y="-14" font-family="Arial" font-size="22" fill="{NAVY}" text-anchor="end">-2.5</text>
+  </g>
+  <g transform="translate({CX+140},{CY-60})">
+    <line x1="0" y1="0" x2="0" y2="220" stroke="{TEAL}" stroke-width="8" stroke-linecap="round"/>
+    <text x="14" y="-14" font-family="Arial" font-size="22" fill="{TEAL}" text-anchor="start">+6.5</text>
+  </g>
+  <rect x="{CX-140}" y="{CY-20}" width="280" height="90" fill="#b8862b" opacity="0.18"/>
+  <g transform="translate({CX},{CY+25})">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <path d="M-14 0 L-4 12 L16 -14" fill="none" stroke="#b8862b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>''',
+
+    "slot-bonus-buy-features-explained": f'''
+  <!-- slot reel with an arrow skipping ahead to a starburst bonus icon -->
+  <g transform="translate({CX-150},{CY})">
+    <rect x="-70" y="-90" width="140" height="180" rx="14" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-23" y1="-90" x2="-23" y2="90" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+    <line x1="23" y1="-90" x2="23" y2="90" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+  </g>
+  <g transform="translate({CX-15},{CY})" stroke="{TEAL}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="-25" y1="0" x2="45" y2="0"/>
+    <path d="M25 -22 L45 0 L25 22"/>
+  </g>
+  <g transform="translate({CX+150},{CY})">
+    <path d="M0 -85 L18 -28 L78 -28 L30 8 L48 68 L0 32 L-48 68 L-30 8 L-78 -28 L-18 -28 Z" fill="none" stroke="#b8862b" stroke-width="7" stroke-linejoin="round"/>
+  </g>''',
+
+    "pro-leagues-players-harassment-betting-bans": f'''
+  <!-- referee whistle beside a shield with a slashed silhouette, representing a ban on abusive bettors -->
+  <g transform="translate({CX-130},{CY+10})">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <rect x="45" y="-18" width="60" height="36" rx="10" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <circle cx="0" cy="0" r="14" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+110},{CY-5})">
+    <path d="M0 -75 L65 -55 L65 5 C65 45 35 70 0 85 C-35 70 -65 45 -65 5 L-65 -55 Z" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="0" cy="-8" r="20" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M-18 30 C-18 8 18 8 18 30" fill="none" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-40" y1="-45" x2="40" y2="55" stroke="#b8862b" stroke-width="8" stroke-linecap="round"/>
+  </g>''',
+
+    "florida-illegal-gambling-operation-final-spin": f'''
+  <!-- slot machine cabinet with a padlock and cash, representing a regulatory seizure -->
+  <g transform="translate({CX-60},{CY})">
+    <rect x="-75" y="-100" width="150" height="200" rx="14" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-50" y="-75" width="100" height="60" rx="6" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <circle cx="-25" cy="-45" r="10" fill="{TEAL}"/>
+    <circle cx="0" cy="-45" r="10" fill="{TEAL}" opacity="0.5"/>
+    <circle cx="25" cy="-45" r="10" fill="{TEAL}" opacity="0.5"/>
+    <rect x="-30" y="20" width="60" height="26" rx="6" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+100},{CY-70})">
+    <rect x="-30" y="-5" width="60" height="50" rx="8" fill="none" stroke="#b8862b" stroke-width="7"/>
+    <path d="M-18 -5 L-18 -25 A18 18 0 0 1 18 -25 L18 -5" fill="none" stroke="#b8862b" stroke-width="7"/>
+    <circle cx="0" cy="20" r="7" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+95},{CY+85})">
+    <ellipse cx="0" cy="0" rx="55" ry="15" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <ellipse cx="18" cy="-18" rx="55" ry="15" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <text x="18" y="-13" font-family="Arial" font-size="16" fill="{TEAL}" text-anchor="middle">$</text>
+  </g>''',
 }
 
 if __name__ == "__main__":

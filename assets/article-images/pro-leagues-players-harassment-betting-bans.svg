@@ -1,0 +1,33 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4f3"/>
+      <stop offset="100%" stop-color="#f6faf9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,110 780,400 640,400" fill="url(#beam)"/>
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1160" cy="-30" r="140"/>
+    <circle cx="1160" cy="-30" r="240"/>
+    <circle cx="1160" cy="-30" r="340"/>
+  </g>
+  <circle cx="70" cy="60" r="7" fill="#b8862b"/>
+
+  <!-- referee whistle beside a shield with a slashed silhouette, representing a ban on abusive bettors -->
+  <g transform="translate(470,220)">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#16233d" stroke-width="9"/>
+    <rect x="45" y="-18" width="60" height="36" rx="10" fill="none" stroke="#16233d" stroke-width="9"/>
+    <circle cx="0" cy="0" r="14" fill="#16233d"/>
+  </g>
+  <g transform="translate(710,205)">
+    <path d="M0 -75 L65 -55 L65 5 C65 45 35 70 0 85 C-35 70 -65 45 -65 5 L-65 -55 Z" fill="none" stroke="#0e7c86" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="0" cy="-8" r="20" fill="none" stroke="#0e7c86" stroke-width="6"/>
+    <path d="M-18 30 C-18 8 18 8 18 30" fill="none" stroke="#0e7c86" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-40" y1="-45" x2="40" y2="55" stroke="#b8862b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
