@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-second-half-quarter-lines-pricing",
+      "title": "NFL Second-Half and Quarter Lines: How They're Actually Priced",
+      "excerpt": "How sportsbooks derive NFL second-half and quarter spreads/totals from the full-game number, why they're not simple fractions of it, and where the traps are.",
+      "category": "NFL",
+      "type": "evergreen",
+      "date": "2026-09-17",
+      "readTime": "9 min read"
+    },
+    {
+      "slug": "let-it-ride-basics",
+      "title": "Let It Ride Basics: Rules, Bonus Bets, and the House Edge",
+      "excerpt": "How Let It Ride's three-bet structure works, the correct pull-back-or-ride strategy, the Bonus side bet, and the game's real house edge.",
+      "category": "Casino Guides",
+      "type": "evergreen",
+      "date": "2026-09-17",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "gambling-loss-deduction-house-committee-advances",
+      "title": "House Panel Advances Bill to Restore Full Gambling-Loss Tax Deduction",
+      "excerpt": "The House Ways and Means Committee voted 38-5 to advance a bill restoring the full gambling-loss tax deduction, repealing 2025's 90% cap.",
+      "category": "Sports Betting News",
+      "type": "news",
+      "date": "2026-09-17",
+      "readTime": "4 min read"
+    },
+    {
+      "slug": "atlantic-city-august-2026-revenue-borgata-growth",
+      "title": "Borgata Stands Alone as Only Atlantic City Casino to Grow Revenue in August",
+      "excerpt": "Atlantic City in-person casino revenue fell 5.5% in August 2026; Borgata was the only property to post growth, per the NJ Division of Gaming Enforcement.",
+      "category": "Casino News",
+      "type": "news",
+      "date": "2026-09-17",
+      "readTime": "4 min read"
+    },
+    {
       "slug": "middling-explained-chasing-both-sides-line",
       "title": "Middling Explained: Chasing Both Sides of a Moving Line",
       "excerpt": "How middling works, a full worked example with real spread numbers, and why it's a calculated risk rather than a guaranteed profit like arbitrage.",

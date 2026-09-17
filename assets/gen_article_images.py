@@ -642,6 +642,70 @@ ICONS = {
     <ellipse cx="18" cy="-18" rx="55" ry="15" fill="none" stroke="{TEAL}" stroke-width="6"/>
     <text x="18" y="-13" font-family="Arial" font-size="16" fill="{TEAL}" text-anchor="middle">$</text>
   </g>''',
+
+    "nfl-second-half-quarter-lines-pricing": f'''
+  <!-- football field rectangle divided into quarters, second half highlighted -->
+  <g transform="translate({CX},{CY})">
+    <rect x="-190" y="-70" width="380" height="140" rx="10" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="0" y="-70" width="190" height="140" fill="{TEAL}" opacity="0.14"/>
+    <line x1="-95" y1="-70" x2="-95" y2="70" stroke="{NAVY}" stroke-width="4" opacity="0.45"/>
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="{NAVY}" stroke-width="6"/>
+    <line x1="95" y1="-70" x2="95" y2="70" stroke="{TEAL}" stroke-width="4" opacity="0.6"/>
+    <circle cx="95" cy="0" r="10" fill="#b8862b"/>
+  </g>''',
+
+    "let-it-ride-basics": f'''
+  <!-- three stacked poker chips beside a fanned poker hand -->
+  <g transform="translate({CX-130},{CY+50})">
+    <ellipse cx="0" cy="10" rx="58" ry="20" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <ellipse cx="0" cy="-15" rx="58" ry="20" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <ellipse cx="0" cy="-40" rx="58" ry="20" fill="none" stroke="#b8862b" stroke-width="7"/>
+  </g>
+  <g transform="translate({CX+110},{CY+10})">
+    <g transform="rotate(-14)">
+      <rect x="-42" y="-78" width="84" height="130" rx="10" fill="#fff" stroke="{NAVY}" stroke-width="6"/>
+    </g>
+    <g transform="rotate(0)">
+      <rect x="-42" y="-78" width="84" height="130" rx="10" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+    </g>
+    <g transform="rotate(14)">
+      <rect x="-42" y="-78" width="84" height="130" rx="10" fill="#fff" stroke="{NAVY}" stroke-width="6"/>
+    </g>
+  </g>''',
+
+    "gambling-loss-deduction-house-committee-advances": f'''
+  <!-- tax document with a percent mark beside a capitol dome outline -->
+  <g transform="translate({CX-110},{CY+10})">
+    <rect x="-75" y="-105" width="150" height="200" rx="10" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-50" y1="-65" x2="40" y2="-65" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-50" y1="-30" x2="40" y2="-30" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <circle cx="-20" cy="30" r="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <circle cx="18" cy="65" r="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-30" y1="70" x2="28" y2="20" stroke="{TEAL}" stroke-width="6"/>
+  </g>
+  <g transform="translate({CX+130},{CY-30})">
+    <circle cx="0" cy="-70" r="16" fill="none" stroke="#b8862b" stroke-width="7"/>
+    <path d="M-55 20 L-55 -20 A55 40 0 0 1 55 -20 L55 20" fill="none" stroke="#b8862b" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-70" y1="20" x2="70" y2="20" stroke="#b8862b" stroke-width="8"/>
+    <line x1="-40" y1="20" x2="-40" y2="-10" stroke="#b8862b" stroke-width="5"/>
+    <line x1="0" y1="20" x2="0" y2="-18" stroke="#b8862b" stroke-width="5"/>
+    <line x1="40" y1="20" x2="40" y2="-10" stroke="#b8862b" stroke-width="5"/>
+  </g>''',
+
+    "atlantic-city-august-2026-revenue-borgata-growth": f'''
+  <!-- eight declining bars beside one rising bar -->
+  <g transform="translate({CX-190},{CY+70})">
+    <rect x="0" y="-70" width="28" height="70" rx="4" fill="{NAVY}" opacity="0.75"/>
+    <rect x="38" y="-58" width="28" height="58" rx="4" fill="{NAVY}" opacity="0.65"/>
+    <rect x="76" y="-64" width="28" height="64" rx="4" fill="{NAVY}" opacity="0.7"/>
+    <rect x="114" y="-50" width="28" height="50" rx="4" fill="{NAVY}" opacity="0.55"/>
+    <rect x="152" y="-60" width="28" height="60" rx="4" fill="{NAVY}" opacity="0.65"/>
+    <rect x="190" y="-46" width="28" height="46" rx="4" fill="{NAVY}" opacity="0.5"/>
+    <rect x="228" y="-40" width="28" height="40" rx="4" fill="{NAVY}" opacity="0.45"/>
+    <rect x="266" y="-30" width="28" height="30" rx="4" fill="{NAVY}" opacity="0.4"/>
+    <rect x="312" y="-118" width="34" height="118" rx="5" fill="{TEAL}"/>
+    <circle cx="329" cy="-132" r="10" fill="#b8862b"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
