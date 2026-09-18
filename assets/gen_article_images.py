@@ -706,6 +706,70 @@ ICONS = {
     <rect x="312" y="-118" width="34" height="118" rx="5" fill="{TEAL}"/>
     <circle cx="329" cy="-132" r="10" fill="#b8862b"/>
   </g>''',
+    "nfl-overtime-guaranteed-possession-betting": f'''
+  <!-- coin mid-flip above a football field with two possession arrows -->
+  <g transform="translate({CX},{CY+60})">
+    <rect x="-170" y="-20" width="340" height="60" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="0" y1="-20" x2="0" y2="40" stroke="{NAVY}" stroke-width="5" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX-90},{CY+10})" stroke="{TEAL}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="0" x2="-55" y2="0"/>
+    <path d="M-35 -18 L-55 0 L-35 18"/>
+  </g>
+  <g transform="translate({CX+90},{CY+10})" stroke="#b8862b" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="0" x2="55" y2="0"/>
+    <path d="M35 -18 L55 0 L35 18"/>
+  </g>
+  <g transform="translate({CX},{CY-110})">
+    <ellipse cx="0" cy="0" rx="46" ry="60" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <ellipse cx="0" cy="0" rx="18" ry="60" fill="none" stroke="{TEAL}" stroke-width="4" opacity="0.6"/>
+  </g>''',
+
+    "sweepstakes-casinos-dual-currency-model-explained": f'''
+  <!-- two different coin types on a balance scale -->
+  <g transform="translate({CX},{CY-30})">
+    <line x1="0" y1="-10" x2="0" y2="110" stroke="{NAVY}" stroke-width="10"/>
+    <line x1="-120" y1="-10" x2="120" y2="-10" stroke="{NAVY}" stroke-width="8"/>
+    <circle cx="0" cy="-10" r="10" fill="{NAVY}"/>
+    <g transform="translate(-120,50)">
+      <circle cx="0" cy="0" r="42" fill="none" stroke="{TEAL}" stroke-width="7"/>
+      <text x="0" y="9" font-family="Arial" font-size="26" fill="{TEAL}" text-anchor="middle">G</text>
+    </g>
+    <g transform="translate(120,60)">
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#b8862b" stroke-width="7"/>
+      <text x="0" y="9" font-family="Arial" font-size="24" fill="#b8862b" text-anchor="middle">$</text>
+    </g>
+    <path d="M-40 120 L40 120 L25 140 L-25 140 Z" fill="{NAVY}"/>
+  </g>''',
+
+    "kenneth-dart-flutter-draftkings-stakes": f'''
+  <!-- two overlapping shield/logo circles above a rising-falling stock line -->
+  <g transform="translate({CX-45},{CY-60})">
+    <circle cx="0" cy="0" r="65" fill="none" stroke="{NAVY}" stroke-width="8"/>
+  </g>
+  <g transform="translate({CX+45},{CY-60})">
+    <circle cx="0" cy="0" r="65" fill="none" stroke="{TEAL}" stroke-width="8"/>
+  </g>
+  <g transform="translate({CX-160},{CY+70})">
+    <polyline points="0,10 45,-30 90,20 135,-60 180,0 225,-40 320,-10" fill="none" stroke="#b8862b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="320" cy="-10" r="9" fill="#b8862b"/>
+  </g>''',
+
+    "caesars-fertitta-ftc-second-request-board-resignations": f'''
+  <!-- corporate building outline with a document and an exit arrow -->
+  <g transform="translate({CX-70},{CY+15})">
+    <path d="M-95 85 L-95 -25 L15 -95 L125 -25 L125 85 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-95" y1="85" x2="125" y2="85" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-30" y="5" width="60" height="80" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-30" y1="45" x2="30" y2="45" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+150},{CY-40})" stroke="#b8862b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-40" y="-52" width="80" height="104" rx="8"/>
+    <line x1="-20" y1="-20" x2="20" y2="-20" opacity="0.5" stroke-width="5"/>
+    <line x1="-20" y1="5" x2="20" y2="5" opacity="0.5" stroke-width="5"/>
+    <line x1="60" y1="0" x2="100" y2="0"/>
+    <path d="M82 -18 L100 0 L82 18"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

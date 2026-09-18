@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-overtime-guaranteed-possession-betting",
+      "title": "NFL Overtime Betting: How the Guaranteed-Possession Rule Changed the Numbers",
+      "excerpt": "How the NFL's guaranteed-possession overtime rule, now leaguewide since 2025, rebuilt live win probability, moneyline pricing, and OT prop markets.",
+      "category": "NFL",
+      "type": "evergreen",
+      "date": "2026-09-18",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "sweepstakes-casinos-dual-currency-model-explained",
+      "title": "How Sweepstakes Casinos Work: The Dual-Currency Model Behind the Legal Fights",
+      "excerpt": "How the Gold Coins/Sweeps Coins dual-currency model behind sweepstakes casinos works, the legal theory it relies on, and why regulators are challenging it.",
+      "category": "Casino Guides",
+      "type": "evergreen",
+      "date": "2026-09-18",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "kenneth-dart-flutter-draftkings-stakes",
+      "title": "Billionaire Kenneth Dart Now Holds Major Stakes in Both FanDuel's and DraftKings' Parent Companies",
+      "excerpt": "Kenneth Dart holds a 31.4% economic stake in Flutter Entertainment (FanDuel's parent) and 5.8% of DraftKings, a combined $6.18B bet on both top US sportsbooks.",
+      "category": "Sports Betting News",
+      "type": "news",
+      "date": "2026-09-18",
+      "readTime": "4 min read"
+    },
+    {
+      "slug": "caesars-fertitta-ftc-second-request-board-resignations",
+      "title": "Caesars-Fertitta Deal Draws FTC Second Request as Icahn-Appointed Directors Exit Board",
+      "excerpt": "Caesars and Fertitta Entertainment received an FTC second request on their $31-per-share buyout as two Icahn-appointed Caesars directors resigned.",
+      "category": "Casino News",
+      "type": "news",
+      "date": "2026-09-18",
+      "readTime": "4 min read"
+    },
+    {
       "slug": "nfl-second-half-quarter-lines-pricing",
       "title": "NFL Second-Half and Quarter Lines: How They're Actually Priced",
       "excerpt": "How sportsbooks derive NFL second-half and quarter spreads/totals from the full-game number, why they're not simple fractions of it, and where the traps are.",
