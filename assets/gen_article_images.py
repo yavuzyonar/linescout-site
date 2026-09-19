@@ -770,6 +770,69 @@ ICONS = {
     <line x1="60" y1="0" x2="100" y2="0"/>
     <path d="M82 -18 L100 0 L82 18"/>
   </g>''',
+    "nfl-referee-crews-point-totals": f'''
+  <!-- referee striped jersey with a whistle beside a rising/falling scoreboard line -->
+  <g transform="translate({CX-130},{CY})">
+    <path d="M-60 -90 L60 -90 L75 -60 L40 -40 L40 90 L-40 90 L-40 -40 L-75 -60 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-40" y1="-55" x2="40" y2="-55" stroke="{TEAL}" stroke-width="7" opacity="0.6"/>
+    <line x1="-40" y1="-15" x2="40" y2="-15" stroke="{TEAL}" stroke-width="7" opacity="0.6"/>
+    <line x1="-40" y1="25" x2="40" y2="25" stroke="{TEAL}" stroke-width="7" opacity="0.6"/>
+    <circle cx="0" cy="55" r="16" fill="none" stroke="#b8862b" stroke-width="6"/>
+  </g>
+  <g transform="translate({CX+90},{CY-30})">
+    <polyline points="0,60 40,20 80,45 120,-20 160,10 200,-45" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="200" cy="-45" r="10" fill="{NAVY}"/>
+  </g>''',
+
+    "craps-dont-pass-dont-come-explained": f'''
+  <!-- two craps dice beside a downward betting arrow -->
+  <g transform="translate({CX-110},{CY})">
+    <g transform="rotate(-10)">
+      <rect x="-55" y="-55" width="110" height="110" rx="18" fill="#fff" stroke="{NAVY}" stroke-width="8"/>
+      <circle cx="-22" cy="-22" r="9" fill="{NAVY}"/>
+      <circle cx="22" cy="-22" r="9" fill="{NAVY}"/>
+      <circle cx="0" cy="0" r="9" fill="{NAVY}"/>
+      <circle cx="-22" cy="22" r="9" fill="{NAVY}"/>
+      <circle cx="22" cy="22" r="9" fill="{NAVY}"/>
+    </g>
+  </g>
+  <g transform="translate({CX+90},{CY+15}) rotate(12)">
+    <rect x="-50" y="-50" width="100" height="100" rx="16" fill="#fff" stroke="{TEAL}" stroke-width="8"/>
+    <circle cx="-18" cy="-18" r="8" fill="{TEAL}"/>
+    <circle cx="18" cy="18" r="8" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+40},{CY+115})" stroke="#b8862b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="-30" x2="0" y2="30"/>
+    <path d="M-18 12 L0 30 L18 12"/>
+  </g>''',
+
+    "missouri-ag-cease-desist-prediction-markets": f'''
+  <!-- official document with a stop-hand icon over a state outline -->
+  <g transform="translate({CX-90},{CY})">
+    <rect x="-85" y="-105" width="150" height="200" rx="10" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-60" y1="-65" x2="30" y2="-65" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-60" y1="-30" x2="30" y2="-30" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <line x1="-60" y1="5" x2="0" y2="5" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+120},{CY-20})">
+    <path d="M0 -70 C40 -70 65 -45 65 -10 L65 30 C65 60 40 78 0 78 C-40 78 -65 60 -65 30 L-65 -10 C-65 -45 -40 -70 0 -70 Z" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#b8862b" stroke-width="9" stroke-linecap="round"/>
+  </g>''',
+
+    "mid-atlantic-casino-revenue-decline-august-2026": f'''
+  <!-- regional map outline with several declining bars and one rising online bar -->
+  <g transform="translate({CX-150},{CY+60})">
+    <rect x="0" y="-70" width="30" height="70" rx="4" fill="{NAVY}" opacity="0.75"/>
+    <rect x="40" y="-58" width="30" height="58" rx="4" fill="{NAVY}" opacity="0.65"/>
+    <rect x="80" y="-46" width="30" height="46" rx="4" fill="{NAVY}" opacity="0.55"/>
+    <rect x="120" y="-34" width="30" height="34" rx="4" fill="{NAVY}" opacity="0.45"/>
+    <rect x="160" y="-92" width="30" height="92" rx="4" fill="{NAVY}" opacity="0.85"/>
+  </g>
+  <g transform="translate({CX+130},{CY-10})">
+    <polyline points="0,50 35,10 70,25 105,-35" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="105" cy="-35" r="10" fill="#b8862b"/>
+    <text x="10" y="75" font-family="Arial" font-size="18" fill="{TEAL}">online</text>
+  </g>''',
 }
 
 if __name__ == "__main__":

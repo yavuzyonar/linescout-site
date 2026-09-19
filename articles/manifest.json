@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-referee-crews-point-totals",
+      "title": "Do NFL Referee Crews Really Move Point Totals?",
+      "excerpt": "Why bettors chase referee-crew tendencies for NFL totals, what the research actually supports, and the sample-size traps that make it an overrated edge.",
+      "category": "NFL",
+      "type": "evergreen",
+      "date": "2026-09-19",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "craps-dont-pass-dont-come-explained",
+      "title": "Don't Pass and Don't Come: Betting Against the Shooter in Craps",
+      "excerpt": "How the Don't Pass and Don't Come bets work, why they bet against the shooter, the 12-push rule, lay odds math, and why they're rarely welcome at the table.",
+      "category": "Casino Guides",
+      "type": "evergreen",
+      "date": "2026-09-19",
+      "readTime": "8 min read"
+    },
+    {
+      "slug": "missouri-ag-cease-desist-prediction-markets",
+      "title": "Missouri AG Orders Six Prediction Market Platforms to Halt Sports Contracts",
+      "excerpt": "Missouri's attorney general sent cease-and-desist letters to Polymarket, Kalshi, Robinhood, and three other platforms over unlicensed sports event contracts.",
+      "category": "Sports Betting News",
+      "type": "news",
+      "date": "2026-09-19",
+      "readTime": "4 min read"
+    },
+    {
+      "slug": "mid-atlantic-casino-revenue-decline-august-2026",
+      "title": "Mid-Atlantic Casino Revenue Slides in August as Online Gambling Keeps Growing",
+      "excerpt": "In-person casino revenue fell across Pennsylvania, Maryland, Virginia, Delaware, and New York in August 2026, even as regulated online gambling kept growing.",
+      "category": "Casino News",
+      "type": "news",
+      "date": "2026-09-19",
+      "readTime": "4 min read"
+    },
+    {
       "slug": "nfl-overtime-guaranteed-possession-betting",
       "title": "NFL Overtime Betting: How the Guaranteed-Possession Rule Changed the Numbers",
       "excerpt": "How the NFL's guaranteed-possession overtime rule, now leaguewide since 2025, rebuilt live win probability, moneyline pricing, and OT prop markets.",
