@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "sportsbook-geolocation-how-it-works",
+      "title": "How Sportsbook Geolocation Actually Works",
+      "excerpt": "GPS, Wi-Fi triangulation, and IP checks: how legal sportsbook apps verify you're in a legal state, and why it can fail near state lines or indoors.",
+      "category": "Betting Basics",
+      "type": "evergreen",
+      "date": "2026-09-22",
+      "readTime": "9 min read"
+    },
+    {
+      "slug": "blackjack-late-surrender-explained",
+      "title": "Blackjack Late Surrender: When to Give Up Half Your Bet",
+      "excerpt": "How late surrender works, the exact hands where the math favors giving up half your bet, and why it quietly improves blackjack's house edge when offered.",
+      "category": "Casino Guides",
+      "type": "evergreen",
+      "date": "2026-09-22",
+      "readTime": "9 min read"
+    },
+    {
+      "slug": "draftkings-ai-elasticity-model-nyt-investigation",
+      "title": "NYT: DraftKings Built AI to Target Its Likely Biggest Losers",
+      "excerpt": "A New York Times investigation found DraftKings built a 2023 machine-learning model to direct promotions at customers likely to lose the most, while shelving harm-detection tools.",
+      "category": "Sports Betting News",
+      "type": "news",
+      "date": "2026-09-22",
+      "readTime": "5 min read"
+    },
+    {
+      "slug": "betmgm-traitors-branded-slot-launch",
+      "title": "BetMGM Launches \"The Traitors\" Branded Online Slot",
+      "excerpt": "BetMGM secured exclusive online casino rights to reality show \"The Traitors\" and launched its first branded slot across four states.",
+      "category": "Casino News",
+      "type": "news",
+      "date": "2026-09-22",
+      "readTime": "4 min read"
+    },
+    {
       "slug": "mlb-run-line-fixed-1-5-odds-explained",
       "title": "Why MLB Run Lines Sit Fixed at 1.5 — And What That Does to the Odds",
       "excerpt": "MLB run lines almost never move off 1.5 runs. Here's why baseball prices games by shifting the odds instead of the number, and how that compares to NFL and NBA spreads.",
