@@ -833,6 +833,69 @@ ICONS = {
     <circle cx="105" cy="-35" r="10" fill="#b8862b"/>
     <text x="10" y="75" font-family="Arial" font-size="18" fill="{TEAL}">online</text>
   </g>''',
+
+    "nfl-anytime-touchdown-scorer-odds-explained": f'''
+  <!-- football crossing a dashed goal line, with a payout ticket showing a checkmark -->
+  <g transform="translate({CX-100},{CY+10}) rotate(-8)">
+    <ellipse cx="0" cy="0" rx="95" ry="52" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <line x1="-22" y1="-16" x2="-22" y2="16" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <line x1="0" y1="-16" x2="0" y2="16" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <line x1="22" y1="-16" x2="22" y2="16" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+  </g>
+  <line x1="{CX+65}" y1="{CY-130}" x2="{CX+65}" y2="{CY+130}" stroke="{TEAL}" stroke-width="6" opacity="0.45" stroke-dasharray="2 16" stroke-linecap="round"/>
+  <g transform="translate({CX+155},{CY-20})" stroke="#b8862b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-52" y="-68" width="104" height="130" rx="10"/>
+    <path d="M-24 -5 L-6 15 L28 -25"/>
+    <line x1="-24" y1="40" x2="24" y2="40" opacity="0.5" stroke-width="5"/>
+  </g>''',
+
+    "roulette-la-partage-en-prison-house-edge": f'''
+  <!-- roulette wheel beside a chip split into two halves -->
+  <g transform="translate({CX-90},{CY})">
+    <circle cx="0" cy="0" r="105" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="{TEAL}" stroke-width="5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="10" fill="{NAVY}"/>
+    <line x1="0" y1="-105" x2="0" y2="105" stroke="{NAVY}" stroke-width="3" opacity="0.3"/>
+    <line x1="-105" y1="0" x2="105" y2="0" stroke="{NAVY}" stroke-width="3" opacity="0.3"/>
+    <line x1="-74" y1="-74" x2="74" y2="74" stroke="{NAVY}" stroke-width="3" opacity="0.3"/>
+    <line x1="-74" y1="74" x2="74" y2="-74" stroke="{NAVY}" stroke-width="3" opacity="0.3"/>
+  </g>
+  <g transform="translate({CX+150},{CY+15})">
+    <path d="M0 -60 A60 60 0 0 1 0 60 Z" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <path d="M0 -60 A60 60 0 0 0 0 60 Z" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="0" y1="-60" x2="0" y2="60" stroke="#b8862b" stroke-width="5" stroke-dasharray="6 6"/>
+  </g>''',
+
+    "draftkings-nfl-handle-prediction-markets-wells-fargo": f'''
+  <!-- rising handle line chart beside a small football -->
+  <g transform="translate({CX-140},{CY+70})">
+    <polyline points="0,40 50,10 100,30 150,-20 200,0 250,-55" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="250" cy="-55" r="10" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+130},{CY-100}) rotate(15)">
+    <ellipse cx="0" cy="0" rx="60" ry="34" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-38" y1="0" x2="38" y2="0" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+    <line x1="-14" y1="-10" x2="-14" y2="10" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+    <line x1="14" y1="-10" x2="14" y2="10" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+  </g>''',
+
+    "caesars-remote-roulette-tropicana-atlantic-city": f'''
+  <!-- roulette wheel streaming via signal arcs to a handheld device -->
+  <g transform="translate({CX-110},{CY})">
+    <circle cx="0" cy="0" r="95" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="{TEAL}" stroke-width="5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="9" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+65},{CY-15})" stroke="#b8862b" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M0 0 Q40 -40 80 0"/>
+    <path d="M15 15 Q40 -10 65 15"/>
+  </g>
+  <g transform="translate({CX+150},{CY+45})">
+    <rect x="-40" y="-55" width="80" height="110" rx="10" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <circle cx="0" cy="40" r="6" fill="{TEAL}"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

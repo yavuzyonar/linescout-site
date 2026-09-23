@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-anytime-touchdown-scorer-odds-explained",
+      "title": "NFL Anytime Touchdown Scorer Odds: How They're Priced",
+      "excerpt": "Why a star running back's anytime-TD price rarely matches his team's moneyline, and how sportsbooks build a 20-player scoring market.",
+      "category": "NFL",
+      "date": "2026-09-23",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "roulette-la-partage-en-prison-house-edge",
+      "title": "La Partage and En Prison: Roulette's Hidden Edge-Cutters",
+      "excerpt": "How la partage and en prison rules cut European roulette's house edge in half on even-money bets, and how to tell if a table offers them.",
+      "category": "Casino Guides",
+      "date": "2026-09-23",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "draftkings-nfl-handle-prediction-markets-wells-fargo",
+      "title": "DraftKings: NFL Handle Up 15%, Prediction Markets a \"Huge Growth Story\"",
+      "excerpt": "DraftKings' CEO told investors NFL betting handle is up 15% through Week 2 and that its prediction markets arm has nearly tripled in volume since July.",
+      "category": "Sports Betting News",
+      "date": "2026-09-23",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
+      "slug": "caesars-remote-roulette-tropicana-atlantic-city",
+      "title": "Caesars Launches Remote Roulette From Tropicana Atlantic City",
+      "excerpt": "Caesars now lets New Jersey online players spin the same live roulette wheel as guests on the Tropicana Atlantic City floor, powered by Evolution's Dual Play technology.",
+      "category": "Casino News",
+      "date": "2026-09-23",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "sportsbook-geolocation-how-it-works",
       "title": "How Sportsbook Geolocation Actually Works",
       "excerpt": "GPS, Wi-Fi triangulation, and IP checks: how legal sportsbook apps verify you're in a legal state, and why it can fail near state lines or indoors.",
@@ -291,7 +327,7 @@
     {
       "slug": "nba-alternate-spreads-totals-pricing",
       "title": "NBA Alternate Spreads and Totals: How Sportsbooks Price Them",
-      "excerpt": "NBA alternate lines aren't guesses \u2014 they're derived mathematically from the main line. Here's how the whole ladder gets priced, and when it's worth taking.",
+      "excerpt": "NBA alternate lines aren't guesses — they're derived mathematically from the main line. Here's how the whole ladder gets priced, and when it's worth taking.",
       "category": "NBA",
       "type": "evergreen",
       "date": "2026-09-15",
@@ -300,7 +336,7 @@
     {
       "slug": "pai-gow-poker-basics",
       "title": "Pai Gow Poker Basics: Setting Hands, Banking, and the House Edge",
-      "excerpt": "Pai Gow Poker splits seven cards into two hands and carries one of the lowest house edges on the floor \u2014 here's how the house way, banking, and pushes work.",
+      "excerpt": "Pai Gow Poker splits seven cards into two hands and carries one of the lowest house edges on the floor — here's how the house way, banking, and pushes work.",
       "category": "Casino Guides",
       "type": "evergreen",
       "date": "2026-09-15",
@@ -327,7 +363,7 @@
     {
       "slug": "nhl-playoff-best-of-seven-betting",
       "title": "Playoff Hockey Betting: How a Best-of-Seven Series Changes NHL Markets",
-      "excerpt": "NHL playoff odds price an entire best-of-seven series, not just one game \u2014 and that changes how home ice, goaltending, and elimination pressure show up in the numbers.",
+      "excerpt": "NHL playoff odds price an entire best-of-seven series, not just one game — and that changes how home ice, goaltending, and elimination pressure show up in the numbers.",
       "category": "NHL",
       "type": "evergreen",
       "date": "2026-09-14",
@@ -336,7 +372,7 @@
     {
       "slug": "ultimate-texas-holdem-basics",
       "title": "Ultimate Texas Hold'em Basics: The Blind, the Play Bet, and When to Raise",
-      "excerpt": "Three decision points, one shrinking bet size each time you wait \u2014 how Ultimate Texas Hold'em's structure works and where basic strategy says to raise.",
+      "excerpt": "Three decision points, one shrinking bet size each time you wait — how Ultimate Texas Hold'em's structure works and where basic strategy says to raise.",
       "category": "Casino Guides",
       "type": "evergreen",
       "date": "2026-09-14",
@@ -426,7 +462,7 @@
     {
       "slug": "playtech-evolution-spectrum-report-unsealed",
       "title": "Playtech Says Newly Unsealed Report Corroborates Its Claims Against Evolution",
-      "excerpt": "A Spectrum Gaming report Evolution commissioned to rebut Playtech-backed allegations was unsealed in New Jersey litigation \u2014 and Playtech says it backs its case.",
+      "excerpt": "A Spectrum Gaming report Evolution commissioned to rebut Playtech-backed allegations was unsealed in New Jersey litigation — and Playtech says it backs its case.",
       "category": "Casino News",
       "type": "news",
       "date": "2026-09-12",
@@ -588,7 +624,7 @@
     {
       "slug": "casino-theoretical-loss-comps-explained",
       "title": "How Casinos Calculate Theoretical Loss to Set Comps",
-      "excerpt": "Comps aren't a guess or a gut call. Here's the actual theoretical-loss formula casinos use \u2014 average bet, speed of play, time, and house edge \u2014 to price them.",
+      "excerpt": "Comps aren't a guess or a gut call. Here's the actual theoretical-loss formula casinos use — average bet, speed of play, time, and house edge — to price them.",
       "category": "Casino Guides",
       "date": "2026-09-07",
       "readTime": "8 min read",
@@ -696,7 +732,7 @@
     {
       "slug": "slot-hit-frequency-vs-rtp",
       "title": "Hit Frequency vs. RTP: Why Same-Payback Slots Feel Different",
-      "excerpt": "RTP sets the long-run payback rate. Hit frequency decides how often a spin pays anything at all \u2014 and why two 96% slots can feel opposite.",
+      "excerpt": "RTP sets the long-run payback rate. Hit frequency decides how often a spin pays anything at all — and why two 96% slots can feel opposite.",
       "category": "Casino Guides",
       "date": "2026-09-04",
       "readTime": "8 min read",
@@ -786,7 +822,7 @@
     {
       "slug": "sports-betting-glossary",
       "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-      "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
+      "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
       "category": "Betting Basics",
       "date": "2026-08-20",
       "readTime": "10 min read",
@@ -812,7 +848,7 @@
     },
     {
       "slug": "fanatics-nfl-sportsbook-deal",
-      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
+      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
       "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
       "category": "Sports Betting News",
       "date": "2026-08-20",
@@ -893,7 +929,7 @@
     },
     {
       "slug": "college-football-spreads-blowouts",
-      "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
+      "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
       "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
       "category": "College Football",
       "date": "2026-08-20",
@@ -1128,7 +1164,7 @@
     {
       "slug": "casino-game-myths-debunked",
       "title": "Common Casino Game Myths, Debunked",
-      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained \u2014 what's actually going on with the math behind each one.",
+      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained — what's actually going on with the math behind each one.",
       "category": "Casino Guides",
       "date": "2026-08-27",
       "readTime": "7 min read",
@@ -1191,7 +1227,7 @@
     {
       "slug": "nba-futures-championship-mvp-odds",
       "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
-      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events \u2014 trades, injuries, streaks \u2014 that move them.",
+      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
       "category": "NBA",
       "date": "2026-08-29",
       "readTime": "9 min read",
