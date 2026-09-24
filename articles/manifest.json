@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nhl-overtime-shootout-betting-explained",
+      "title": "NHL Overtime and Shootout Betting: How the Markets Work",
+      "excerpt": "Why the standard NHL moneyline pays the same for a shootout win as a blowout, and how the separate 'regulation time' market prices 3-on-3 overtime differently.",
+      "category": "NHL",
+      "date": "2026-09-24",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "roulette-call-bets-announced-bets-explained",
+      "title": "Roulette Call Bets Explained: Voisins, Tiers and Orphelins",
+      "excerpt": "How French roulette's call bets group numbers by wheel position instead of the felt's grid, and what voisins du zéro, tiers du cylindre, and orphelins actually cover.",
+      "category": "Casino Guides",
+      "date": "2026-09-24",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "cftc-mention-markets-manipulation-advisory",
+      "title": "CFTC Warns Prediction-Market Mention Contracts Are High-Risk",
+      "excerpt": "A CFTC advisory says 'mention' prediction contracts are presumptively susceptible to manipulation, and trade press is tying the risk directly to sportsbook microbetting.",
+      "category": "Sports Betting News",
+      "date": "2026-09-24",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
+      "slug": "caesars-shareholders-approve-fertitta-buyout",
+      "title": "Caesars Shareholders Approve $17.6B Fertitta Takeover",
+      "excerpt": "Caesars Entertainment shareholders overwhelmingly approved Tilman Fertitta's $17.6 billion buyout on September 23, clearing a key hurdle ahead of FTC antitrust review.",
+      "category": "Casino News",
+      "date": "2026-09-24",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-anytime-touchdown-scorer-odds-explained",
       "title": "NFL Anytime Touchdown Scorer Odds: How They're Priced",
       "excerpt": "Why a star running back's anytime-TD price rarely matches his team's moneyline, and how sportsbooks build a 20-player scoring market.",
