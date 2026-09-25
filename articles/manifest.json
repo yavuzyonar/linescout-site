@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-live-win-probability-odds-explained",
+      "title": "How NFL Live Win-Probability Odds Move Play by Play",
+      "excerpt": "How sportsbooks rebuild NFL win probability after every snap, why the number jumps more on some plays than others, and how it differs from broadcast graphics.",
+      "category": "NFL",
+      "date": "2026-09-25",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "spanish-21-vs-blackjack-house-edge",
+      "title": "Spanish 21 vs. Blackjack: How the Rule Swaps Shift the Edge",
+      "excerpt": "Spanish 21 removes all four 10s from the deck but adds player-favorable rules like late surrender and bonus payouts. Here's how those swaps net out.",
+      "category": "Casino Guides",
+      "date": "2026-09-25",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "north-carolina-fines-underdog-bet365-responsible-gaming",
+      "title": "North Carolina Fines Underdog $175K, bet365 $75K Over Compliance Lapses",
+      "excerpt": "NC regulators fined Underdog $175,000 over 38 underage accounts and bet365 $75,000 for messaging self-excluded users. Both operators self-reported.",
+      "category": "Sports Betting News",
+      "date": "2026-09-25",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "ontario-igaming-august-2026-casino-record-sports-betting-drop",
+      "title": "Ontario Casino Revenue Hits Record as Sports Betting Falls 30%",
+      "excerpt": "Ontario's regulated iGaming market posted CA$336.3M in casino revenue in August, up 2% month over month, while sports betting revenue fell 30% to CA$54.4M.",
+      "category": "Casino News",
+      "date": "2026-09-25",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nhl-overtime-shootout-betting-explained",
       "title": "NHL Overtime and Shootout Betting: How the Markets Work",
       "excerpt": "Why the standard NHL moneyline pays the same for a shootout win as a blowout, and how the separate 'regulation time' market prices 3-on-3 overtime differently.",
