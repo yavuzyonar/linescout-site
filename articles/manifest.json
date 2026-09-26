@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "line-shopping-compare-odds-sportsbooks",
+      "title": "Line Shopping Explained: Why a Few Cents of Odds Add Up Over a Season",
+      "excerpt": "Why the same bet can price at -105 on one book and -120 on another, how much that gap actually costs over a season, and how to build a simple line-shopping routine.",
+      "category": "Betting Basics",
+      "date": "2026-09-26",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "slot-near-misses-losses-disguised-as-wins",
+      "title": "Slot Near-Misses and Losses Disguised as Wins, Explained",
+      "excerpt": "Why a near-miss on a slot reel feels like an almost-win, what 'losses disguised as wins' means, and the design mechanics behind both effects.",
+      "category": "Casino Guides",
+      "date": "2026-09-26",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "new-york-polymarket-lawsuit-countersuit",
+      "title": "New York Sues Polymarket Over Unlicensed Gambling — Polymarket Countersues",
+      "excerpt": "New York's AG and governor sued Polymarket over unlicensed gambling on September 24; Polymarket countersued days later, arguing its contracts are federally regulated derivatives.",
+      "category": "Sports Betting News",
+      "date": "2026-09-26",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "showboat-atlantic-city-foreclosure-lawsuit",
+      "title": "Showboat Atlantic City Faces Foreclosure After 17 Months of Missed Payments",
+      "excerpt": "A lender is seeking foreclosure on Showboat Atlantic City, alleging no debt-service payments since April 2025 on a $48.5 million loan.",
+      "category": "Casino News",
+      "date": "2026-09-26",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-live-win-probability-odds-explained",
       "title": "How NFL Live Win-Probability Odds Move Play by Play",
       "excerpt": "How sportsbooks rebuild NFL win probability after every snap, why the number jumps more on some plays than others, and how it differs from broadcast graphics.",
