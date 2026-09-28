@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-backdoor-covers-garbage-time-explained",
+      "title": "NFL Backdoor Covers: How Garbage-Time Scores Flip Spread Results",
+      "excerpt": "Why a meaningless late NFL touchdown can flip a spread bet, how backdoor covers happen, and which point margins are most exposed to them.",
+      "category": "NFL",
+      "date": "2026-09-28",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "craps-hardways-explained",
+      "title": "Craps Hardways Explained: Why Hard 6 and Hard 8 Cost So Much More Than Place Bets",
+      "excerpt": "Why hardway bets on 6 and 8 carry a much steeper house edge than place bets on the same numbers, and how the payout math explains the gap.",
+      "category": "Casino Guides",
+      "date": "2026-09-28",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "indiana-ncaa-college-player-props-denied",
+      "title": "Indiana Regulators Reject NCAA's Bid to Ban Pre-Game College Player Props",
+      "excerpt": "Indiana regulators unanimously denied the NCAA's bid to ban pre-game college player prop bets, siding with sportsbooks over the harassment concern.",
+      "category": "Sports Betting News",
+      "date": "2026-09-28",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "massachusetts-igaming-2027-legislation-push",
+      "title": "Massachusetts Lawmaker Preps a New 2027 Push to Legalize Online Casino Gaming",
+      "excerpt": "Rep. David Muradian plans a fresh 2027 push to legalize online casino gaming in Massachusetts, arguing it would counter an existing offshore market.",
+      "category": "Casino News",
+      "date": "2026-09-28",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "college-football-overtime-rules-live-betting",
       "title": "College Football Overtime: How the Format Changes Live Betting",
       "excerpt": "College football's alternating-possession overtime has no sudden death and forces 2-point tries in extra rounds. Here's how that changes live win probability and odds.",
