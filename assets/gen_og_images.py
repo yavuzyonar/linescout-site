@@ -33,9 +33,13 @@ def render(html, out_png):
     raw = out_png + ".raw.png"
     subprocess.run([
         CHROME, "--headless", "--no-sandbox", "--disable-gpu",
+        "--disable-background-networking", "--disable-sync", "--disable-default-apps",
+        "--disable-extensions", "--disable-component-update", "--no-first-run",
+        "--disable-client-side-phishing-detection", "--disable-domain-reliability",
+        "--safebrowsing-disable-auto-update", "--disable-breakpad",
         "--window-size=1200,900", "--hide-scrollbars",
         f"--screenshot={raw}", f"file://{TMP_HTML}"
-    ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=30)
     subprocess.run(["convert", raw, "-crop", "1200x630+0+0", "+repage", out_png], check=True)
     os.remove(raw)
 
