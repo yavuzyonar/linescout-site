@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-player-prop-bet-limits-explained",
+      "title": "Why NFL Player Prop Limits Sit So Far Below Spread Limits",
+      "excerpt": "Why sportsbooks let you bet far more on an NFL spread or moneyline than on a player prop, and what that gap reveals about how books actually manage risk.",
+      "category": "NFL",
+      "date": "2026-09-30",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "video-poker-auto-hold-feature-risks",
+      "title": "Video Poker Auto-Hold: Why the Suggested Hold Isn't Foolproof",
+      "excerpt": "How video poker's auto-hold feature picks which cards to keep, the specific ways it can quietly steer you wrong, and how to use it without losing your edge.",
+      "category": "Casino Guides",
+      "date": "2026-09-30",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "michigan-mgcb-draftkings-ai-vip-review",
+      "title": "Michigan Regulators Review DraftKings' AI Targeting, VIP Program",
+      "excerpt": "Michigan's Gaming Control Board is reviewing concerns from NYT and ProPublica reports about DraftKings' AI-driven promotions and VIP program practices.",
+      "category": "Sports Betting News",
+      "date": "2026-09-30",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "michigan-tribal-casino-revenue-sharing-dispute",
+      "title": "Michigan Tribal Casinos Withhold Revenue-Sharing Payments",
+      "excerpt": "Michigan tribal casino payments to the state have plunged 71% since 2022 as more tribes withhold funds, arguing gambling expansion violated their exclusivity deals.",
+      "category": "Casino News",
+      "date": "2026-09-30",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-flex-scheduling-betting-market-impact",
       "title": "NFL Flex Scheduling: How a Betting Market Reacts to the Move",
       "excerpt": "How the NFL's flex rule works, why the league bumps a game into prime time, and why betting limits, props, and line reactions change once a game gets flexed.",

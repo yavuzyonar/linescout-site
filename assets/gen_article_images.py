@@ -896,6 +896,81 @@ ICONS = {
     <rect x="-40" y="-55" width="80" height="110" rx="10" fill="none" stroke="{TEAL}" stroke-width="8"/>
     <circle cx="0" cy="40" r="6" fill="{TEAL}"/>
   </g>''',
+
+    "nfl-player-prop-bet-limits-explained": f'''
+  <!-- three market bars of different heights, each topped by its own limit ceiling -->
+  <g transform="translate({CX-160},{CY+80})">
+    <line x1="-25" y1="-165" x2="35" y2="-165" stroke="{NAVY}" stroke-width="5" opacity="0.55"/>
+    <rect x="-15" y="-150" width="50" height="150" rx="6" fill="{NAVY}"/>
+    <text x="10" y="20" font-family="Arial" font-size="16" fill="{NAVY}" opacity="0.7" text-anchor="middle">ML</text>
+  </g>
+  <g transform="translate({CX-40},{CY+80})">
+    <line x1="-25" y1="-105" x2="35" y2="-105" stroke="{TEAL}" stroke-width="5" opacity="0.55"/>
+    <rect x="-15" y="-92" width="50" height="92" rx="6" fill="{TEAL}"/>
+    <text x="10" y="20" font-family="Arial" font-size="16" fill="{NAVY}" opacity="0.7" text-anchor="middle">Spread</text>
+  </g>
+  <g transform="translate({CX+90},{CY+80})">
+    <line x1="-25" y1="-52" x2="35" y2="-52" stroke="#b8862b" stroke-width="5"/>
+    <rect x="-15" y="-42" width="50" height="42" rx="6" fill="{NAVY}" opacity="0.5"/>
+    <text x="10" y="20" font-family="Arial" font-size="16" fill="{NAVY}" opacity="0.7" text-anchor="middle">Prop</text>
+  </g>
+  <g transform="translate({CX+210},{CY-70}) rotate(18)">
+    <ellipse cx="0" cy="0" rx="52" ry="30" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-32" y1="0" x2="32" y2="0" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+    <line x1="-11" y1="-9" x2="-11" y2="9" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+    <line x1="0" y1="-9" x2="0" y2="9" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+    <line x1="11" y1="-9" x2="11" y2="9" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+  </g>''',
+
+    "video-poker-auto-hold-feature-risks": f'''
+  <!-- row of five cards, two marked as machine-suggested holds -->
+  <g transform="translate({CX-220},{CY-10})">
+    <rect x="0" y="-70" width="74" height="106" rx="8" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <rect x="92" y="-70" width="74" height="106" rx="8" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <rect x="184" y="-70" width="74" height="106" rx="8" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <rect x="276" y="-70" width="74" height="106" rx="8" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <rect x="368" y="-70" width="74" height="106" rx="8" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <text x="92" y="60" font-family="Arial" font-size="15" fill="#b8862b" text-anchor="middle" font-weight="bold">HOLD</text>
+    <text x="276" y="60" font-family="Arial" font-size="15" fill="#b8862b" text-anchor="middle" font-weight="bold">HOLD</text>
+    <circle cx="92" cy="42" r="16" fill="none" stroke="#b8862b" stroke-width="4"/>
+    <circle cx="276" cy="42" r="16" fill="none" stroke="#b8862b" stroke-width="4"/>
+  </g>
+  <g transform="translate({CX+275},{CY-110})">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <text x="0" y="10" font-family="Arial" font-size="30" fill="{NAVY}" text-anchor="middle" font-weight="bold">?</text>
+  </g>''',
+
+    "michigan-mgcb-draftkings-ai-vip-review": f'''
+  <!-- magnifying glass reviewing a phone screen with algorithmic nodes -->
+  <g transform="translate({CX-70},{CY+10})">
+    <rect x="-70" y="-120" width="140" height="220" rx="16" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <circle cx="-30" cy="-60" r="9" fill="{TEAL}"/>
+    <circle cx="20" cy="-30" r="9" fill="{TEAL}"/>
+    <circle cx="-10" cy="10" r="9" fill="{TEAL}"/>
+    <circle cx="35" cy="40" r="9" fill="{TEAL}"/>
+    <line x1="-30" y1="-60" x2="20" y2="-30" stroke="{TEAL}" stroke-width="3" opacity="0.6"/>
+    <line x1="20" y1="-30" x2="-10" y2="10" stroke="{TEAL}" stroke-width="3" opacity="0.6"/>
+    <line x1="-10" y1="10" x2="35" y2="40" stroke="{TEAL}" stroke-width="3" opacity="0.6"/>
+  </g>
+  <g transform="translate({CX+140},{CY+70})">
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#b8862b" stroke-width="10"/>
+    <line x1="42" y1="42" x2="90" y2="90" stroke="#b8862b" stroke-width="12" stroke-linecap="round"/>
+  </g>''',
+
+    "michigan-tribal-casino-revenue-sharing-dispute": f'''
+  <!-- steep downward bar staircase representing plunging revenue-sharing payments -->
+  <g transform="translate({CX-180},{CY+80})">
+    <rect x="0" y="-140" width="46" height="140" rx="5" fill="{NAVY}"/>
+    <rect x="66" y="-95" width="46" height="95" rx="5" fill="{NAVY}" opacity="0.75"/>
+    <rect x="132" y="-58" width="46" height="58" rx="5" fill="{NAVY}" opacity="0.55"/>
+    <rect x="198" y="-32" width="46" height="32" rx="5" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+140},{CY-40})" stroke="{TEAL}" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M-50 0 L30 0"/>
+    <path d="M10 -20 L30 0 L10 20"/>
+    <line x1="55" y1="-28" x2="55" y2="28" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="75" y1="-28" x2="75" y2="28" stroke="{NAVY}" stroke-width="8"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
