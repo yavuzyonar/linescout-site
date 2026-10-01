@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nba-preseason-vs-regular-season-betting",
+      "title": "NBA Preseason Betting: Why Lines Barely Move, Limits Stay Low",
+      "excerpt": "Why NBA preseason spreads and totals trade in a much thinner market than regular-season lines, who actually plays, and how it differs from Summer League.",
+      "category": "NBA",
+      "date": "2026-10-01",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "craps-big-6-big-8-bets-explained",
+      "title": "Craps Big 6 and Big 8: The Beginner Bet That Costs Extra",
+      "excerpt": "Why the Big 6 and Big 8 bet sitting on the rail of a craps table pays even money while an identical place bet pays better, and what that gap costs you.",
+      "category": "Casino Guides",
+      "date": "2026-10-01",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "g2e-2026-casino-sportsbook-ceos-prediction-markets",
+      "title": "At G2E 2026, Casino and Sportsbook Leaders Make a United Case Against Prediction Markets",
+      "excerpt": "At G2E 2026 in Las Vegas, the CEOs of Caesars, MGM, and Wynn, plus the AGA's president, all took direct aim at unlicensed sports prediction markets.",
+      "category": "Sports Betting News",
+      "date": "2026-10-01",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "igt-brand-rebrand-g2e-2026-everi-merger",
+      "title": "IGT Unveils New Brand Identity at G2E 2026, Its First Since Merging With Everi",
+      "excerpt": "IGT revealed a new logo and brand identity at G2E 2026, its first since merging with Everi, as the slot and systems giant repositions as one combined company.",
+      "category": "Casino News",
+      "date": "2026-10-01",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-player-prop-bet-limits-explained",
       "title": "Why NFL Player Prop Limits Sit So Far Below Spread Limits",
       "excerpt": "Why sportsbooks let you bet far more on an NFL spread or moneyline than on a player prop, and what that gap reveals about how books actually manage risk.",
