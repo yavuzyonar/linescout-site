@@ -971,6 +971,62 @@ ICONS = {
     <line x1="55" y1="-28" x2="55" y2="28" stroke="{NAVY}" stroke-width="8"/>
     <line x1="75" y1="-28" x2="75" y2="28" stroke="{NAVY}" stroke-width="8"/>
   </g>''',
+
+    "nhl-opening-week-odds-no-current-season-data": f'''
+  <!-- hockey puck on a faint rink grid beside a blank stat sheet with a question mark -->
+  <g transform="translate({CX-150},{CY+20})">
+    <ellipse cx="0" cy="60" rx="70" ry="18" fill="none" stroke="{TEAL}" stroke-width="3" opacity="0.4"/>
+    <line x1="-70" y1="60" x2="70" y2="60" stroke="{TEAL}" stroke-width="2" opacity="0.3"/>
+    <ellipse cx="0" cy="0" rx="48" ry="20" fill="{NAVY}"/>
+    <ellipse cx="0" cy="-6" rx="48" ry="20" fill="none" stroke="{NAVY}" stroke-width="4"/>
+  </g>
+  <g transform="translate({CX+130},{CY-30})">
+    <rect x="-70" y="-90" width="140" height="180" rx="12" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-45" y1="-50" x2="45" y2="-50" stroke="{NAVY}" stroke-width="5" opacity="0.35"/>
+    <line x1="-45" y1="-20" x2="45" y2="-20" stroke="{NAVY}" stroke-width="5" opacity="0.35"/>
+    <text x="0" y="55" font-family="Arial" font-size="68" fill="#b8862b" text-anchor="middle" font-weight="bold">?</text>
+  </g>''',
+
+    "caribbean-stud-poker-basics": f'''
+  <!-- fanned five-card poker hand beside a progressive jackpot meter -->
+  <g transform="translate({CX-110},{CY+30})">
+    <g transform="rotate(-18)"><rect x="-45" y="-80" width="90" height="130" rx="10" fill="#fff" stroke="{NAVY}" stroke-width="6"/></g>
+    <g transform="rotate(-9)"><rect x="-45" y="-80" width="90" height="130" rx="10" fill="#fff" stroke="{TEAL}" stroke-width="6"/></g>
+    <g transform="rotate(0)"><rect x="-45" y="-80" width="90" height="130" rx="10" fill="#fff" stroke="{NAVY}" stroke-width="6"/></g>
+    <g transform="rotate(9)"><rect x="-45" y="-80" width="90" height="130" rx="10" fill="#fff" stroke="{TEAL}" stroke-width="6"/></g>
+    <g transform="rotate(18)"><rect x="-45" y="-80" width="90" height="130" rx="10" fill="#fff" stroke="{NAVY}" stroke-width="6"/></g>
+  </g>
+  <g transform="translate({CX+170},{CY-20})">
+    <rect x="-18" y="-80" width="36" height="160" rx="10" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <rect x="-12" y="20" width="24" height="54" rx="6" fill="#b8862b"/>
+    <circle cx="0" cy="-95" r="16" fill="none" stroke="#b8862b" stroke-width="5"/>
+  </g>''',
+
+    "draftkings-stock-three-year-low-prediction-markets": f'''
+  <!-- falling stock chart line with a small competing upward arrow -->
+  <g transform="translate({CX-40},{CY+20})" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-170,-70 -110,-30 -50,-55 10,10 70,-10 130,80" stroke="{NAVY}" stroke-width="9"/>
+    <path d="M100 55 L130 80 L155 50" stroke="{NAVY}" stroke-width="9"/>
+    <line x1="-170" y1="90" x2="170" y2="90" stroke="{TEAL}" stroke-width="3" opacity="0.4"/>
+  </g>
+  <g transform="translate({CX+150},{CY-60})" stroke="#b8862b" stroke-width="8" fill="none" stroke-linecap="round">
+    <line x1="0" y1="40" x2="0" y2="-30"/>
+    <path d="M-16 -12 L0 -30 L16 -12"/>
+  </g>''',
+
+    "macau-casino-revenue-fourth-month-decline": f'''
+  <!-- declining bar chart beside a stylized casino chip -->
+  <g transform="translate({CX-170},{CY+80})">
+    <rect x="0" y="-130" width="44" height="130" rx="5" fill="{NAVY}"/>
+    <rect x="62" y="-100" width="44" height="100" rx="5" fill="{NAVY}" opacity="0.75"/>
+    <rect x="124" y="-70" width="44" height="70" rx="5" fill="{NAVY}" opacity="0.55"/>
+    <rect x="186" y="-45" width="44" height="45" rx="5" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+160},{CY-30})">
+    <circle cx="0" cy="0" r="62" fill="none" stroke="{TEAL}" stroke-width="9"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
+    <text x="0" y="10" font-family="Arial" font-size="30" fill="{TEAL}" text-anchor="middle" font-weight="bold">$</text>
+  </g>''',
 }
 
 if __name__ == "__main__":

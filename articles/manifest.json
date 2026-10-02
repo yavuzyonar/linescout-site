@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nhl-opening-week-odds-no-current-season-data",
+      "title": "How NHL Opening-Week Odds Get Set With Almost No Current Data",
+      "excerpt": "With the 2026-27 season just underway, here's how books price October games using preseason tape, trades, and prior-year results instead of live results.",
+      "category": "NHL",
+      "date": "2026-10-02",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "caribbean-stud-poker-basics",
+      "title": "Caribbean Stud Poker Basics: Ante, Raise, and the House Edge",
+      "excerpt": "How Caribbean Stud is dealt, the ace-king-or-better raise rule, what happens when the dealer doesn't qualify, and the game's real house edge.",
+      "category": "Casino Guides",
+      "date": "2026-10-02",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "draftkings-stock-three-year-low-prediction-markets",
+      "title": "DraftKings Stock Falls to Three-Year Low Amid Sector Selloff",
+      "excerpt": "DraftKings shares hit their lowest close since 2023 as investors weigh prediction-market spending, a net loss, and fresh legal scrutiny over its AI use.",
+      "category": "Sports Betting News",
+      "date": "2026-10-02",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "macau-casino-revenue-fourth-month-decline",
+      "title": "Macau Casino Revenue Falls for a Fourth Straight Month",
+      "excerpt": "Macau's September gaming revenue slipped 1.2% year-over-year to $2.23 billion, its weakest month of 2026, as premium table play stays soft.",
+      "category": "Casino News",
+      "date": "2026-10-02",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nba-preseason-vs-regular-season-betting",
       "title": "NBA Preseason Betting: Why Lines Barely Move, Limits Stay Low",
       "excerpt": "Why NBA preseason spreads and totals trade in a much thinner market than regular-season lines, who actually plays, and how it differs from Summer League.",
