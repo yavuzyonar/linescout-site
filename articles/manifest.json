@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-altitude-totals-kicking-props",
+      "title": "How Mile-High Altitude Changes NFL Totals and Kicking Props",
+      "excerpt": "Denver is the NFL's only true high-altitude market. Here's the actual physics behind it, and how it shows up in totals and kicker prop pricing.",
+      "category": "NFL",
+      "date": "2026-10-03",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "mississippi-stud-basics",
+      "title": "Mississippi Stud Basics: The 3-2-1 Raise Pattern",
+      "excerpt": "How Mississippi Stud is dealt, why the maximum raise shrinks from 3x to 2x to 1x as cards are revealed, and why folding too early is the real house edge.",
+      "category": "Casino Guides",
+      "date": "2026-10-03",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "pennsylvania-monthly-wagering-statements-bill",
+      "title": "Pennsylvania Lawmaker Preps Bill Requiring Monthly Wagering Statements",
+      "excerpt": "Rep. Joe Webster's proposal would require PA online sportsbooks and casinos to send monthly activity statements, citing a 300% rise in helpline contacts.",
+      "category": "Sports Betting News",
+      "date": "2026-10-03",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "maverick-gaming-eight-washington-casinos-closing",
+      "title": "Maverick Gaming to Close 8 More Washington Casinos, Cut Up to 850 Jobs",
+      "excerpt": "A new WARN filing lists eight more Maverick Gaming cardrooms closing Nov. 30, as the company's Chapter 11 restructuring keeps shrinking its Washington footprint.",
+      "category": "Casino News",
+      "date": "2026-10-03",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nhl-opening-week-odds-no-current-season-data",
       "title": "How NHL Opening-Week Odds Get Set With Almost No Current Data",
       "excerpt": "With the 2026-27 season just underway, here's how books price October games using preseason tape, trades, and prior-year results instead of live results.",

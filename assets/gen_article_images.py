@@ -1027,6 +1027,70 @@ ICONS = {
     <circle cx="0" cy="0" r="40" fill="none" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
     <text x="0" y="10" font-family="Arial" font-size="30" fill="{TEAL}" text-anchor="middle" font-weight="bold">$</text>
   </g>''',
+
+    "nfl-altitude-totals-kicking-props": f'''
+  <!-- mountain peak behind a football, with a rising kick arc -->
+  <g transform="translate({CX-40},{CY+40})">
+    <path d="M-220 40 L-120 -110 L-40 10 L20 -70 L140 40 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M-150 -40 L-120 -110 L-90 -40" fill="none" stroke="{TEAL}" stroke-width="5" stroke-linejoin="round" opacity="0.6"/>
+  </g>
+  <g transform="translate({CX+150},{CY-10})">
+    <ellipse cx="0" cy="0" rx="46" ry="26" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="{NAVY}" stroke-width="4"/>
+    <line x1="-8" y1="-9" x2="-8" y2="9" stroke="{NAVY}" stroke-width="4"/>
+    <line x1="8" y1="-9" x2="8" y2="9" stroke="{NAVY}" stroke-width="4"/>
+  </g>
+  <path d="M{CX+40} {CY+90} Q {CX+110} {CY-60} {CX+150} {CY-30}" fill="none" stroke="#b8862b" stroke-width="5" stroke-dasharray="3 10" stroke-linecap="round"/>''',
+
+    "mississippi-stud-basics": f'''
+  <!-- fanned cards above a descending 3-2-1 chip stack pattern -->
+  <g transform="translate({CX},{CY-60})">
+    <g transform="rotate(-14)"><rect x="-42" y="-65" width="84" height="120" rx="9" fill="#fff" stroke="{NAVY}" stroke-width="6"/></g>
+    <g transform="rotate(0)"><rect x="-42" y="-65" width="84" height="120" rx="9" fill="#fff" stroke="{TEAL}" stroke-width="6"/></g>
+    <g transform="rotate(14)"><rect x="-42" y="-65" width="84" height="120" rx="9" fill="#fff" stroke="{NAVY}" stroke-width="6"/></g>
+  </g>
+  <g transform="translate({CX-170},{CY+95})">
+    <ellipse cx="0" cy="-30" rx="26" ry="9" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <ellipse cx="0" cy="-18" rx="26" ry="9" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <ellipse cx="0" cy="-6" rx="26" ry="9" fill="none" stroke="{TEAL}" stroke-width="5"/>
+  </g>
+  <g transform="translate({CX},{CY+95})">
+    <ellipse cx="0" cy="-20" rx="26" ry="9" fill="none" stroke="#b8862b" stroke-width="5"/>
+    <ellipse cx="0" cy="-8" rx="26" ry="9" fill="none" stroke="#b8862b" stroke-width="5"/>
+  </g>
+  <g transform="translate({CX+170},{CY+95})">
+    <ellipse cx="0" cy="-10" rx="26" ry="9" fill="none" stroke="{NAVY}" stroke-width="5"/>
+  </g>''',
+
+    "pennsylvania-monthly-wagering-statements-bill": f'''
+  <!-- monthly statement document with a calendar grid -->
+  <g transform="translate({CX-20},{CY})">
+    <rect x="-110" y="-110" width="220" height="220" rx="12" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-85" y1="-70" x2="85" y2="-70" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+    <rect x="-80" y="-45" width="160" height="110" rx="6" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="-80" y1="-18" x2="80" y2="-18" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-80" y1="10" x2="80" y2="10" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-80" y1="38" x2="80" y2="38" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-27" y1="-45" x2="-27" y2="65" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="27" y1="-45" x2="27" y2="65" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+150},{CY-80})">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="0" y="9" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle">$</text>
+  </g>''',
+
+    "maverick-gaming-eight-washington-casinos-closing": f'''
+  <!-- casino building outline with a closed sign and the number 8 -->
+  <g transform="translate({CX-40},{CY+10})">
+    <path d="M-110 85 L-110 -15 L0 -85 L110 -15 L110 85 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-110" y1="85" x2="110" y2="85" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-38" y="5" width="76" height="80" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-38" y1="45" x2="38" y2="45" stroke="{TEAL}" stroke-width="4" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+140},{CY-55}) rotate(-14)">
+    <rect x="-48" y="-20" width="96" height="40" rx="7" fill="#b8862b"/>
+    <text x="0" y="9" font-family="Arial" font-size="24" fill="{NAVY}" text-anchor="middle" font-weight="bold">8</text>
+  </g>''',
 }
 
 if __name__ == "__main__":
