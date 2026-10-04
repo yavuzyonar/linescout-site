@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "teasers-vs-parlays-mathematical-sense",
+      "title": "Teasers vs. Parlays: When a Teaser Actually Makes Mathematical Sense",
+      "excerpt": "Teasers feel safer than parlays, but the discount only pays off when the points you buy meaningfully raise your win probability. Here's how to run the math.",
+      "category": "Betting Basics",
+      "date": "2026-10-04",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "free-bet-blackjack-explained",
+      "title": "Free Bet Blackjack: How \"Free\" Doubles and Splits Change the House Edge",
+      "excerpt": "Free Bet Blackjack lets you double and split without extra chips on certain hands. Push 22 is the rule that pays for it \u2014 here's how the net edge works out.",
+      "category": "Casino Guides",
+      "date": "2026-10-04",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "new-york-sportsbook-handle-nfl-week-3-decline",
+      "title": "New York Sports Betting Handle Falls 6% in NFL Week 3, but Hold Lifts Revenue",
+      "excerpt": "New York's mobile sportsbooks took in $573.4 million in NFL Week 3, down 6.2% week over week, while an 8.5% hold pushed revenue up to $48.6 million.",
+      "category": "Sports Betting News",
+      "date": "2026-10-04",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
+      "slug": "las-vegas-strip-casino-revenue-august-2026",
+      "title": "Las Vegas Strip Revenue Barely Rises in August as Tourism Keeps Slowing",
+      "excerpt": "Las Vegas Strip casinos posted $684.1 million in August revenue, up just 0.7%, as visitor volume fell 4.3% and several core games declined sharply.",
+      "category": "Casino News",
+      "date": "2026-10-04",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-altitude-totals-kicking-props",
       "title": "How Mile-High Altitude Changes NFL Totals and Kicking Props",
       "excerpt": "Denver is the NFL's only true high-altitude market. Here's the actual physics behind it, and how it shows up in totals and kicker prop pricing.",
