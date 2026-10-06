@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "ohio-prediction-markets-cease-and-desist",
+      "title": "Ohio Orders 10 Prediction Markets to Stop Sports Event Contracts",
+      "excerpt": "Ohio's gaming regulator sent cease-and-desist letters to 10 prediction-market firms, including Polymarket, Coinbase, and Robinhood, citing a recent Sixth Circuit ruling.",
+      "category": "Sports Betting News",
+      "date": "2026-10-06",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "pennsylvania-casino-workforce-decline-pgcb-report",
+      "title": "Pennsylvania Casino Workforce Shrinks 3.8% Even as Rivers Philadelphia Hires",
+      "excerpt": "Pennsylvania's 18 casinos cut 598 jobs in fiscal 2025-26 per the PGCB's annual report, even as a new casino opened and Rivers Philadelphia holds a hiring event.",
+      "category": "Casino News",
+      "date": "2026-10-06",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "nfl-survivor-pools-strategy",
+      "title": "NFL Survivor Pools: How Strategy Differs From Betting the Spread",
+      "excerpt": "NFL survivor (knockout) pools don't use a point spread at all. Here's how pick popularity, team-saving, and pool size change the strategy entirely.",
+      "category": "NFL",
+      "date": "2026-10-06",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "big-six-wheel-money-wheel-house-edge",
+      "title": "Big Six Wheel Explained: Why It's One of the Worst Bets on the Casino Floor",
+      "excerpt": "How the Big Six (Money Wheel) pays out, why its house edge runs 11% to 24% depending on the symbol, and why the joker bet is the worst wager on it.",
+      "category": "Casino Guides",
+      "date": "2026-10-06",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
       "slug": "nfl-half-point-hooks-explained",
       "title": "Why NFL Spreads Carry a .5 \"Hook\" at 3 and 7 — and When Books Drop It",
       "excerpt": "Why sportsbooks price NFL spreads at 2.5 or 3.5 instead of whole numbers, why 3 and 7 get the hook most, and what it actually costs when a game lands on one.",
