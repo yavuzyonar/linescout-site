@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "gambling-tax-basics-reporting-winnings-losses",
+      "title": "Gambling Tax Basics: How Winnings and Losses Are Reported",
+      "excerpt": "How the IRS generally treats sports betting and casino winnings, when a W-2G actually gets issued, and the 2026 change that caps how much of your losses you can deduct. Educational only, not tax advice.",
+      "category": "Betting Basics",
+      "date": "2026-10-08",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "slot-wilds-scatters-multipliers-explained",
+      "title": "Wild Symbols, Scatters, and Multipliers: How Each Changes a Slot's Math",
+      "excerpt": "Wilds, scatters, and multipliers are the three building blocks behind nearly every slot bonus feature. Here's what each one actually does to a spin's math.",
+      "category": "Casino Guides",
+      "date": "2026-10-08",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "tennessee-caesars-human-error-violations-fines",
+      "title": "Tennessee Fines Caesars Twice, Tired of \"Human Error\" Excuse",
+      "excerpt": "Tennessee's sports wagering council fined Caesars Sportsbook twice at an October 6 meeting over college player props and a self-exclusion override, growing visibly impatient with the operator's compliance lapses.",
+      "category": "Sports Betting News",
+      "date": "2026-10-08",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
+      "slug": "maine-online-casino-rules-third-draft",
+      "title": "Maine Releases a Third Draft of Its Online Casino Rules",
+      "excerpt": "Maine's Gambling Control Unit published a third draft of its iGaming rules on September 30, loosening some game-approval steps while adding new tribal-branding and self-exclusion requirements.",
+      "category": "Casino News",
+      "date": "2026-10-08",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "ohio-prediction-markets-cease-and-desist",
       "title": "Ohio Orders 10 Prediction Markets to Stop Sports Event Contracts",
       "excerpt": "Ohio's gaming regulator sent cease-and-desist letters to 10 prediction-market firms, including Polymarket, Coinbase, and Robinhood, citing a recent Sixth Circuit ruling.",
@@ -38,7 +74,7 @@
     },
     {
       "slug": "nfl-half-point-hooks-explained",
-      "title": "Why NFL Spreads Carry a .5 \"Hook\" at 3 and 7 — and When Books Drop It",
+      "title": "Why NFL Spreads Carry a .5 \"Hook\" at 3 and 7 \u2014 and When Books Drop It",
       "excerpt": "Why sportsbooks price NFL spreads at 2.5 or 3.5 instead of whole numbers, why 3 and 7 get the hook most, and what it actually costs when a game lands on one.",
       "category": "NFL",
       "date": "2026-10-05",
@@ -65,7 +101,7 @@
     },
     {
       "slug": "seneca-nation-new-york-gaming-compact-dispute",
-      "title": "Seneca Nation Says It Reached a Gaming Compact Deal \"In Principle\" — New York Says Not So Fast",
+      "title": "Seneca Nation Says It Reached a Gaming Compact Deal \"In Principle\" \u2014 New York Says Not So Fast",
       "excerpt": "The Seneca Nation says it struck a new compact deal dropping revenue sharing with New York. Governor Hochul's office says no final agreement has been reached.",
       "category": "Casino News",
       "date": "2026-10-05",
@@ -84,7 +120,7 @@
     {
       "slug": "free-bet-blackjack-explained",
       "title": "Free Bet Blackjack: How \"Free\" Doubles and Splits Change the House Edge",
-      "excerpt": "Free Bet Blackjack lets you double and split without extra chips on certain hands. Push 22 is the rule that pays for it — here's how the net edge works out.",
+      "excerpt": "Free Bet Blackjack lets you double and split without extra chips on certain hands. Push 22 is the rule that pays for it \u2014 here's how the net edge works out.",
       "category": "Casino Guides",
       "date": "2026-10-04",
       "readTime": "8 min read",
@@ -353,7 +389,7 @@
     },
     {
       "slug": "mgm-people-inc-bid-withdrawn-speculation",
-      "title": "Diller's People Inc. Drops $18B MGM Bid — Then M&A Talk Flips",
+      "title": "Diller's People Inc. Drops $18B MGM Bid \u2014 Then M&A Talk Flips",
       "excerpt": "Barry Diller's People Inc. withdrew its $18B, $48.30-a-share bid for MGM Resorts on September 24. Days later, speculation flipped toward MGM buying People instead.",
       "category": "Casino News",
       "date": "2026-09-27",
@@ -380,7 +416,7 @@
     },
     {
       "slug": "new-york-polymarket-lawsuit-countersuit",
-      "title": "New York Sues Polymarket Over Unlicensed Gambling — Polymarket Countersues",
+      "title": "New York Sues Polymarket Over Unlicensed Gambling \u2014 Polymarket Countersues",
       "excerpt": "New York's AG and governor sued Polymarket over unlicensed gambling on September 24; Polymarket countersued days later, arguing its contracts are federally regulated derivatives.",
       "category": "Sports Betting News",
       "date": "2026-09-26",
@@ -444,7 +480,7 @@
     {
       "slug": "roulette-call-bets-announced-bets-explained",
       "title": "Roulette Call Bets Explained: Voisins, Tiers and Orphelins",
-      "excerpt": "How French roulette's call bets group numbers by wheel position instead of the felt's grid, and what voisins du zéro, tiers du cylindre, and orphelins actually cover.",
+      "excerpt": "How French roulette's call bets group numbers by wheel position instead of the felt's grid, and what voisins du z\u00e9ro, tiers du cylindre, and orphelins actually cover.",
       "category": "Casino Guides",
       "date": "2026-09-24",
       "readTime": "8 min read",
@@ -542,7 +578,7 @@
     },
     {
       "slug": "mlb-run-line-fixed-1-5-odds-explained",
-      "title": "Why MLB Run Lines Sit Fixed at 1.5 — And What That Does to the Odds",
+      "title": "Why MLB Run Lines Sit Fixed at 1.5 \u2014 And What That Does to the Odds",
       "excerpt": "MLB run lines almost never move off 1.5 runs. Here's why baseball prices games by shifting the odds instead of the number, and how that compares to NFL and NBA spreads.",
       "category": "Betting Basics",
       "type": "evergreen",
@@ -587,7 +623,7 @@
     },
     {
       "slug": "slot-max-win-caps-explained",
-      "title": "Why Some Online Slots Cap Your Maximum Win Per Spin — and What Happens If You Hit It",
+      "title": "Why Some Online Slots Cap Your Maximum Win Per Spin \u2014 and What Happens If You Hit It",
       "excerpt": "Most modern slots quietly cap the biggest possible payout on a single spin or bonus round. Here's how max-win caps work and why they're built into the math.",
       "category": "Casino Guides",
       "type": "evergreen",
@@ -795,7 +831,7 @@
     {
       "slug": "nba-alternate-spreads-totals-pricing",
       "title": "NBA Alternate Spreads and Totals: How Sportsbooks Price Them",
-      "excerpt": "NBA alternate lines aren't guesses — they're derived mathematically from the main line. Here's how the whole ladder gets priced, and when it's worth taking.",
+      "excerpt": "NBA alternate lines aren't guesses \u2014 they're derived mathematically from the main line. Here's how the whole ladder gets priced, and when it's worth taking.",
       "category": "NBA",
       "type": "evergreen",
       "date": "2026-09-15",
@@ -804,7 +840,7 @@
     {
       "slug": "pai-gow-poker-basics",
       "title": "Pai Gow Poker Basics: Setting Hands, Banking, and the House Edge",
-      "excerpt": "Pai Gow Poker splits seven cards into two hands and carries one of the lowest house edges on the floor — here's how the house way, banking, and pushes work.",
+      "excerpt": "Pai Gow Poker splits seven cards into two hands and carries one of the lowest house edges on the floor \u2014 here's how the house way, banking, and pushes work.",
       "category": "Casino Guides",
       "type": "evergreen",
       "date": "2026-09-15",
@@ -831,7 +867,7 @@
     {
       "slug": "nhl-playoff-best-of-seven-betting",
       "title": "Playoff Hockey Betting: How a Best-of-Seven Series Changes NHL Markets",
-      "excerpt": "NHL playoff odds price an entire best-of-seven series, not just one game — and that changes how home ice, goaltending, and elimination pressure show up in the numbers.",
+      "excerpt": "NHL playoff odds price an entire best-of-seven series, not just one game \u2014 and that changes how home ice, goaltending, and elimination pressure show up in the numbers.",
       "category": "NHL",
       "type": "evergreen",
       "date": "2026-09-14",
@@ -840,7 +876,7 @@
     {
       "slug": "ultimate-texas-holdem-basics",
       "title": "Ultimate Texas Hold'em Basics: The Blind, the Play Bet, and When to Raise",
-      "excerpt": "Three decision points, one shrinking bet size each time you wait — how Ultimate Texas Hold'em's structure works and where basic strategy says to raise.",
+      "excerpt": "Three decision points, one shrinking bet size each time you wait \u2014 how Ultimate Texas Hold'em's structure works and where basic strategy says to raise.",
       "category": "Casino Guides",
       "type": "evergreen",
       "date": "2026-09-14",
@@ -930,7 +966,7 @@
     {
       "slug": "playtech-evolution-spectrum-report-unsealed",
       "title": "Playtech Says Newly Unsealed Report Corroborates Its Claims Against Evolution",
-      "excerpt": "A Spectrum Gaming report Evolution commissioned to rebut Playtech-backed allegations was unsealed in New Jersey litigation — and Playtech says it backs its case.",
+      "excerpt": "A Spectrum Gaming report Evolution commissioned to rebut Playtech-backed allegations was unsealed in New Jersey litigation \u2014 and Playtech says it backs its case.",
       "category": "Casino News",
       "type": "news",
       "date": "2026-09-12",
@@ -1092,7 +1128,7 @@
     {
       "slug": "casino-theoretical-loss-comps-explained",
       "title": "How Casinos Calculate Theoretical Loss to Set Comps",
-      "excerpt": "Comps aren't a guess or a gut call. Here's the actual theoretical-loss formula casinos use — average bet, speed of play, time, and house edge — to price them.",
+      "excerpt": "Comps aren't a guess or a gut call. Here's the actual theoretical-loss formula casinos use \u2014 average bet, speed of play, time, and house edge \u2014 to price them.",
       "category": "Casino Guides",
       "date": "2026-09-07",
       "readTime": "8 min read",
@@ -1200,7 +1236,7 @@
     {
       "slug": "slot-hit-frequency-vs-rtp",
       "title": "Hit Frequency vs. RTP: Why Same-Payback Slots Feel Different",
-      "excerpt": "RTP sets the long-run payback rate. Hit frequency decides how often a spin pays anything at all — and why two 96% slots can feel opposite.",
+      "excerpt": "RTP sets the long-run payback rate. Hit frequency decides how often a spin pays anything at all \u2014 and why two 96% slots can feel opposite.",
       "category": "Casino Guides",
       "date": "2026-09-04",
       "readTime": "8 min read",
@@ -1290,7 +1326,7 @@
     {
       "slug": "sports-betting-glossary",
       "title": "The Sports Betting Glossary: 40+ Terms Every Bettor Should Know",
-      "excerpt": "From 'juice' to 'middling' to 'CLV' — a running glossary of the terms you'll actually hear from other bettors.",
+      "excerpt": "From 'juice' to 'middling' to 'CLV' \u2014 a running glossary of the terms you'll actually hear from other bettors.",
       "category": "Betting Basics",
       "date": "2026-08-20",
       "readTime": "10 min read",
@@ -1316,7 +1352,7 @@
     },
     {
       "slug": "fanatics-nfl-sportsbook-deal",
-      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner — In a Non-Exclusive Deal",
+      "title": "Fanatics Becomes the NFL's Official Sportsbook and Casino Partner \u2014 In a Non-Exclusive Deal",
       "excerpt": "Fanatics has signed a multi-year, non-exclusive deal to become the NFL's official sportsbook and casino partner, filling a gap left by Caesars, DraftKings, and FanDuel's expired deals.",
       "category": "Sports Betting News",
       "date": "2026-08-20",
@@ -1397,7 +1433,7 @@
     },
     {
       "slug": "college-football-spreads-blowouts",
-      "title": "College Football Spreads: Why Blowouts Are More Common — and What That Means for Bettors",
+      "title": "College Football Spreads: Why Blowouts Are More Common \u2014 and What That Means for Bettors",
       "excerpt": "Why college football sees so many lopsided spreads, how backdoor covers happen, and what large point spreads mean for bettors.",
       "category": "College Football",
       "date": "2026-08-20",
@@ -1632,7 +1668,7 @@
     {
       "slug": "casino-game-myths-debunked",
       "title": "Common Casino Game Myths, Debunked",
-      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained — what's actually going on with the math behind each one.",
+      "excerpt": "Hot and cold machines, due roulette numbers, and other casino myths explained \u2014 what's actually going on with the math behind each one.",
       "category": "Casino Guides",
       "date": "2026-08-27",
       "readTime": "7 min read",
@@ -1695,7 +1731,7 @@
     {
       "slug": "nba-futures-championship-mvp-odds",
       "title": "NBA Futures: How Championship and MVP Odds Move Across a Season",
-      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events — trades, injuries, streaks — that move them.",
+      "excerpt": "How NBA championship, conference, and MVP futures are built before opening night, and the specific in-season events \u2014 trades, injuries, streaks \u2014 that move them.",
       "category": "NBA",
       "date": "2026-08-29",
       "readTime": "9 min read",
