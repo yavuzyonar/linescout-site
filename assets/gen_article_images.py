@@ -1091,6 +1091,76 @@ ICONS = {
     <rect x="-48" y="-20" width="96" height="40" rx="7" fill="#b8862b"/>
     <text x="0" y="9" font-family="Arial" font-size="24" fill="{NAVY}" text-anchor="middle" font-weight="bold">8</text>
   </g>''',
+
+    "nhl-puck-line-vs-moneyline-cushion": f'''
+  <!-- a puck at a fork, splitting into a short moneyline path and a longer puck-line path with a cushion gap -->
+  <g transform="translate({CX-150},{CY+10})">
+    <ellipse cx="0" cy="0" rx="34" ry="14" fill="{NAVY}"/>
+  </g>
+  <path d="M{CX-120} {CY+10} L{CX-20} {CY-70}" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round"/>
+  <path d="M{CX-120} {CY+10} L{CX-20} {CY+85}" fill="none" stroke="#b8862b" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 14"/>
+  <g transform="translate({CX+40},{CY-70})">
+    <rect x="-50" y="-22" width="100" height="44" rx="8" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <text x="0" y="8" font-family="Arial" font-size="20" fill="{TEAL}" text-anchor="middle" font-weight="bold">ML</text>
+  </g>
+  <g transform="translate({CX+40},{CY+85})">
+    <rect x="-56" y="-22" width="112" height="44" rx="8" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="0" y="8" font-family="Arial" font-size="18" fill="#b8862b" text-anchor="middle" font-weight="bold">-1.5</text>
+  </g>''',
+
+    "pai-gow-tiles-explained": f'''
+  <!-- two Chinese domino tiles with pip dots beside a small die -->
+  <g transform="translate({CX-70},{CY})">
+    <rect x="-55" y="-95" width="110" height="190" rx="14" fill="#fff" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <circle cx="-22" cy="-50" r="8" fill="{NAVY}"/>
+    <circle cx="22" cy="-50" r="8" fill="{NAVY}"/>
+    <circle cx="-22" cy="-22" r="8" fill="{NAVY}"/>
+    <circle cx="0" cy="45" r="8" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+85},{CY+25}) rotate(10)">
+    <rect x="-48" y="-82" width="96" height="164" rx="12" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-48" y1="0" x2="48" y2="0" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <circle cx="0" cy="-40" r="7" fill="{TEAL}"/>
+    <circle cx="-18" cy="30" r="7" fill="{NAVY}"/>
+    <circle cx="18" cy="30" r="7" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+185},{CY-95}) rotate(18)">
+    <rect x="-28" y="-28" width="56" height="56" rx="10" fill="#b8862b"/>
+    <circle cx="-10" cy="-10" r="5" fill="{NAVY}"/>
+    <circle cx="10" cy="10" r="5" fill="{NAVY}"/>
+    <circle cx="10" cy="-10" r="5" fill="{NAVY}"/>
+    <circle cx="-10" cy="10" r="5" fill="{NAVY}"/>
+    <circle cx="0" cy="0" r="5" fill="{NAVY}"/>
+  </g>''',
+
+    "nfl-supreme-court-amicus-brief-kalshi": f'''
+  <!-- football beside courthouse columns, representing a league filing at the Supreme Court -->
+  <g transform="translate({CX-130},{CY+10})">
+    <ellipse cx="0" cy="0" rx="95" ry="50" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="-18" y1="-10" x2="-18" y2="10" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="18" y1="-10" x2="18" y2="10" stroke="{TEAL}" stroke-width="5"/>
+  </g>
+  <g transform="translate({CX+110},{CY+25})">
+    <line x1="-105" y1="55" x2="105" y2="55" stroke="{NAVY}" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-115 15 L0 -55 L115 15 Z" fill="none" stroke="{NAVY}" stroke-width="7" stroke-linejoin="round"/>
+    <line x1="-75" y1="15" x2="-75" y2="55" stroke="#b8862b" stroke-width="7"/>
+    <line x1="-25" y1="15" x2="-25" y2="55" stroke="#b8862b" stroke-width="7"/>
+    <line x1="25" y1="15" x2="25" y2="55" stroke="#b8862b" stroke-width="7"/>
+    <line x1="75" y1="15" x2="75" y2="55" stroke="#b8862b" stroke-width="7"/>
+  </g>''',
+
+    "oklahoma-sweepstakes-casino-ban-nov-1": f'''
+  <!-- map pin with a crossed-out coin, representing a state regulatory ban on sweepstakes casinos -->
+  <g transform="translate({CX-30},{CY-10})">
+    <path d="M0 -110 C60 -110 100 -68 100 -18 C100 55 0 130 0 130 C0 130 -100 55 -100 -18 C-100 -68 -60 -110 0 -110 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="0" cy="-15" r="48" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <text x="0" y="-3" font-family="Arial" font-size="30" fill="{TEAL}" text-anchor="middle" font-weight="bold">$</text>
+    <line x1="-34" y1="-49" x2="34" y2="19" stroke="#b8862b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <circle cx="{CX+150}" cy="{CY-100}" r="9" fill="#b8862b"/>''',
 }
 
 if __name__ == "__main__":
