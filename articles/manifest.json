@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "hold-percentage-vs-vig-sportsbook-profit",
+      "title": "Hold Percentage vs. Vig: How Sportsbooks Actually Profit",
+      "excerpt": "Vig is priced into every bet before kickoff. Hold is what a book actually keeps after bets settle. A worked example shows why a 50/50 book and a lopsided book can hold wildly different amounts on the exact same -110 price.",
+      "category": "Betting Basics",
+      "date": "2026-10-10",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "casino-holdem-basics",
+      "title": "Casino Hold'em Basics: Ante, Call, and the House Edge",
+      "excerpt": "How Casino Hold'em is dealt, when to call vs. fold after the flop, and why its easier dealer-qualifying rule gives it a noticeably lower house edge than Caribbean Stud.",
+      "category": "Casino Guides",
+      "date": "2026-10-10",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "seminole-tribe-draftkings-florida-lawsuit",
+      "title": "Seminole Tribe Sues DraftKings Over Florida Prediction Markets",
+      "excerpt": "The Seminole Tribe says DraftKings' sports event contracts are sports betting by another name, violating its exclusive Florida compact, and wants the product enjoined and its Florida revenue disgorged.",
+      "category": "Sports Betting News",
+      "date": "2026-10-10",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "pennsylvania-wyoming-sweepstakes-casino-ban-bills",
+      "title": "Pennsylvania, Wyoming Push Bills to Ban Sweepstakes Casinos",
+      "excerpt": "Pennsylvania's HB 2801 would fine sweepstakes-casino operators up to $500,000 per violation, while a Wyoming committee draft would make operating one a felony carrying up to three years in prison.",
+      "category": "Casino News",
+      "date": "2026-10-10",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "gambling-tax-basics-reporting-winnings-losses",
       "title": "Gambling Tax Basics: How Winnings and Losses Are Reported",
       "excerpt": "How the IRS generally treats sports betting and casino winnings, when a W-2G actually gets issued, and the 2026 change that caps how much of your losses you can deduct. Educational only, not tax advice.",
