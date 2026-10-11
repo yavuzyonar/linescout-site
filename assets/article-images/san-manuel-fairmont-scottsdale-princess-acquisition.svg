@@ -1,0 +1,38 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4f3"/>
+      <stop offset="100%" stop-color="#f6faf9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,110 780,400 640,400" fill="url(#beam)"/>
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1160" cy="-30" r="140"/>
+    <circle cx="1160" cy="-30" r="240"/>
+    <circle cx="1160" cy="-30" r="340"/>
+  </g>
+  <circle cx="70" cy="60" r="7" fill="#b8862b"/>
+
+  <!-- desert resort building with palm tree, ownership-transfer arrow overhead -->
+  <g transform="translate(590,235)">
+    <path d="M-120 70 L-120 -10 Q-120 -45 -85 -45 L-85 -10 L-45 -10 L-45 -45 Q-45 -70 -5 -70 Q35 -70 35 -45 L35 -10 L75 -10 L75 -45 Q75 -70 110 -70 L110 70 Z"
+          fill="none" stroke="#16233d" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-120" y1="70" x2="110" y2="70" stroke="#16233d" stroke-width="8"/>
+    <rect x="-20" y="15" width="40" height="55" fill="none" stroke="#0e7c86" stroke-width="6"/>
+  </g>
+  <g transform="translate(450,240)" stroke="#0e7c86" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="0" y1="40" x2="0" y2="-35"/>
+    <path d="M0 -35 Q-30 -55 -45 -35"/>
+    <path d="M0 -35 Q24 -60 42 -42"/>
+    <path d="M0 -20 Q-26 -35 -38 -18"/>
+  </g>
+  <g transform="translate(630,105)" fill="none" stroke="#b8862b" stroke-width="7" stroke-linecap="round">
+    <path d="M-90 10 A95 45 0 0 1 90 10"/>
+    <path d="M73 -8 L90 10 L69 22"/>
+  </g>
+</svg>
