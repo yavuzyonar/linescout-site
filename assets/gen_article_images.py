@@ -1161,6 +1161,63 @@ ICONS = {
     <line x1="-34" y1="-49" x2="34" y2="19" stroke="#b8862b" stroke-width="8" stroke-linecap="round"/>
   </g>
   <circle cx="{CX+150}" cy="{CY-100}" r="9" fill="#b8862b"/>''',
+
+    "nhl-back-to-back-goalie-rotation-betting": f'''
+  <!-- hockey goal net beside a two-day calendar showing a repeating puck, representing back-to-back rotation -->
+  <g transform="translate({CX-130},{CY-5})">
+    <rect x="-85" y="-60" width="170" height="120" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-55" y1="-60" x2="-55" y2="60" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-20" y1="-60" x2="-20" y2="60" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="15" y1="-60" x2="15" y2="60" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="50" y1="-60" x2="50" y2="60" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-85" y1="-20" x2="85" y2="-20" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-85" y1="20" x2="85" y2="20" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+110},{CY+10})">
+    <rect x="-70" y="-85" width="70" height="95" rx="8" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <rect x="0" y="-70" width="70" height="95" rx="8" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <line x1="-70" y1="-60" x2="0" y2="-60" stroke="{NAVY}" stroke-width="5" opacity="0.5"/>
+    <line x1="0" y1="-45" x2="70" y2="-45" stroke="{TEAL}" stroke-width="5" opacity="0.5"/>
+    <circle cx="-35" cy="-15" r="10" fill="{NAVY}"/>
+    <circle cx="35" cy="0" r="10" fill="#b8862b"/>
+  </g>''',
+
+    "triple-zero-roulette-house-edge": f'''
+  <!-- roulette wheel with three highlighted zero pockets -->
+  <g transform="translate({CX},{CY})">
+    <circle cx="0" cy="0" r="135" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <circle cx="0" cy="0" r="95" fill="none" stroke="{TEAL}" stroke-width="3" opacity="0.5"/>
+    <line x1="-135" y1="0" x2="135" y2="0" stroke="{TEAL}" stroke-width="2" opacity="0.4"/>
+    <line x1="0" y1="-135" x2="0" y2="135" stroke="{TEAL}" stroke-width="2" opacity="0.4"/>
+    <line x1="-95" y1="-95" x2="95" y2="95" stroke="{TEAL}" stroke-width="2" opacity="0.4"/>
+    <line x1="-95" y1="95" x2="95" y2="-95" stroke="{TEAL}" stroke-width="2" opacity="0.4"/>
+    <circle cx="0" cy="-135" r="13" fill="#b8862b"/>
+    <circle cx="117" cy="-67" r="13" fill="#b8862b"/>
+    <circle cx="117" cy="67" r="13" fill="#b8862b"/>
+    <circle cx="0" cy="0" r="14" fill="{NAVY}"/>
+  </g>''',
+
+    "kalshi-nfl-betting-app-downloads-week-4": f'''
+  <!-- phone outline with an ascending download arrow, overtaking a smaller bar, representing app download share -->
+  <g transform="translate({CX-90},{CY})">
+    <rect x="-65" y="-110" width="130" height="220" rx="18" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-30" y1="95" x2="30" y2="95" stroke="{NAVY}" stroke-width="6" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+95},{CY+10})" stroke="{TEAL}" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="80" x2="0" y2="-80"/>
+    <path d="M-24 -54 L0 -80 L24 -54"/>
+  </g>
+  <circle cx="{CX+40}" cy="{CY-110}" r="9" fill="#b8862b"/>''',
+
+    "illinois-gambling-tax-revenue-record-2026": f'''
+  <!-- ascending bar chart with a record-marker star, representing a record state tax haul -->
+  <g transform="translate({CX-140},{CY+70})">
+    <rect x="0" y="-55" width="42" height="55" rx="6" fill="{TEAL}" opacity="0.5"/>
+    <rect x="64" y="-90" width="42" height="90" rx="6" fill="{TEAL}" opacity="0.7"/>
+    <rect x="128" y="-130" width="42" height="130" rx="6" fill="{NAVY}"/>
+    <rect x="192" y="-180" width="42" height="180" rx="6" fill="{TEAL}"/>
+  </g>
+  <path d="M{CX+95} {CY-230} l10 20 l22 3 l-16 16 l4 22 l-20 -11 l-20 11 l4 -22 l-16 -16 l22 -3 Z" fill="#b8862b"/>''',
 }
 
 if __name__ == "__main__":

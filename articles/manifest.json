@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nhl-back-to-back-goalie-rotation-betting",
+      "title": "NHL Back-to-Backs: How Goalie Rotation Moves the Puck Line and Totals",
+      "excerpt": "A back-to-back doesn't move an NHL line through vague fatigue — it moves it through one predictable goaltender swap. Here's how that shows up in the puck line and totals.",
+      "category": "NHL",
+      "date": "2026-10-12",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "triple-zero-roulette-house-edge",
+      "title": "Triple-Zero Roulette: How a Third Pocket Raises the House Edge",
+      "excerpt": "Triple-zero roulette adds a third non-paying pocket to the American wheel. Here's the exact math behind how much it raises the house edge, and how to spot one.",
+      "category": "Casino Guides",
+      "date": "2026-10-12",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "kalshi-nfl-betting-app-downloads-week-4",
+      "title": "Kalshi Leads NFL Betting App Downloads for a Fourth Straight Week",
+      "excerpt": "Kalshi took 32% of Week 4 gaming-app downloads as prediction-market trading volume hit a record $89 billion, even as licensed sportsbook apps lagged.",
+      "category": "Sports Betting News",
+      "date": "2026-10-12",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "illinois-gambling-tax-revenue-record-2026",
+      "title": "Illinois Gambling Tax Revenue Hits a Record $2.7 Billion in FY2026",
+      "excerpt": "Illinois collected $2.7 billion in gambling tax revenue last fiscal year as video gambling terminals overtook the lottery as the state's top wagering category.",
+      "category": "Casino News",
+      "date": "2026-10-12",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "hold-percentage-vs-vig-sportsbook-profit",
       "title": "Hold Percentage vs. Vig: How Sportsbooks Actually Profit",
       "excerpt": "Vig is priced into every bet before kickoff. Hold is what a book actually keeps after bets settle. A worked example shows why a 50/50 book and a lopsided book can hold wildly different amounts on the exact same -110 price.",
