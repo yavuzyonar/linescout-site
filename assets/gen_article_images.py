@@ -1218,6 +1218,75 @@ ICONS = {
     <rect x="192" y="-180" width="42" height="180" rx="6" fill="{TEAL}"/>
   </g>
   <path d="M{CX+95} {CY-230} l10 20 l22 3 l-16 16 l4 22 l-20 -11 l-20 11 l4 -22 l-16 -16 l22 -3 Z" fill="#b8862b"/>''',
+
+    "nfl-trade-deadline-futures-odds": f'''
+  <!-- football outline with two crossing swap arrows above, and a small odds ticker line below -->
+  <g transform="translate({CX},{CY-25})">
+    <ellipse cx="0" cy="0" rx="95" ry="58" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <line x1="-18" y1="-16" x2="-18" y2="16" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <line x1="18" y1="-16" x2="18" y2="16" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+  </g>
+  <g transform="translate({CX},{CY-140})" stroke="{TEAL}" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M-80 0 C -40 -28, 40 28, 80 0"/>
+    <path d="M70 -14 L84 2 L68 14" fill="none"/>
+  </g>
+  <g transform="translate({CX},{CY+95})" stroke="{TEAL}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-110,20 -55,-10 -5,10 55,-35 110,-15"/>
+  </g>
+  <circle cx="{CX+110}" cy="{CY+60}" r="8" fill="#b8862b"/>''',
+
+    "blackjack-deck-count-house-edge": f'''
+  <!-- three card-deck stacks of rising height, representing single/double/6-deck shoes -->
+  <g transform="translate({CX-150},{CY+80})">
+    <g transform="translate(0,0)">
+      <rect x="-30" y="-24" width="60" height="24" rx="4" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    </g>
+    <g transform="translate(130,0)">
+      <rect x="-32" y="-16" width="64" height="16" rx="4" fill="none" stroke="{TEAL}" stroke-width="5" opacity="0.7"/>
+      <rect x="-30" y="-40" width="60" height="24" rx="4" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    </g>
+    <g transform="translate(260,0)">
+      <rect x="-34" y="-10" width="68" height="10" rx="3" fill="none" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+      <rect x="-33" y="-24" width="66" height="14" rx="3" fill="none" stroke="{NAVY}" stroke-width="4" opacity="0.6"/>
+      <rect x="-32" y="-42" width="64" height="18" rx="4" fill="none" stroke="{NAVY}" stroke-width="5" opacity="0.75"/>
+      <rect x="-31" y="-64" width="62" height="22" rx="4" fill="none" stroke="{NAVY}" stroke-width="5" opacity="0.9"/>
+      <rect x="-30" y="-90" width="60" height="26" rx="4" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    </g>
+  </g>
+  <circle cx="{CX+100}" cy="{CY-120}" r="8" fill="#b8862b"/>''',
+
+    "new-york-sportsbook-week-4-record-handle": f'''
+  <!-- betting-slip ticket with an ascending arrow and a dollar accent -->
+  <g transform="translate({CX-80},{CY})">
+    <rect x="-65" y="-110" width="130" height="220" rx="12" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-38" y1="-70" x2="38" y2="-70" stroke="{NAVY}" stroke-width="5" opacity="0.5"/>
+    <line x1="-38" y1="-40" x2="38" y2="-40" stroke="{NAVY}" stroke-width="5" opacity="0.5"/>
+    <line x1="-38" y1="-10" x2="18" y2="-10" stroke="{NAVY}" stroke-width="5" opacity="0.5"/>
+    <circle cx="0" cy="60" r="26" fill="none" stroke="#b8862b" stroke-width="5"/>
+    <text x="0" y="68" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle">$</text>
+  </g>
+  <g transform="translate({CX+110},{CY-20})" stroke="{TEAL}" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-70,70 -20,10 20,35 70,-60"/>
+    <path d="M44 -60 L70 -60 L70 -36"/>
+  </g>''',
+
+    "petersburg-virginia-casino-tops-off": f'''
+  <!-- construction tower topping off, with a small pennant flag and a crane line -->
+  <g transform="translate({CX},{CY+40})">
+    <rect x="-55" y="-170" width="110" height="170" rx="4" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <line x1="-55" y1="-130" x2="55" y2="-130" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-55" y1="-90" x2="55" y2="-90" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-55" y1="-50" x2="55" y2="-50" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-55" y1="-10" x2="55" y2="-10" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="0" y1="-170" x2="0" y2="-215" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M0 -215 L40 -200 L0 -188 Z" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+140},{CY-60})" stroke="{TEAL}" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="0" y1="0" x2="0" y2="-90"/>
+    <line x1="0" y1="-90" x2="60" y2="-60"/>
+    <line x1="30" y1="-75" x2="30" y2="-20"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

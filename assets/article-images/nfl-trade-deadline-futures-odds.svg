@@ -1,0 +1,36 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4f3"/>
+      <stop offset="100%" stop-color="#f6faf9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,110 780,400 640,400" fill="url(#beam)"/>
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1160" cy="-30" r="140"/>
+    <circle cx="1160" cy="-30" r="240"/>
+    <circle cx="1160" cy="-30" r="340"/>
+  </g>
+  <circle cx="70" cy="60" r="7" fill="#b8862b"/>
+
+  <!-- football outline with two crossing swap arrows above, and a small odds ticker line below -->
+  <g transform="translate(600,185)">
+    <ellipse cx="0" cy="0" rx="95" ry="58" fill="none" stroke="#16233d" stroke-width="8"/>
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="#16233d" stroke-width="5" opacity="0.6"/>
+    <line x1="-18" y1="-16" x2="-18" y2="16" stroke="#16233d" stroke-width="5" opacity="0.6"/>
+    <line x1="18" y1="-16" x2="18" y2="16" stroke="#16233d" stroke-width="5" opacity="0.6"/>
+  </g>
+  <g transform="translate(600,70)" stroke="#0e7c86" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M-80 0 C -40 -28, 40 28, 80 0"/>
+    <path d="M70 -14 L84 2 L68 14" fill="none"/>
+  </g>
+  <g transform="translate(600,305)" stroke="#0e7c86" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-110,20 -55,-10 -5,10 55,-35 110,-15"/>
+  </g>
+  <circle cx="710" cy="270" r="8" fill="#b8862b"/>
+</svg>

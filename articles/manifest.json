@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-trade-deadline-futures-odds",
+      "title": "How the NFL Trade Deadline Moves Futures and Win Totals",
+      "excerpt": "The NFL trade deadline can reshape a team's win-total projection overnight. Here's how buyers, sellers, and borderline teams each get repriced, with a worked example.",
+      "category": "NFL",
+      "date": "2026-10-13",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "blackjack-deck-count-house-edge",
+      "title": "How Deck Count Changes Blackjack's House Edge",
+      "excerpt": "Single deck, double deck, or a 6-deck shoe: here's the exact size of the house-edge difference, and why casinos usually claw most of it back with other table rules.",
+      "category": "Casino Guides",
+      "date": "2026-10-13",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "new-york-sportsbook-week-4-record-handle",
+      "title": "New York Hits $600M Handle Again on NFL Week 4",
+      "excerpt": "New York sportsbooks took in $619.4 million during NFL Week 4, their second $600 million weekly handle in four weeks, per state gaming data.",
+      "category": "Sports Betting News",
+      "date": "2026-10-13",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "petersburg-virginia-casino-tops-off",
+      "title": "Virginia's $600M Petersburg Casino Tower Tops Off",
+      "excerpt": "Developers topped off the 12-story tower of Live! Casino & Hotel Virginia in Petersburg on Oct. 8, still on track for a late 2027 opening.",
+      "category": "Casino News",
+      "date": "2026-10-13",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nhl-back-to-back-goalie-rotation-betting",
       "title": "NHL Back-to-Backs: How Goalie Rotation Moves the Puck Line and Totals",
       "excerpt": "A back-to-back doesn't move an NHL line through vague fatigue — it moves it through one predictable goaltender swap. Here's how that shows up in the puck line and totals.",
