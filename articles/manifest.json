@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nba-second-half-quarter-lines-pricing",
+      "title": "NBA Second-Half and Quarter Lines: How They're Priced",
+      "excerpt": "NBA half and quarter lines aren't the full-game number divided evenly. Here's how sportsbooks actually rebuild them as a game plays out, with a worked example.",
+      "category": "NBA",
+      "date": "2026-10-14",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "roulette-column-dozen-bets-house-edge",
+      "title": "Roulette Column and Dozen Bets: Same Edge, Different Risk",
+      "excerpt": "Column and dozen bets both pay 2:1 and carry the identical house edge as red/black — but how the same 12 numbers get grouped changes the shape of a session.",
+      "category": "Casino Guides",
+      "date": "2026-10-14",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "betmgm-q3-2026-revenue-growth",
+      "title": "BetMGM Posts $710M Q3 Revenue, Up 7% Year-Over-Year",
+      "excerpt": "BetMGM's Q3 2026 net revenue rose 7% to $710 million as the operator maintained full-year guidance, with Adjusted EBITDA more than doubling.",
+      "category": "Sports Betting News",
+      "date": "2026-10-14",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "games-global-west-virginia-launch",
+      "title": "Games Global Enters West Virginia, Its 5th US iGaming State",
+      "excerpt": "Games Global has secured approval to supply its casino game content in West Virginia, extending its US footprint to a fifth regulated state.",
+      "category": "Casino News",
+      "date": "2026-10-14",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-trade-deadline-futures-odds",
       "title": "How the NFL Trade Deadline Moves Futures and Win Totals",
       "excerpt": "The NFL trade deadline can reshape a team's win-total projection overnight. Here's how buyers, sellers, and borderline teams each get repriced, with a worked example.",
