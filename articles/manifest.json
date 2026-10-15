@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-two-point-conversion-spread-total-math",
+      "title": "How NFL Two-Point Tries Change Spread and Total Math",
+      "excerpt": "A two-point try isn't worth just one extra point in the betting math. Here's how going for two actually moves live spreads and totals.",
+      "category": "NFL",
+      "date": "2026-10-15",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "slot-cascading-tumbling-reels-explained",
+      "title": "Cascading Reels in Online Slots: How Tumble Wins Work",
+      "excerpt": "Cascading (tumbling) reel slots remove winning symbols and drop in new ones without a new spin. Here's how that mechanic actually changes the underlying math.",
+      "category": "Casino Guides",
+      "date": "2026-10-15",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "ftc-review-draftkings-fanduel-advertising",
+      "title": "Report: FTC Starts Early Review of DraftKings, FanDuel Ads",
+      "excerpt": "The FTC has reportedly begun an early-stage review of DraftKings' and FanDuel's advertising, per a Washington Sun report cited by two trade outlets.",
+      "category": "Sports Betting News",
+      "date": "2026-10-15",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "west-virginia-igaming-revenue-september-2026",
+      "title": "West Virginia iGaming Revenue Hits $39.5M in September",
+      "excerpt": "West Virginia's online casinos generated about $39.5 million in September 2026, up 15.5% year-over-year, per the state Lottery's weekly filings.",
+      "category": "Casino News",
+      "date": "2026-10-15",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nba-second-half-quarter-lines-pricing",
       "title": "NBA Second-Half and Quarter Lines: How They're Priced",
       "excerpt": "NBA half and quarter lines aren't the full-game number divided evenly. Here's how sportsbooks actually rebuild them as a game plays out, with a worked example.",
