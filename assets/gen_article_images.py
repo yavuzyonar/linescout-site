@@ -1287,6 +1287,78 @@ ICONS = {
     <line x1="0" y1="-90" x2="60" y2="-60"/>
     <line x1="30" y1="-75" x2="30" y2="-20"/>
   </g>''',
+
+    "mlb-postseason-moneyline-run-line-pricing": f'''
+  <!-- baseball with stitching, beside a small playoff bracket -->
+  <g transform="translate({CX-120},{CY})">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <path d="M -60 -55 Q -20 0 -60 55" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M 60 -55 Q 20 0 60 55" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <path d="M -52 -58 l 8 8 M -40 -68 l 8 8 M -52 58 l 8 -8 M -40 68 l 8 -8" stroke="{TEAL}" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 52 -58 l -8 8 M 40 -68 l -8 8 M 52 58 l -8 -8 M 40 68 l -8 -8" stroke="{TEAL}" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate({CX+70},{CY-90})" stroke="{NAVY}" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="0" y1="0" x2="60" y2="0"/>
+    <line x1="0" y1="80" x2="60" y2="80"/>
+    <line x1="0" y1="40" x2="60" y2="40"/>
+    <line x1="60" y1="0" x2="60" y2="40"/>
+    <line x1="60" y1="40" x2="60" y2="80"/>
+    <line x1="60" y1="20" x2="110" y2="20"/>
+    <line x1="60" y1="60" x2="110" y2="60"/>
+    <line x1="110" y1="20" x2="110" y2="60"/>
+    <line x1="110" y1="40" x2="150" y2="40"/>
+  </g>
+  <circle cx="{CX+160}" cy="{CY+40}" r="7" fill="#b8862b"/>''',
+
+    "online-casino-deposit-loss-limits-self-exclusion": f'''
+  <!-- a turned-down dial gauge beside a padlock -->
+  <g transform="translate({CX-120},{CY+20})">
+    <path d="M -100 10 A 100 100 0 0 1 100 10" fill="none" stroke="{NAVY}" stroke-width="12" stroke-linecap="round"/>
+    <path d="M -100 10 A 100 100 0 0 1 -55 -75" fill="none" stroke="{TEAL}" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="0" cy="10" r="9" fill="{NAVY}"/>
+    <line x1="0" y1="10" x2="-48" y2="-32" stroke="{NAVY}" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate({CX+130},{CY+10})" stroke="{TEAL}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-45" y="-10" width="90" height="75" rx="10"/>
+    <path d="M -28 -10 L -28 -45 A 28 28 0 0 1 28 -45 L 28 -10"/>
+    <circle cx="0" cy="28" r="9" fill="{TEAL}" stroke="none"/>
+    <line x1="0" y1="37" x2="0" y2="52"/>
+  </g>''',
+
+    "new-york-ai-betting-promotion-restrictions": f'''
+  <!-- a gavel beside a small circuit-board pattern -->
+  <g transform="translate({CX-110},{CY+10})" stroke="{NAVY}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-70" y="-28" width="90" height="36" rx="6" transform="rotate(-35 -70 -28)"/>
+    <line x1="-18" y1="18" x2="42" y2="78"/>
+    <line x1="10" y1="90" x2="74" y2="90"/>
+  </g>
+  <g transform="translate({CX+110},{CY-70})" stroke="{TEAL}" stroke-width="5" fill="none" stroke-linecap="round">
+    <circle cx="0" cy="0" r="7" fill="{TEAL}" stroke="none"/>
+    <circle cx="70" cy="0" r="7" fill="{TEAL}" stroke="none"/>
+    <circle cx="35" cy="60" r="7" fill="{TEAL}" stroke="none"/>
+    <circle cx="35" cy="-55" r="7" fill="{TEAL}" stroke="none"/>
+    <line x1="0" y1="0" x2="70" y2="0"/>
+    <line x1="0" y1="0" x2="35" y2="60"/>
+    <line x1="70" y1="0" x2="35" y2="60"/>
+    <line x1="35" y1="60" x2="35" y2="-55"/>
+  </g>''',
+
+    "venetian-slide-dealing-poker-room": f'''
+  <!-- a card sliding flat across a felt table, with motion lines -->
+  <g transform="translate({CX-10},{CY+40})">
+    <ellipse cx="0" cy="40" rx="230" ry="26" fill="none" stroke="{NAVY}" stroke-width="5" opacity="0.4"/>
+    <g transform="translate(20,0) rotate(-6)">
+      <rect x="-55" y="-78" width="110" height="156" rx="12" fill="none" stroke="{NAVY}" stroke-width="7"/>
+      <circle cx="0" cy="0" r="22" fill="none" stroke="{TEAL}" stroke-width="6"/>
+      <text x="-32" y="-48" font-family="Arial" font-size="26" fill="{TEAL}">A</text>
+    </g>
+    <g stroke="{TEAL}" stroke-width="5" stroke-linecap="round" opacity="0.8">
+      <line x1="-190" y1="-10" x2="-130" y2="-10"/>
+      <line x1="-190" y1="12" x2="-140" y2="12"/>
+      <line x1="-190" y1="34" x2="-150" y2="34"/>
+    </g>
+  </g>
+  <circle cx="{CX+190}" cy="{CY-110}" r="7" fill="#b8862b"/>''',
 }
 
 if __name__ == "__main__":
