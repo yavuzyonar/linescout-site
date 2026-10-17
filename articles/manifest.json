@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nhl-player-props-shots-points-goalie",
+      "title": "NHL Player Props: How Shots on Goal, Points, and Goalie Lines Get Priced",
+      "excerpt": "Shots on goal, points, and goalie saves props are built from almost nothing in common. Here's what actually drives each line before you bet it.",
+      "category": "NHL",
+      "date": "2026-10-17",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "blackjack-switch-explained",
+      "title": "Blackjack Switch: How Swapping Cards Between Two Hands Changes the Math",
+      "excerpt": "Blackjack Switch lets you swap cards between two hands \u2014 but a dealer push on 22 and an even-money blackjack payout pay for that edge.",
+      "category": "Casino Guides",
+      "date": "2026-10-17",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "nba-prop-bet-parlay-restrictions-prediction-markets-exempt",
+      "title": "NBA Bans More Prop Bets and Parlays at Sportsbooks \u2014 But Not at Prediction Markets",
+      "excerpt": "The NBA told sportsbook partners to drop certain player-prop and parlay markets tied to past integrity cases. The rules don't reach prediction markets.",
+      "category": "Sports Betting News",
+      "date": "2026-10-17",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "detroit-casino-revenue-september-2026",
+      "title": "Detroit Casinos Report $103.55M in September Revenue as MotorCity Outgrows Its Rivals",
+      "excerpt": "Detroit's three commercial casinos posted $103.55 million in September revenue, with MotorCity's growth far outpacing MGM and Hollywood Casino's decline.",
+      "category": "Casino News",
+      "date": "2026-10-17",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "mlb-postseason-moneyline-run-line-pricing",
       "title": "How MLB Postseason Odds Differ From the Regular Season",
       "excerpt": "Ace-heavy rotations and short series reshape MLB pricing in October. Here's why postseason moneylines and run lines behave differently than they do in June.",
