@@ -1359,6 +1359,64 @@ ICONS = {
     </g>
   </g>
   <circle cx="{CX+190}" cy="{CY-110}" r="7" fill="#b8862b"/>''',
+
+    "chasing-losses-sports-betting-guardrails": f'''
+  <!-- escalating bet-size bars halted by a guardrail/fence barrier -->
+  <g transform="translate({CX-150},{CY+70})">
+    <rect x="0" y="-30" width="40" height="30" rx="5" fill="{TEAL}" opacity="0.55"/>
+    <rect x="60" y="-65" width="40" height="65" rx="5" fill="{TEAL}" opacity="0.75"/>
+    <rect x="120" y="-115" width="40" height="115" rx="5" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+70},{CY-15})" stroke="#b8862b" stroke-width="9" fill="none" stroke-linecap="round">
+    <line x1="0" y1="-90" x2="0" y2="90"/>
+    <line x1="60" y1="-90" x2="60" y2="90"/>
+    <line x1="120" y1="-90" x2="120" y2="90"/>
+    <line x1="-15" y1="-45" x2="135" y2="-45"/>
+    <line x1="-15" y1="20" x2="135" y2="20"/>
+  </g>''',
+
+    "online-casino-withdrawal-verification-explained": f'''
+  <!-- wallet with an outbound arrow leading to a clock, representing processing time -->
+  <g transform="translate({CX-150},{CY+20})" stroke="{NAVY}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-70" y="-50" width="140" height="100" rx="14"/>
+    <line x1="-70" y1="-20" x2="70" y2="-20" stroke-width="6" opacity="0.5"/>
+    <circle cx="40" cy="10" r="10" fill="{NAVY}" stroke="none"/>
+  </g>
+  <g transform="translate({CX+10},{CY+15})" stroke="{TEAL}" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="0" x2="90" y2="0"/>
+    <path d="M65 -20 L90 0 L65 20"/>
+  </g>
+  <g transform="translate({CX+170},{CY-70})">
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#b8862b" stroke-width="7"/>
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#b8862b" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="16" y2="8" stroke="#b8862b" stroke-width="6" stroke-linecap="round"/>
+  </g>''',
+
+    "fanatics-ceo-sportsbook-marketing-war-forecast": f'''
+  <!-- ascending ad-spend bars topped by a tilted megaphone -->
+  <g transform="translate({CX-140},{CY+70})">
+    <rect x="0" y="-40" width="40" height="40" rx="6" fill="{TEAL}" opacity="0.55"/>
+    <rect x="60" y="-75" width="40" height="75" rx="6" fill="{TEAL}" opacity="0.75"/>
+    <rect x="120" y="-125" width="40" height="125" rx="6" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+100},{CY-80}) rotate(-10)">
+    <path d="M-80 -15 L10 -55 L10 55 L-80 15 Z" fill="none" stroke="#b8862b" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="-105" y="-18" width="26" height="36" rx="5" fill="#b8862b"/>
+  </g>''',
+
+    "new-jersey-underage-gambling-civil-fines-bill": f'''
+  <!-- an ID card with an age-check mark, beside a fine ticket tag -->
+  <g transform="translate({CX-120},{CY+10})" stroke="{NAVY}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-70" y="-50" width="140" height="100" rx="14"/>
+    <circle cx="-30" cy="-5" r="22" stroke="{TEAL}"/>
+    <line x1="10" y1="-25" x2="55" y2="-25" stroke="{TEAL}" stroke-width="6" opacity="0.6"/>
+    <line x1="10" y1="0" x2="55" y2="0" stroke="{TEAL}" stroke-width="6" opacity="0.6"/>
+  </g>
+  <g transform="translate({CX+130},{CY-20})">
+    <path d="M-60 -35 L40 -35 L60 -15 L60 35 L-60 35 Z" fill="none" stroke="#b8862b" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="30" cy="-12" r="8" fill="none" stroke="#b8862b" stroke-width="5"/>
+    <text x="-10" y="12" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle" font-weight="bold">$</text>
+  </g>''',
 }
 
 if __name__ == "__main__":

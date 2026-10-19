@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "chasing-losses-sports-betting-guardrails",
+      "title": "Chasing Losses in Sports Betting: How to Build Guardrails",
+      "excerpt": "Why a loss makes the next bet feel more urgent, the three shapes chasing usually takes, and concrete guardrails that stop it before it compounds.",
+      "category": "Betting Basics",
+      "date": "2026-10-19",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "online-casino-withdrawal-verification-explained",
+      "title": "Why Online Casino Withdrawals Take Longer Than Deposits",
+      "excerpt": "Why a deposit clears instantly but a withdrawal doesn't, what identity and AML checks actually happen, and a realistic timeline from request to funds.",
+      "category": "Casino Guides",
+      "date": "2026-10-19",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "fanatics-ceo-sportsbook-marketing-war-forecast",
+      "title": "Fanatics CEO: Sportsbook Marketing Could Hit $7B in 2027",
+      "excerpt": "Michael Rubin told CNBC industry-wide sports betting marketing spend could more than double next year, as Fanatics pushes its own budget toward $1B.",
+      "category": "Sports Betting News",
+      "date": "2026-10-19",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "new-jersey-underage-gambling-civil-fines-bill",
+      "title": "NJ Senate Panel Advances Bill to Fine, Not Jail, Underage Gamblers",
+      "excerpt": "A New Jersey Senate committee advanced S597, which would replace criminal charges for underage casino gambling with civil fines of $500 to $2,000.",
+      "category": "Casino News",
+      "date": "2026-10-19",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "kyc-identity-verification-sportsbook-signup",
       "title": "How KYC Identity Verification Works at Sportsbook Signup",
       "excerpt": "Sportsbooks run an instant identity check at signup, then fall back to document upload when it can't get a confident match. Here's what's actually happening.",
