@@ -1417,6 +1417,59 @@ ICONS = {
     <circle cx="30" cy="-12" r="8" fill="none" stroke="#b8862b" stroke-width="5"/>
     <text x="-10" y="12" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle" font-weight="bold">$</text>
   </g>''',
+
+    "college-football-neutral-site-games-betting": f'''
+  <!-- a location pin at center flanked by two matching, mirrored pennants -->
+  <g transform="translate({CX},{CY})">
+    <path d="M0 -95 C-45 -95 -70 -65 -70 -30 C-70 10 0 90 0 90 C0 90 70 10 70 -30 C70 -65 45 -95 0 -95 Z" fill="none" stroke="{NAVY}" stroke-width="9" stroke-linejoin="round"/>
+    <circle cx="0" cy="-35" r="26" fill="none" stroke="{TEAL}" stroke-width="8"/>
+  </g>
+  <g transform="translate({CX-185},{CY+50})">
+    <line x1="0" y1="-45" x2="0" y2="45" stroke="{TEAL}" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 -38 L70 -20 L0 -2 Z" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+185},{CY+50})">
+    <line x1="0" y1="-45" x2="0" y2="45" stroke="{NAVY}" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 -38 L-70 -20 L0 -2 Z" fill="{NAVY}"/>
+  </g>''',
+
+    "baccarat-banker-commission-explained": f'''
+  <!-- a banker card topped with a crown, beside a clipped commission tag -->
+  <g transform="translate({CX-80},{CY})">
+    <rect x="-55" y="-95" width="110" height="170" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="7"/>
+    <path d="M-24 -145 L-14 -123 L0 -139 L14 -123 L24 -145 L18 -113 L-18 -113 Z" fill="#b8862b"/>
+    <text x="-16" y="-10" font-family="Georgia, serif" font-size="46" fill="{NAVY}" text-anchor="middle">B</text>
+  </g>
+  <g transform="translate({CX+125},{CY+50}) rotate(18)">
+    <path d="M-55 -35 L35 -35 L55 -15 L55 35 L-55 35 Z" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="20" cy="-10" r="9" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <text x="-10" y="18" font-family="Arial" font-size="22" fill="{TEAL}" text-anchor="middle" font-weight="bold">5%</text>
+  </g>''',
+
+    "cftc-pauses-novig-prophetx-micro-contracts": f'''
+  <!-- a gavel beside a circular pause icon -->
+  <g transform="translate({CX-90},{CY-10}) rotate(-30)">
+    <rect x="-85" y="-22" width="85" height="44" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-15" y="-34" width="30" height="68" rx="6" fill="none" stroke="{NAVY}" stroke-width="8"/>
+  </g>
+  <line x1="{CX-235}" y1="{CY+65}" x2="{CX-5}" y2="{CY+65}" stroke="{NAVY}" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <g transform="translate({CX+110},{CY-5})">
+    <circle cx="0" cy="0" r="62" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="-16" y1="-26" x2="-16" y2="26" stroke="{TEAL}" stroke-width="10" stroke-linecap="round"/>
+    <line x1="16" y1="-26" x2="16" y2="26" stroke="{TEAL}" stroke-width="10" stroke-linecap="round"/>
+  </g>''',
+
+    "las-vegas-sands-q3-2026-earnings-dividend": f'''
+  <!-- a bar chart with a dip, beside a rising dividend arrow -->
+  <g transform="translate({CX-140},{CY+70})">
+    <rect x="0" y="-70" width="40" height="70" rx="6" fill="{NAVY}"/>
+    <rect x="60" y="-110" width="40" height="110" rx="6" fill="{TEAL}" opacity="0.8"/>
+    <rect x="120" y="-55" width="40" height="55" rx="6" fill="{NAVY}" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+110},{CY-40})">
+    <path d="M-60 40 L-10 -10 L25 20 L70 -45" fill="none" stroke="#b8862b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M40 -45 L70 -45 L70 -15" fill="none" stroke="#b8862b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>''',
 }
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@ import json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(ROOT)
-CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
+CHROME = "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome"
 OUT_DIR = os.path.join(ROOT, "og")
 TMP_HTML = os.path.join(ROOT, "_og_render.html")
 
