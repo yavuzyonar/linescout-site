@@ -1470,6 +1470,56 @@ ICONS = {
     <path d="M-60 40 L-10 -10 L25 20 L70 -45" fill="none" stroke="#b8862b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M40 -45 L70 -45 L70 -15" fill="none" stroke="#b8862b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
   </g>''',
+
+    "reverse-line-movement-betting-public": f'''
+  <!-- two arrows crossing in opposite directions -->
+  <g transform="translate({CX},{CY})">
+    <line x1="-150" y1="70" x2="150" y2="-70" stroke="{NAVY}" stroke-width="10" stroke-linecap="round"/>
+    <path d="M110 -100 L150 -70 L120 -40" fill="none" stroke="{NAVY}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-150" y1="-70" x2="150" y2="70" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+    <path d="M-110 -100 L-150 -70 L-120 -40" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+  </g>''',
+
+    "blackjack-6-to-5-payout-cost": f'''
+  <!-- two uneven chip stacks labeled 3:2 and 6:5 -->
+  <g transform="translate({CX-120},{CY+40})">
+    <ellipse cx="0" cy="0" rx="42" ry="12" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <ellipse cx="0" cy="-20" rx="42" ry="12" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <ellipse cx="0" cy="-40" rx="42" ry="12" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <ellipse cx="0" cy="-60" rx="42" ry="12" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <text x="0" y="45" font-family="Arial" font-size="22" fill="{NAVY}" text-anchor="middle" font-weight="bold">3:2</text>
+  </g>
+  <g transform="translate({CX+120},{CY+60})">
+    <ellipse cx="0" cy="0" rx="42" ry="12" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <ellipse cx="0" cy="-20" rx="42" ry="12" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <text x="0" y="45" font-family="Arial" font-size="22" fill="{TEAL}" text-anchor="middle" font-weight="bold">6:5</text>
+  </g>''',
+
+    "new-york-sportsbook-hold-reaches-double-digits": f'''
+  <!-- rising bar chart beside a percent glyph -->
+  <g transform="translate({CX-110},{CY+70})">
+    <rect x="0" y="-40" width="40" height="40" rx="6" fill="{NAVY}" opacity="0.5"/>
+    <rect x="55" y="-70" width="40" height="70" rx="6" fill="{NAVY}" opacity="0.75"/>
+    <rect x="110" y="-110" width="40" height="110" rx="6" fill="{TEAL}"/>
+  </g>
+  <g transform="translate({CX+130},{CY-50})">
+    <circle cx="-22" cy="-22" r="16" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <circle cx="22" cy="22" r="16" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <line x1="-32" y1="32" x2="32" y2="-32" stroke="#b8862b" stroke-width="6" stroke-linecap="round"/>
+  </g>''',
+
+    "vgw-arizona-operations-shutdown-order": f'''
+  <!-- stop-sign octagon beside a clock -->
+  <g transform="translate({CX-110},{CY})">
+    <polygon points="-45,-19 -19,-45 19,-45 45,-19 45,19 19,45 -19,45 -45,19" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-22" y1="-22" x2="22" y2="22" stroke="{NAVY}" stroke-width="7" stroke-linecap="round"/>
+    <line x1="22" y1="-22" x2="-22" y2="22" stroke="{NAVY}" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate({CX+125},{CY+10})">
+    <circle cx="0" cy="0" r="70" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="35" y2="15" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
