@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-midseason-coaching-change-betting-impact",
+      "title": "Mid-Season NFL Coaching Changes: How They Actually Move the Spread",
+      "excerpt": "Why a head-coach firing moves NFL markets differently than other news — modest spread effects, bigger total swings, and real shifts in season win totals.",
+      "category": "NFL",
+      "date": "2026-10-25",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "blackjack-early-surrender-vs-late-surrender",
+      "title": "Early vs. Late Blackjack Surrender: Why the Timing Is Worth Full Percentage Points",
+      "excerpt": "Early surrender and late surrender sound alike but aren't close in value. Here's the house-edge math behind the gap and which hands actually call for it.",
+      "category": "Casino Guides",
+      "date": "2026-10-25",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "utah-sues-kalshi-millions-lawsuit",
+      "title": "Utah Sues Kalshi for Millions After Federal Court Victory",
+      "excerpt": "Utah's AG sued Kalshi in state court, alleging it collected $30.6M-$61.2M in fees from Utah customers, part of a widening circuit split over event contracts.",
+      "category": "Sports Betting News",
+      "date": "2026-10-25",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "alberta-igaming-revenue-first-three-months",
+      "title": "Alberta's iGaming Market Posts $122.1 Million in Revenue in Its First Three Months",
+      "excerpt": "Alberta's regulated online gambling market generated CA$122.1 million in its first ten weeks, with monthly revenue climbing sharply as more operators launched.",
+      "category": "Casino News",
+      "date": "2026-10-25",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "new-york-sportsbook-hold-reaches-double-digits",
       "title": "New York Sportsbooks Post Their Best Week Since the World Cup",
       "excerpt": "New York's online sportsbooks kept $63.3 million on a $615.1 million handle for a 10.3% statewide win rate, their best week since the World Cup, per state data.",

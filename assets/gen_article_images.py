@@ -1520,6 +1520,57 @@ ICONS = {
     <line x1="0" y1="0" x2="0" y2="-45" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
     <line x1="0" y1="0" x2="35" y2="15" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
   </g>''',
+
+    "nfl-midseason-coaching-change-betting-impact": f'''
+  <!-- coach's play-call clipboard with an X/O diagram, plus a swap/exchange arrow -->
+  <g transform="translate({CX-90},{CY-90})">
+    <rect x="0" y="24" width="170" height="212" rx="12" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="50" y="0" width="70" height="34" rx="7" fill="{TEAL}"/>
+    <circle cx="55" cy="110" r="16" fill="none" stroke="{NAVY}" stroke-width="6" opacity="0.6"/>
+    <path d="M100 95 L140 95 M140 95 L128 85 M140 95 L128 105" fill="none" stroke="{TEAL}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M55 126 L55 160" fill="none" stroke="{NAVY}" stroke-width="6" opacity="0.6"/>
+    <circle cx="140" cy="160" r="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+  </g>
+  <g transform="translate({CX+135},{CY+60})" stroke="#b8862b" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M-30 -20 A 34 34 0 1 1 -30 20"/>
+    <path d="M-42 -32 L-30 -20 L-16 -34"/>
+  </g>''',
+
+    "blackjack-early-surrender-vs-late-surrender": f'''
+  <!-- playing card with a clock face overlay, representing surrender timing -->
+  <g transform="translate({CX-40},{CY+10})">
+    <rect x="-70" y="-100" width="130" height="185" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="7"/>
+    <text x="-46" y="-58" font-family="Georgia, serif" font-size="32" fill="{NAVY}">10</text>
+  </g>
+  <g transform="translate({CX+95},{CY+55})">
+    <circle cx="0" cy="0" r="58" fill="#fff" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="0" y1="0" x2="0" y2="-34" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="26" y2="14" stroke="{TEAL}" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5" fill="{TEAL}"/>
+  </g>''',
+
+    "utah-sues-kalshi-millions-lawsuit": f'''
+  <!-- gavel beside a simplified state outline -->
+  <g transform="translate({CX-110},{CY-15})">
+    <g transform="rotate(-35)">
+      <rect x="-90" y="-22" width="90" height="44" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+      <rect x="-20" y="-34" width="30" height="68" rx="6" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    </g>
+    <rect x="-100" y="75" width="190" height="16" rx="4" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+130},{CY+10})">
+    <path d="M-70 -70 L70 -70 L70 -10 L35 -10 L35 70 L-30 70 L-30 20 L-70 20 Z" fill="none" stroke="{TEAL}" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="10" cy="-30" r="7" fill="#b8862b"/>
+  </g>''',
+
+    "alberta-igaming-revenue-first-three-months": f'''
+  <!-- ascending bar chart topped with a small maple-leaf accent mark -->
+  <g transform="translate({CX-140},{CY+70})">
+    <rect x="0" y="-45" width="42" height="45" rx="6" fill="{TEAL}" opacity="0.55"/>
+    <rect x="64" y="-90" width="42" height="90" rx="6" fill="{TEAL}" opacity="0.75"/>
+    <rect x="128" y="-150" width="42" height="150" rx="6" fill="{NAVY}"/>
+    <path d="M149 -195 l7 14 l15 2 l-11 11 l3 15 l-14 -8 l-14 8 l3 -15 l-11 -11 l15 -2 Z" fill="#b8862b"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
