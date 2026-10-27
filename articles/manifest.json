@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "common-sports-betting-mistakes-beginners-make",
+      "title": "Common Sports Betting Mistakes Beginners Make",
+      "excerpt": "Seven specific, fixable mistakes new bettors make — from parlay math to chasing losses — with the numbers that show why each one costs money over a season.",
+      "category": "Betting Basics",
+      "date": "2026-10-27",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "four-card-poker-hand-ranking-explained",
+      "title": "Four Card Poker's Upside-Down Hand Rankings: Why Three of a Kind Beats a Flush",
+      "excerpt": "In Four Card Poker, three of a kind beats a flush and four of a kind beats a straight flush. Here's the math behind the inverted rankings, plus the ante, play, and Aces Up bets.",
+      "category": "Casino Guides",
+      "date": "2026-10-27",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "kalshi-sues-louisiana-illegal-gambling-laws",
+      "title": "Kalshi Pre-Emptively Sues Louisiana, Citing New Illegal Gambling Laws",
+      "excerpt": "Kalshi asked a federal court to block Louisiana from enforcing two new state gambling laws against its sports event contracts, bringing the prediction-markets fight into the Fifth Circuit.",
+      "category": "Sports Betting News",
+      "date": "2026-10-27",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "new-jersey-first-in-nation-responsible-gambling-rules",
+      "title": "New Jersey Adopts First-in-Nation Rules Requiring Operators to Flag At-Risk Gamblers",
+      "excerpt": "New Jersey now requires operators to use mandatory thresholds to flag at-risk players and run a three-phase intervention process — officials call it the first binding standard of its kind in the US.",
+      "category": "Casino News",
+      "date": "2026-10-27",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "nba-cup-in-season-tournament-betting",
       "title": "The NBA Cup's Group Stage: How a \"Meaningless\" November Game Gets Priced",
       "excerpt": "Group play and the wild-card tiebreak create real stakes most bettors miss, while a true neutral-site final in Las Vegas strips out home-court value entirely.",
