@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nhl-trade-deadline-futures-stanley-cup-odds",
+      "title": "How the NHL Trade Deadline Moves Stanley Cup Futures and Win Totals",
+      "excerpt": "The NHL trade deadline lands much later in the season than the NFL's, and most of its action is rentals. Here's how that reshapes Stanley Cup and win-total futures.",
+      "category": "NHL",
+      "date": "2026-10-29",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "red-dog-basics-spread-raise-house-edge",
+      "title": "Red Dog Basics: The Spread, the Raise, and the House Edge",
+      "excerpt": "How Red Dog's spread-and-raise mechanic and payout table work, and why adding more decks actually lowers the house edge instead of raising it.",
+      "category": "Casino Guides",
+      "date": "2026-10-29",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "utah-criminal-charges-kalshi-prediction-markets",
+      "title": "Utah Files Criminal Charges Against Kalshi and Its Founders",
+      "excerpt": "Utah has filed 14 criminal charges against Kalshi and its two co-founders, a day after the CFTC sued the state over who can regulate prediction markets.",
+      "category": "Sports Betting News",
+      "date": "2026-10-29",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "caesars-q3-2026-earnings-las-vegas-weakness",
+      "title": "Caesars' Q3 Loss Widens to $123 Million as Las Vegas Softens",
+      "excerpt": "Caesars Entertainment's Q3 2026 net loss more than doubled as Las Vegas revenue fell, even as its regional casinos and digital arm kept growing.",
+      "category": "Casino News",
+      "date": "2026-10-29",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nfl-divisional-rematch-line-movement",
       "title": "Divisional Rematches: How Much Does Head-to-Head History Actually Move an NFL Line?",
       "excerpt": "Revenge-game narratives get all the airtime, but the market only cares about what actually carries over from the first meeting \u2014 injuries, scheme matchups, and personnel health.",
