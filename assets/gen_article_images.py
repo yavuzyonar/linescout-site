@@ -1571,6 +1571,66 @@ ICONS = {
     <rect x="128" y="-150" width="42" height="150" rx="6" fill="{NAVY}"/>
     <path d="M149 -195 l7 14 l15 2 l-11 11 l3 15 l-14 -8 l-14 8 l3 -15 l-11 -11 l15 -2 Z" fill="#b8862b"/>
   </g>''',
+
+    "college-football-conference-championship-odds-pricing": f'''
+  <!-- trophy above two converging lines meeting at a question mark -->
+  <g transform="translate({CX},{CY-20})">
+    <path d="M-50 -60 L50 -60 L42 10 A42 50 0 0 1 -42 10 Z" fill="none" stroke="{NAVY}" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-50 -55 C-90 -55 -90 -15 -50 -10" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <path d="M50 -55 C90 -55 90 -15 50 -10" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <rect x="-22" y="60" width="44" height="14" rx="4" fill="{NAVY}"/>
+    <rect x="-34" y="74" width="68" height="14" rx="4" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX-150},{CY+110})">
+    <path d="M0 0 L90 -60" stroke="{TEAL}" stroke-width="6" stroke-dasharray="3 9" stroke-linecap="round"/>
+  </g>
+  <g transform="translate({CX+150},{CY+110})">
+    <path d="M0 0 L-90 -60" stroke="#b8862b" stroke-width="6" stroke-dasharray="3 9" stroke-linecap="round"/>
+    <text x="10" y="-10" font-family="Arial" font-size="40" fill="#b8862b" font-weight="bold">?</text>
+  </g>''',
+
+    "vegas-strip-vs-downtown-blackjack-rules": f'''
+  <!-- two playing cards split by a vertical divider line -->
+  <g transform="translate({CX-110},{CY+10}) rotate(-8)">
+    <rect x="-58" y="-95" width="116" height="170" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="6"/>
+    <text x="-34" y="-50" font-family="Georgia, serif" font-size="32" fill="{NAVY}">A</text>
+  </g>
+  <g transform="translate({CX+110},{CY+10}) rotate(8)">
+    <rect x="-58" y="-95" width="116" height="170" rx="12" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+    <text x="-34" y="-50" font-family="Georgia, serif" font-size="32" fill="{TEAL}">K</text>
+  </g>
+  <line x1="{CX}" y1="{CY-130}" x2="{CX}" y2="{CY+140}" stroke="#b8862b" stroke-width="4" stroke-dasharray="2 10" opacity="0.7"/>''',
+
+    "saquon-barkley-nfl-polymarket-stake-divest": f'''
+  <!-- football with a downward exit arrow and a percentage chip -->
+  <g transform="translate({CX-80},{CY+10})">
+    <ellipse cx="0" cy="0" rx="120" ry="64" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <line x1="-45" y1="0" x2="45" y2="0" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-25" y1="-13" x2="-25" y2="13" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-5" y1="-13" x2="-5" y2="13" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="15" y1="-13" x2="15" y2="13" stroke="{TEAL}" stroke-width="6"/>
+  </g>
+  <g transform="translate({CX+140},{CY-10})" stroke="#b8862b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="-45" x2="0" y2="35"/>
+    <path d="M-20 15 L0 35 L20 15"/>
+  </g>''',
+
+    "mgm-resorts-q3-2026-earnings-macau-record": f'''
+  <!-- resort tower beside an ascending bar chart -->
+  <g transform="translate({CX-100},{CY+15})">
+    <rect x="-55" y="-120" width="110" height="195" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-30" y1="-95" x2="-10" y2="-95" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="10" y1="-95" x2="30" y2="-95" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-30" y1="-60" x2="-10" y2="-60" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="10" y1="-60" x2="30" y2="-60" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-30" y1="-25" x2="-10" y2="-25" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="10" y1="-25" x2="30" y2="-25" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+110},{CY+80})">
+    <rect x="0" y="-45" width="36" height="45" rx="5" fill="{TEAL}" opacity="0.6"/>
+    <rect x="48" y="-75" width="36" height="75" rx="5" fill="{TEAL}" opacity="0.85"/>
+    <rect x="96" y="-55" width="36" height="55" rx="5" fill="#b8862b"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
