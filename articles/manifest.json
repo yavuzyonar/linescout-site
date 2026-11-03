@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "turning-stone-casino-cybersecurity-incident",
+      "title": "Cybersecurity Incident Forces Turning Stone's New York Casinos to Go Cash-Only",
+      "excerpt": "A cybersecurity incident has forced Turning Stone and its sister properties in New York to go cash-only, with sports betting and the rewards program offline.",
+      "category": "Casino News",
+      "date": "2026-11-03",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "michigan-fixed-odds-horse-racing-betting",
+      "title": "Michigan Lets Online Sportsbooks Offer Fixed-Odds Horse Racing Bets",
+      "excerpt": "Michigan's gaming regulator has authorized licensed online sportsbooks to offer fixed-odds horse racing wagers alongside traditional pari-mutuel betting.",
+      "category": "Sports Betting News",
+      "date": "2026-11-03",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "super-fun-21-blackjack-explained",
+      "title": "Super Fun 21: How This Blackjack Variant's Bonus Payouts Change the Math",
+      "excerpt": "Super Fun 21 pays even money on most blackjacks instead of 3:2, but a diamond bonus, automatic winners, and a double-down rescue option change the math.",
+      "category": "Casino Guides",
+      "date": "2026-11-03",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "player-props-vs-team-props-strategy",
+      "title": "Player Props vs. Team Props: Why the Same Price Doesn't Mean the Same Risk",
+      "excerpt": "A player prop and a team prop can carry the same price and a completely different risk shape. Here's how the two actually compare before you bet either one.",
+      "category": "Betting Basics",
+      "date": "2026-11-03",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
       "slug": "ohio-licensees-prediction-market-suitability-warning",
       "title": "Ohio Tells Its Own Sportsbook Licensees: Prediction Market Ties Could Cost You Your License",
       "excerpt": "Ohio's casino regulator warned its own licensees that providing services to unlicensed prediction markets could jeopardize their suitability, with a compliance deadline of October 30.",

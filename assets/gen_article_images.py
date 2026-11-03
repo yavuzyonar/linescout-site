@@ -1631,6 +1631,64 @@ ICONS = {
     <rect x="48" y="-75" width="36" height="75" rx="5" fill="{TEAL}" opacity="0.85"/>
     <rect x="96" y="-55" width="36" height="55" rx="5" fill="#b8862b"/>
   </g>''',
+
+    "player-props-vs-team-props-strategy": f'''
+  <!-- balance scale: single player vs a team -->
+  <g transform="translate({CX},{CY})" fill="none">
+    <polygon points="0,-80 -16,-48 16,-48" fill="{NAVY}"/>
+    <line x1="0" y1="-48" x2="0" y2="90" stroke="{NAVY}" stroke-width="10" stroke-linecap="round"/>
+    <line x1="-60" y1="100" x2="60" y2="100" stroke="{NAVY}" stroke-width="10" stroke-linecap="round"/>
+    <line x1="-170" y1="-20" x2="170" y2="-20" stroke="{NAVY}" stroke-width="8" stroke-linecap="round"/>
+    <line x1="-170" y1="-20" x2="-170" y2="25" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="170" y1="-20" x2="170" y2="25" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M -205 25 A 35 20 0 0 0 -135 25" stroke="{TEAL}" stroke-width="6"/>
+    <path d="M 135 25 A 35 20 0 0 0 205 25" stroke="{TEAL}" stroke-width="6"/>
+    <circle cx="-170" cy="-45" r="14" fill="{NAVY}"/>
+    <circle cx="150" cy="-45" r="10" fill="#b8862b"/>
+    <circle cx="172" cy="-52" r="10" fill="#b8862b"/>
+    <circle cx="192" cy="-45" r="10" fill="#b8862b"/>
+  </g>''',
+
+    "super-fun-21-blackjack-explained": f'''
+  <!-- two fanned cards reading 2 and 1, each with a diamond pip -->
+  <g transform="translate({CX},{CY+20})">
+    <g transform="rotate(-12)">
+      <rect x="-60" y="-95" width="120" height="170" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="6"/>
+      <text x="-30" y="-45" font-family="Georgia, serif" font-size="50" fill="{NAVY}">2</text>
+      <path d="M0 10 l16 24 l-16 24 l-16 -24 Z" fill="#b8862b"/>
+    </g>
+    <g transform="rotate(10)">
+      <rect x="-60" y="-95" width="120" height="170" rx="12" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+      <text x="-16" y="-45" font-family="Georgia, serif" font-size="50" fill="{TEAL}">1</text>
+      <path d="M0 10 l16 24 l-16 24 l-16 -24 Z" fill="#b8862b"/>
+    </g>
+  </g>''',
+
+    "michigan-fixed-odds-horse-racing-betting": f'''
+  <!-- running horse silhouette beside a locked-odds tag -->
+  <g transform="translate({CX-70},{CY+30})" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-90 40 L-45 -15 L5 -45 L55 -10 L35 8 L65 18 L45 60 L10 60 L0 28 L-40 40 L-65 75"/>
+    <line x1="-25" y1="-12" x2="-10" y2="-48"/>
+    <line x1="-10" y1="-48" x2="8" y2="-32"/>
+  </g>
+  <g transform="translate({CX+150},{CY-55})">
+    <rect x="-30" y="2" width="60" height="46" rx="8" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <path d="M-17 2 v-15 a17 17 0 0 1 34 0 v15" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <circle cx="0" cy="24" r="6" fill="#b8862b"/>
+  </g>''',
+
+    "turning-stone-casino-cybersecurity-incident": f'''
+  <!-- security shield with an alert, beside a cash bill -->
+  <g transform="translate({CX-110},{CY+5})">
+    <path d="M0 -90 L70 -65 L70 10 C70 60 35 90 0 100 C-35 90 -70 60 -70 10 L-70 -65 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="0" y1="-40" x2="0" y2="15" stroke="{NAVY}" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="40" r="7" fill="{NAVY}"/>
+  </g>
+  <g transform="translate({CX+120},{CY+35})">
+    <rect x="-70" y="-45" width="140" height="90" rx="10" fill="none" stroke="{TEAL}" stroke-width="7"/>
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="0" y="9" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle">$</text>
+  </g>''',
 }
 
 if __name__ == "__main__":
