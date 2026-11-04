@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-key-numbers-beyond-3-and-7",
+      "title": "NFL Key Numbers Beyond 3 and 7: Why 10, 14, and 17 Also Shape the Spread Market",
+      "excerpt": "3 and 7 get all the attention, but 10, 14, 6, and 4 quietly shape how NFL spreads get bought, sold, and shopped. Here's the full key-number map.",
+      "category": "NFL",
+      "date": "2026-11-04",
+      "readTime": "10 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "jacks-or-better-vs-deuces-wild-video-poker",
+      "title": "Jacks or Better vs. Deuces Wild: Why the Same \"Full Pay\" Label Hides Different Odds",
+      "excerpt": "Both games advertise a full-pay version, but a full-pay Jacks or Better and a full-pay Deuces Wild return very different percentages. Here's why.",
+      "category": "Casino Guides",
+      "date": "2026-11-04",
+      "readTime": "11 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "sporttrade-cftc-prediction-market-approval",
+      "title": "Sporttrade Gets CFTC Approval to Run Its Own Prediction Market Exchange",
+      "excerpt": "Former sportsbook Sporttrade has secured CFTC registrations to operate as a prediction-market exchange and clearinghouse, with Fliff signed as a broker partner.",
+      "category": "Sports Betting News",
+      "date": "2026-11-04",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "vgw-chumba-casino-ios-app-launch",
+      "title": "VGW Brings Chumba Casino to iPhone With a New Native App",
+      "excerpt": "VGW has launched a full-featured native iOS app for Chumba Casino and plans to retire the older Chumba Lite app, following a September settlement with New York.",
+      "category": "Casino News",
+      "date": "2026-11-04",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
       "slug": "turning-stone-casino-cybersecurity-incident",
       "title": "Cybersecurity Incident Forces Turning Stone's New York Casinos to Go Cash-Only",
       "excerpt": "A cybersecurity incident has forced Turning Stone and its sister properties in New York to go cash-only, with sports betting and the rewards program offline.",

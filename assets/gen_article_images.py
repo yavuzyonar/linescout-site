@@ -1689,6 +1689,65 @@ ICONS = {
     <circle cx="0" cy="0" r="24" fill="none" stroke="#b8862b" stroke-width="6"/>
     <text x="0" y="9" font-family="Arial" font-size="26" fill="#b8862b" text-anchor="middle">$</text>
   </g>''',
+
+    "nfl-key-numbers-beyond-3-and-7": f'''
+  <!-- ranked bar chart of scoring margins, tallest bars highlighted -->
+  <g transform="translate({CX-180},{CY+90})">
+    <rect x="0" y="-150" width="40" height="150" rx="5" fill="{NAVY}"/>
+    <rect x="55" y="-110" width="40" height="110" rx="5" fill="{TEAL}"/>
+    <rect x="110" y="-70" width="40" height="70" rx="5" fill="{TEAL}" opacity="0.6"/>
+    <rect x="165" y="-60" width="40" height="60" rx="5" fill="{TEAL}" opacity="0.6"/>
+    <rect x="220" y="-40" width="40" height="40" rx="5" fill="{TEAL}" opacity="0.35"/>
+    <rect x="275" y="-28" width="40" height="28" rx="5" fill="{TEAL}" opacity="0.35"/>
+    <rect x="330" y="-18" width="40" height="18" rx="5" fill="{TEAL}" opacity="0.2"/>
+    <text x="20" y="-160" font-family="Arial" font-size="22" fill="{NAVY}" text-anchor="middle">3</text>
+    <text x="75" y="-120" font-family="Arial" font-size="20" fill="{NAVY}" text-anchor="middle">7</text>
+    <circle cx="20" cy="-175" r="6" fill="#b8862b"/>
+  </g>''',
+
+    "jacks-or-better-vs-deuces-wild-video-poker": f'''
+  <!-- two fanned playing cards, one jack one wild deuce -->
+  <g transform="translate({CX},{CY+15})">
+    <g transform="rotate(-14)">
+      <rect x="-60" y="-95" width="120" height="170" rx="12" fill="#fff" stroke="{NAVY}" stroke-width="6"/>
+      <text x="-28" y="-40" font-family="Georgia, serif" font-size="46" fill="{NAVY}">J</text>
+      <path d="M0 10 l16 24 l-16 24 l-16 -24 Z" fill="{NAVY}" opacity="0.7"/>
+    </g>
+    <g transform="rotate(12)">
+      <rect x="-60" y="-95" width="120" height="170" rx="12" fill="#fff" stroke="{TEAL}" stroke-width="6"/>
+      <text x="-22" y="-40" font-family="Georgia, serif" font-size="46" fill="{TEAL}">2</text>
+      <path d="M0 10 l16 24 l-16 24 l-16 -24 Z" fill="#b8862b"/>
+      <circle cx="0" cy="34" r="30" fill="none" stroke="#b8862b" stroke-width="4" opacity="0.6"/>
+    </g>
+  </g>''',
+
+    "sporttrade-cftc-prediction-market-approval": f'''
+  <!-- ticker-style exchange display beside a football -->
+  <g transform="translate({CX-120},{CY-10})">
+    <rect x="-90" y="-60" width="180" height="120" rx="10" fill="none" stroke="{NAVY}" stroke-width="7"/>
+    <polyline points="-70,20 -35,-10 0,10 35,-30 70,-5" fill="none" stroke="{TEAL}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="70" cy="-5" r="7" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+150},{CY+40}) rotate(-20)" fill="{NAVY}">
+    <ellipse cx="0" cy="0" rx="55" ry="32"/>
+    <path d="M-30 0 h60" stroke="#fff" stroke-width="4"/>
+    <path d="M-14 -8 v16 M0 -10 v20 M14 -8 v16" stroke="#fff" stroke-width="4"/>
+  </g>''',
+
+    "vgw-chumba-casino-ios-app-launch": f'''
+  <!-- smartphone showing playing cards -->
+  <g transform="translate({CX},{CY+10})">
+    <rect x="-70" y="-140" width="140" height="280" rx="24" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <circle cx="0" cy="112" r="8" fill="{NAVY}"/>
+    <g transform="translate(-28,-10) rotate(-10)">
+      <rect x="-35" y="-55" width="70" height="100" rx="8" fill="#fff" stroke="{TEAL}" stroke-width="5"/>
+      <path d="M0 -20 l12 18 l-12 18 l-12 -18 Z" fill="#b8862b"/>
+    </g>
+    <g transform="translate(28,-5) rotate(8)">
+      <rect x="-35" y="-55" width="70" height="100" rx="8" fill="#fff" stroke="{NAVY}" stroke-width="5"/>
+      <path d="M0 -20 l12 18 l-12 18 l-12 -18 Z" fill="{TEAL}"/>
+    </g>
+  </g>''',
 }
 
 if __name__ == "__main__":
