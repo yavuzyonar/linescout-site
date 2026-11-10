@@ -1748,6 +1748,87 @@ ICONS = {
       <path d="M0 -20 l12 18 l-12 18 l-12 -18 Z" fill="{TEAL}"/>
     </g>
   </g>''',
+
+    "nfl-power-ratings-vs-media-rankings": f'''
+  <!-- small football above a numeric rating bar-chart (left) vs a numbered ordinal list (right) -->
+  <g transform="translate({CX},{CY-130})">
+    <ellipse cx="0" cy="0" rx="38" ry="21" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <line x1="-14" y1="0" x2="14" y2="0" stroke="{TEAL}" stroke-width="4"/>
+    <line x1="-7" y1="-7" x2="-7" y2="7" stroke="{TEAL}" stroke-width="4"/>
+    <line x1="7" y1="-7" x2="7" y2="7" stroke="{TEAL}" stroke-width="4"/>
+  </g>
+  <line x1="{CX}" y1="{CY-95}" x2="{CX}" y2="{CY+110}" stroke="{NAVY}" stroke-width="4" stroke-dasharray="9 10" opacity="0.35"/>
+  <g transform="translate({CX-205},{CY-35})">
+    <rect x="0" y="0" width="140" height="20" rx="6" fill="{TEAL}"/>
+    <rect x="0" y="36" width="100" height="20" rx="6" fill="{TEAL}" opacity="0.7"/>
+    <rect x="0" y="72" width="65" height="20" rx="6" fill="{TEAL}" opacity="0.45"/>
+  </g>
+  <g transform="translate({CX+60},{CY-35})">
+    <circle cx="14" cy="10" r="14" fill="{NAVY}"/>
+    <text x="14" y="15" font-family="Arial" font-size="15" fill="#fff" text-anchor="middle">1</text>
+    <rect x="40" y="3" width="110" height="14" rx="5" fill="{NAVY}" opacity="0.45"/>
+    <circle cx="14" cy="46" r="14" fill="{NAVY}"/>
+    <text x="14" y="51" font-family="Arial" font-size="15" fill="#fff" text-anchor="middle">2</text>
+    <rect x="40" y="39" width="110" height="14" rx="5" fill="{NAVY}" opacity="0.45"/>
+    <circle cx="14" cy="82" r="14" fill="{NAVY}"/>
+    <text x="14" y="87" font-family="Arial" font-size="15" fill="#fff" text-anchor="middle">3</text>
+    <rect x="40" y="75" width="110" height="14" rx="5" fill="{NAVY}" opacity="0.45"/>
+  </g>''',
+
+    "standalone-vs-wide-area-progressive-slots": f'''
+  <!-- single slot machine (standalone) vs a small network feeding a larger jackpot coin (wide-area) -->
+  <g transform="translate({CX-190},{CY+30})">
+    <rect x="-55" y="-110" width="110" height="150" rx="14" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <rect x="-38" y="-88" width="76" height="46" rx="6" fill="none" stroke="{TEAL}" stroke-width="5"/>
+    <circle cx="-18" cy="-65" r="9" fill="{TEAL}" opacity="0.6"/>
+    <circle cx="0" cy="-65" r="9" fill="{TEAL}" opacity="0.8"/>
+    <circle cx="18" cy="-65" r="9" fill="{TEAL}"/>
+    <circle cx="0" cy="-138" r="22" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <text x="0" y="-131" font-family="Arial" font-size="20" fill="#b8862b" text-anchor="middle">$</text>
+  </g>
+  <g transform="translate({CX+150},{CY+10})">
+    <circle cx="-70" cy="60" r="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <circle cx="0" cy="80" r="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <circle cx="70" cy="55" r="16" fill="none" stroke="{TEAL}" stroke-width="6"/>
+    <line x1="-70" y1="44" x2="-10" y2="-30" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="0" y1="64" x2="-4" y2="-30" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="70" y1="39" x2="10" y2="-30" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <circle cx="0" cy="-42" r="36" fill="none" stroke="#b8862b" stroke-width="7"/>
+    <text x="0" y="-32" font-family="Arial" font-size="32" fill="#b8862b" text-anchor="middle">$</text>
+  </g>''',
+
+    "draftkings-congress-vip-targeting-reply": f'''
+  <!-- letter/envelope addressed to a capitol building, representing a reply to a congressional inquiry -->
+  <g transform="translate({CX-10},{CY+20})">
+    <rect x="-150" y="-70" width="300" height="190" rx="12" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <path d="M-150 -70 L0 40 L150 -70" fill="none" stroke="{TEAL}" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate({CX-10},{CY-120})">
+    <rect x="-46" y="10" width="92" height="38" fill="none" stroke="{NAVY}" stroke-width="6"/>
+    <path d="M-52 10 L0 -32 L52 10 Z" fill="none" stroke="{NAVY}" stroke-width="6" stroke-linejoin="round"/>
+    <line x1="-30" y1="18" x2="-30" y2="44" stroke="{NAVY}" stroke-width="4"/>
+    <line x1="0" y1="18" x2="0" y2="44" stroke="{NAVY}" stroke-width="4"/>
+    <line x1="30" y1="18" x2="30" y2="44" stroke="{NAVY}" stroke-width="4"/>
+    <circle cx="0" cy="-20" r="8" fill="#b8862b"/>
+  </g>''',
+
+    "mgm-national-harbor-names-new-president-coo": f'''
+  <!-- hotel/casino building with a star badge, representing an executive appointment -->
+  <g transform="translate({CX+10},{CY+40})">
+    <rect x="-130" y="-170" width="260" height="210" rx="4" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-130" y1="-110" x2="130" y2="-110" stroke="{NAVY}" stroke-width="5" opacity="0.4"/>
+    <line x1="-130" y1="-50" x2="130" y2="-50" stroke="{NAVY}" stroke-width="5" opacity="0.4"/>
+    <rect x="-95" y="-150" width="34" height="34" fill="{TEAL}" opacity="0.55"/>
+    <rect x="-17" y="-150" width="34" height="34" fill="{TEAL}" opacity="0.55"/>
+    <rect x="61" y="-150" width="34" height="34" fill="{TEAL}" opacity="0.55"/>
+    <rect x="-95" y="-90" width="34" height="34" fill="{TEAL}" opacity="0.35"/>
+    <rect x="-17" y="-90" width="34" height="34" fill="{TEAL}" opacity="0.35"/>
+    <rect x="61" y="-90" width="34" height="34" fill="{TEAL}" opacity="0.35"/>
+    <rect x="-28" y="-28" width="56" height="68" fill="{NAVY}" opacity="0.7"/>
+  </g>
+  <g transform="translate({CX+150},{CY-100})">
+    <path d="M0 -34 L10 -10 L36 -10 L15 6 L23 32 L0 15 L-23 32 L-15 6 L-36 -10 L-10 -10 Z" fill="#b8862b"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
