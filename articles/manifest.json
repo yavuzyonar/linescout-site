@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "texas-gambling-outlook-patrick-defeat",
+      "title": "Dan Patrick's Election Loss Reopens Texas Gambling Debate",
+      "excerpt": "Lt. Gov. Dan Patrick, long the biggest obstacle to Texas gambling bills, lost his reelection bid. Here's what that actually changes for sports betting odds there.",
+      "category": "Sports Betting News",
+      "date": "2026-11-11",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "zoot-sweepstakes-casino-closing-platform",
+      "title": "Zoot Sweepstakes Casino Closing Player-Facing Platform",
+      "excerpt": "Zoot's parent company is shutting down the player-facing sweepstakes casino and shifting to a B2B game-supply model. Here's the exact account closure timeline.",
+      "category": "Casino News",
+      "date": "2026-11-11",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "live-in-play-odds-calculated-real-time",
+      "title": "How Live, In-Play Betting Odds Are Calculated in Real Time",
+      "excerpt": "A look inside how sportsbooks reprice a game dozens of times a minute once it starts, and why in-play odds move differently than pregame lines.",
+      "category": "Betting Basics",
+      "date": "2026-11-11",
+      "readTime": "9 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "online-casino-loyalty-tiers-comp-points-explained",
+      "title": "How Online Casino Loyalty Tiers and Comp Points Actually Work",
+      "excerpt": "How online casino comp points are earned, what they're really worth in cash terms, and why climbing a loyalty tier changes your real return more than any single bonus.",
+      "category": "Casino Guides",
+      "date": "2026-11-11",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
       "slug": "nfl-power-ratings-vs-media-rankings",
       "title": "Sportsbook Power Ratings vs. Media Power Rankings: Why They Don't Match",
       "excerpt": "ESPN has the Lions at No. 3 while the book's number barely budged. Here's why a sportsbook power rating and a media power ranking measure completely different things.",
