@@ -1829,6 +1829,85 @@ ICONS = {
   <g transform="translate({CX+150},{CY-100})">
     <path d="M0 -34 L10 -10 L36 -10 L15 6 L23 32 L0 15 L-23 32 L-15 6 L-36 -10 L-10 -10 Z" fill="#b8862b"/>
   </g>''',
+
+    "college-football-hype-narratives-line-movement": f'''
+  <!-- football under a spotlight burst, with a small zigzag line-move arrow -->
+  <g transform="translate({CX-20},{CY+15})">
+    <ellipse cx="0" cy="0" rx="95" ry="52" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="-18" y1="-12" x2="-18" y2="12" stroke="{TEAL}" stroke-width="5"/>
+    <line x1="18" y1="-12" x2="18" y2="12" stroke="{TEAL}" stroke-width="5"/>
+  </g>
+  <g stroke="#b8862b" stroke-width="5" opacity="0.65" stroke-linecap="round">
+    <line x1="{CX-20}" y1="{CY-135}" x2="{CX-20}" y2="{CY-80}"/>
+    <line x1="{CX-128}" y1="{CY-105}" x2="{CX-93}" y2="{CY-65}"/>
+    <line x1="{CX+88}" y1="{CY-105}" x2="{CX+53}" y2="{CY-65}"/>
+  </g>
+  <g transform="translate({CX+150},{CY+45})" stroke="{NAVY}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-30,20 -10,-10 10,10 30,-25"/>
+    <path d="M18 -25 L30 -25 L30 -13"/>
+  </g>''',
+
+    "slot-tournaments-leaderboard-math-explained": f'''
+  <!-- slot reel beside a trophy and ranked leaderboard bars -->
+  <g transform="translate({CX-150},{CY})">
+    <rect x="-55" y="-85" width="110" height="170" rx="12" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-18" y1="-85" x2="-18" y2="85" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+    <line x1="18" y1="-85" x2="18" y2="85" stroke="{NAVY}" stroke-width="3" opacity="0.4"/>
+  </g>
+  <g transform="translate({CX+65},{CY-60})">
+    <path d="M-28 0 L28 0 L24 50 L-24 50 Z" fill="none" stroke="#b8862b" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M-28 5 C-50 5 -50 35 -26 38" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <path d="M28 5 C50 5 50 35 26 38" fill="none" stroke="#b8862b" stroke-width="6"/>
+    <rect x="-16" y="50" width="32" height="14" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+40},{CY+80})">
+    <rect x="0" y="-20" width="30" height="20" fill="{TEAL}" opacity="0.5"/>
+    <rect x="38" y="-35" width="30" height="35" fill="{TEAL}" opacity="0.75"/>
+    <rect x="76" y="-50" width="30" height="50" fill="{TEAL}"/>
+  </g>''',
+
+    "wisconsin-online-sports-betting-lawsuit-delay": f'''
+  <!-- courthouse columns beside a calendar with a forward arrow, representing a delayed court date -->
+  <g transform="translate({CX-90},{CY+25})">
+    <line x1="-100" y1="60" x2="100" y2="60" stroke="{NAVY}" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-110 20 L0 -55 L110 20 Z" fill="none" stroke="{NAVY}" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="-65" y1="20" x2="-65" y2="60" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="-22" y1="20" x2="-22" y2="60" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="22" y1="20" x2="22" y2="60" stroke="{TEAL}" stroke-width="8"/>
+    <line x1="65" y1="20" x2="65" y2="60" stroke="{TEAL}" stroke-width="8"/>
+  </g>
+  <g transform="translate({CX+150},{CY-30})">
+    <rect x="-55" y="-45" width="110" height="100" rx="10" fill="none" stroke="#b8862b" stroke-width="7"/>
+    <line x1="-55" y1="-20" x2="55" y2="-20" stroke="#b8862b" stroke-width="6"/>
+    <line x1="-28" y1="-58" x2="-28" y2="-34" stroke="#b8862b" stroke-width="6" stroke-linecap="round"/>
+    <line x1="28" y1="-58" x2="28" y2="-34" stroke="#b8862b" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate({CX+150},{CY+95})" stroke="{NAVY}" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="-40" y1="0" x2="40" y2="0"/>
+    <path d="M22 -16 L40 0 L22 16"/>
+  </g>''',
+
+    "wynn-resorts-q3-2026-earnings-decline": f'''
+  <!-- resort tower beside a descending bar chart -->
+  <g transform="translate({CX-100},{CY+15})">
+    <rect x="-55" y="-120" width="110" height="195" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-30" y1="-95" x2="-10" y2="-95" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="10" y1="-95" x2="30" y2="-95" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-30" y1="-60" x2="-10" y2="-60" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="10" y1="-60" x2="30" y2="-60" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="-30" y1="-25" x2="-10" y2="-25" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+    <line x1="10" y1="-25" x2="30" y2="-25" stroke="{NAVY}" stroke-width="4" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+110},{CY+50})">
+    <rect x="0" y="-75" width="36" height="75" rx="5" fill="{TEAL}"/>
+    <rect x="48" y="-55" width="36" height="55" rx="5" fill="{TEAL}" opacity="0.75"/>
+    <rect x="96" y="-35" width="36" height="35" rx="5" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+95},{CY-55})" stroke="#b8862b" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="-40" y1="-20" x2="40" y2="20"/>
+    <path d="M18 20 L40 20 L40 -2"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
