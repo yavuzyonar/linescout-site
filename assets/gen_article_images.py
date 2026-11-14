@@ -1908,6 +1908,66 @@ ICONS = {
     <line x1="-40" y1="-20" x2="40" y2="20"/>
     <path d="M18 20 L40 20 L40 -2"/>
   </g>''',
+
+    "nba-overtime-betting-5-minute-period": f'''
+  <!-- basketball beside a clock face with an extra highlighted arc, representing the 5-minute OT period -->
+  <g transform="translate({CX-120},{CY})">
+    <circle cx="0" cy="0" r="105" fill="none" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-105" y1="0" x2="105" y2="0" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <line x1="0" y1="-105" x2="0" y2="105" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <path d="M-74 -74 A105 105 0 0 1 74 74" fill="none" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+    <path d="M-74 74 A105 105 0 0 1 74 -74" fill="none" stroke="{NAVY}" stroke-width="5" opacity="0.6"/>
+  </g>
+  <g transform="translate({CX+140},{CY})">
+    <circle cx="0" cy="0" r="100" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <path d="M0 0 L0 -100 A100 100 0 0 1 70 70 Z" fill="#b8862b" opacity="0.28"/>
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="50" y2="40" stroke="{TEAL}" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="9" fill="{NAVY}"/>
+  </g>''',
+
+    "push-22-blackjack-dealer-bust-rule": f'''
+  <!-- playing card showing 22 beside a push (tie) arrow pair -->
+  <g transform="translate({CX-130},{CY})">
+    <rect x="-70" y="-100" width="140" height="200" rx="14" fill="#fff" stroke="{NAVY}" stroke-width="7"/>
+    <text x="-48" y="18" font-family="Georgia, serif" font-size="56" fill="{NAVY}">22</text>
+  </g>
+  <g transform="translate({CX+130},{CY})" stroke="#b8862b" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-70 -30 A70 70 0 0 1 70 -30"/>
+    <path d="M45 -52 L70 -30 L45 -8"/>
+    <path d="M70 30 A70 70 0 0 1 -70 30"/>
+    <path d="M-45 8 L-70 30 L-45 52"/>
+  </g>''',
+
+    "louisiana-prediction-markets-tro-kalshi-polymarket": f'''
+  <!-- gavel beside a padlock, representing a court order blocking operations -->
+  <g transform="translate({CX-120},{CY+10})">
+    <g transform="rotate(-35)">
+      <rect x="-90" y="-22" width="90" height="44" rx="8" fill="none" stroke="{NAVY}" stroke-width="8"/>
+      <rect x="-20" y="-34" width="30" height="68" rx="6" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    </g>
+    <rect x="-90" y="70" width="180" height="16" rx="4" fill="{NAVY}"/>
+    <line x1="-60" y1="70" x2="-60" y2="40" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="60" y1="70" x2="60" y2="40" stroke="{TEAL}" stroke-width="8"/>
+  </g>
+  <g transform="translate({CX+150},{CY-10})">
+    <rect x="-55" y="-10" width="110" height="90" rx="12" fill="none" stroke="#b8862b" stroke-width="8"/>
+    <path d="M-32 -10 L-32 -55 A32 32 0 0 1 32 -55 L32 -10" fill="none" stroke="#b8862b" stroke-width="8"/>
+    <circle cx="0" cy="35" r="11" fill="#b8862b"/>
+  </g>''',
+
+    "oklahoma-sweepstakes-casino-felony-ban": f'''
+  <!-- two differently-styled coins with a prohibition slash over one, representing a dual-currency sweepstakes ban -->
+  <g transform="translate({CX-110},{CY})">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <text x="-24" y="16" font-family="Georgia, serif" font-size="46" fill="{NAVY}">G</text>
+  </g>
+  <g transform="translate({CX+130},{CY})">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="{TEAL}" stroke-width="9"/>
+    <text x="-24" y="16" font-family="Georgia, serif" font-size="46" fill="{TEAL}">S</text>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#b8862b" stroke-width="8"/>
+    <line x1="-71" y1="-71" x2="71" y2="71" stroke="#b8862b" stroke-width="8" stroke-linecap="round"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
