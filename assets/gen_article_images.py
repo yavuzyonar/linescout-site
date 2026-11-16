@@ -1968,6 +1968,48 @@ ICONS = {
     <circle cx="0" cy="0" r="100" fill="none" stroke="#b8862b" stroke-width="8"/>
     <line x1="-71" y1="-71" x2="71" y2="71" stroke="#b8862b" stroke-width="8" stroke-linecap="round"/>
   </g>''',
+
+    "nba-cup-knockout-rounds-home-court-betting": f'''
+  <!-- an arena/building with a house-shaped roof (home court) beside a basketball, replacing a neutral-site map pin -->
+  <g transform="translate({CX-120},{CY+20})">
+    <path d="M-95 10 L0 -80 L95 10 Z" fill="none" stroke="{NAVY}" stroke-width="9" stroke-linejoin="round"/>
+    <rect x="-70" y="10" width="140" height="90" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <rect x="-20" y="45" width="40" height="55" fill="{NAVY}" opacity="0.8"/>
+    <circle cx="0" cy="-30" r="10" fill="#b8862b"/>
+  </g>
+  <g transform="translate({CX+140},{CY-10})">
+    <circle cx="0" cy="0" r="78" fill="none" stroke="{TEAL}" stroke-width="8"/>
+    <path d="M-78 0 L78 0 M0 -78 L0 78" stroke="{TEAL}" stroke-width="5" opacity="0.55"/>
+    <path d="M-55 -55 A78 78 0 0 1 55 -55" fill="none" stroke="{TEAL}" stroke-width="5" opacity="0.55"/>
+    <path d="M-55 55 A78 78 0 0 1 55 55" fill="none" stroke="{TEAL}" stroke-width="5" opacity="0.55"/>
+  </g>''',
+
+    "casino-cashback-loss-rebate-offers-explained": f'''
+  <!-- coins flowing back along a return arrow into an open wallet -->
+  <g transform="translate({CX-110},{CY+30})">
+    <path d="M-90 -10 L90 -10 L90 60 C90 75 78 85 60 85 L-60 85 C-78 85 -90 75 -90 60 Z" fill="none" stroke="{NAVY}" stroke-width="9"/>
+    <path d="M-90 -10 L90 -10" stroke="{NAVY}" stroke-width="9"/>
+    <rect x="-28" y="25" width="56" height="34" rx="6" fill="#b8862b" opacity="0.85"/>
+  </g>
+  <g transform="translate({CX+95},{CY-55})" stroke="{TEAL}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 0 A70 70 0 0 1 -55 55"/>
+    <path d="M-30 35 L-55 55 L-28 75"/>
+  </g>
+  <circle cx="{CX+70}" cy="{CY-100}" r="22" fill="none" stroke="#b8862b" stroke-width="6"/>
+  <circle cx="{CX+105}" cy="{CY-80}" r="22" fill="none" stroke="{TEAL}" stroke-width="6"/>''',
+
+    "colorado-sports-betting-harassment-exclusion-rule": f'''
+  <!-- a document/rulebook with a shield-check mark, representing a proposed exclusion rule -->
+  <g transform="translate({CX-80},{CY})">
+    <rect x="-80" y="-120" width="160" height="220" rx="10" fill="#fff" stroke="{NAVY}" stroke-width="8"/>
+    <line x1="-50" y1="-75" x2="50" y2="-75" stroke="{NAVY}" stroke-width="7" opacity="0.5"/>
+    <line x1="-50" y1="-45" x2="50" y2="-45" stroke="{NAVY}" stroke-width="7" opacity="0.5"/>
+    <line x1="-50" y1="-15" x2="20" y2="-15" stroke="{NAVY}" stroke-width="7" opacity="0.5"/>
+  </g>
+  <g transform="translate({CX+130},{CY+30})">
+    <path d="M0 -90 L80 -60 L80 10 C80 60 45 90 0 105 C-45 90 -80 60 -80 10 L-80 -60 Z" fill="{TEAL}" opacity="0.18" stroke="{TEAL}" stroke-width="8"/>
+    <path d="M-32 5 L-8 30 L36 -28" fill="none" stroke="#b8862b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>''',
 }
 
 if __name__ == "__main__":
