@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "nfl-circled-games-reduced-betting-limits",
+      "title": "NFL \"Circled\" Games: Why Sportsbooks Cut Limits Before Kickoff",
+      "excerpt": "Why sportsbooks sometimes slash betting limits on one NFL game hours before kickoff, and what a \"circled\" game actually signals about injury and weather risk.",
+      "category": "NFL",
+      "date": "2026-11-17",
+      "readTime": "8 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "free-spins-wagering-requirements-explained",
+      "title": "Free Spins Wagering Requirements: Why They Work Differently Than Cash Bonuses",
+      "excerpt": "How free spins bonuses actually get wagered: separate win caps, bonus-balance conversion, and why the rules differ from a cash deposit match.",
+      "category": "Casino Guides",
+      "date": "2026-11-17",
+      "readTime": "7 min read",
+      "type": "evergreen"
+    },
+    {
+      "slug": "aga-survey-prediction-markets-gambling-regulation",
+      "title": "AGA Survey: 82% of Americans Want Prediction Markets Regulated as Gambling",
+      "excerpt": "A new AGA survey finds 82% of registered voters want prediction markets like Kalshi and Polymarket regulated as gambling, amid an ongoing state-vs-CFTC fight.",
+      "category": "Sports Betting News",
+      "date": "2026-11-17",
+      "readTime": "4 min read",
+      "type": "news"
+    },
+    {
+      "slug": "nevada-gaming-technical-standards-revision",
+      "title": "Nevada Finalizes Sweeping Overhaul of Its Gaming Technical Standards",
+      "excerpt": "Nevada's Gaming Control Board has finalized a major overhaul of its technical standards for gaming devices, taking effect December 13 with a 2027 compliance deadline.",
+      "category": "Casino News",
+      "date": "2026-11-17",
+      "readTime": "3 min read",
+      "type": "news"
+    },
+    {
       "slug": "nba-cup-knockout-rounds-home-court-betting",
       "title": "NBA Cup Knockout Rounds Are Back at Home Arenas: How That Changes the Betting Math",
       "category": "NBA",

@@ -1,0 +1,43 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4f3"/>
+      <stop offset="100%" stop-color="#f6faf9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7c86" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7c86" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <polygon points="1200,0 1200,110 780,400 640,400" fill="url(#beam)"/>
+  <g stroke="#0e7c86" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <circle cx="1160" cy="-30" r="140"/>
+    <circle cx="1160" cy="-30" r="240"/>
+    <circle cx="1160" cy="-30" r="340"/>
+  </g>
+  <circle cx="70" cy="60" r="7" fill="#b8862b"/>
+
+  <g transform="translate(490,210)">
+    <rect x="-95" y="-110" width="170" height="220" rx="12" fill="none" stroke="#16233d" stroke-width="8"/>
+    <line x1="-65" y1="-70" x2="40" y2="-70" stroke="#16233d" stroke-width="6" opacity="0.5"/>
+    <line x1="-65" y1="-35" x2="40" y2="-35" stroke="#16233d" stroke-width="6" opacity="0.5"/>
+    <line x1="-65" y1="0" x2="10" y2="0" stroke="#16233d" stroke-width="6" opacity="0.5"/>
+    <path d="M-72 -75 L-58 -61 L-38 -85" fill="none" stroke="#0e7c86" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(0,2)"/>
+  </g>
+  <g transform="translate(745,230)">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#0e7c86" stroke-width="10"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#0e7c86" stroke-width="8"/>
+    <g stroke="#0e7c86" stroke-width="10" stroke-linecap="round">
+      <line x1="0" y1="-78" x2="0" y2="-62"/>
+      <line x1="0" y1="62" x2="0" y2="78"/>
+      <line x1="-78" y1="0" x2="-62" y2="0"/>
+      <line x1="62" y1="0" x2="78" y2="0"/>
+      <line x1="-55" y1="-55" x2="-44" y2="-44"/>
+      <line x1="44" y1="44" x2="55" y2="55"/>
+      <line x1="-55" y1="55" x2="-44" y2="44"/>
+      <line x1="44" y1="-44" x2="55" y2="-55"/>
+    </g>
+  </g>
+
+</svg>
